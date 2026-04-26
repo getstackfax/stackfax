@@ -82,7 +82,6 @@ reports/
   sample-business-automation-stack.md
   sample-noob-openclaw-starter-stack.md
 schema/
-  schema/
   stackfax-report-v0.1.json
 
 Stackfax currently includes:
