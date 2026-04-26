@@ -1,0 +1,54 @@
+{
+  "stack_name": "Business Automation Starter Stack",
+  "user_level": "builder",
+  "primary_goal": "Set up cost-effective Ai business automations without wasting premium-model tokens.",
+  "hosting_preference": "cloud_only",
+  "local_hosting": false,
+  "hardware_owned": [
+    "existing_laptop_or_desktop"
+  ],
+  "hardware_considered": [
+    "Mac mini",
+    "local Ai box"
+  ],
+  "use_cases": [
+    "automating outreach",
+    "managing enquiries",
+    "monitoring inventory",
+    "sales report analysis",
+    "trend research",
+    "SEO blog writing",
+    "basic internal tools"
+  ],
+  "models_or_tools_mentioned": [
+    "premium reasoning model",
+    "OpenClaw",
+    "cloud APIs"
+  ],
+  "budget_sensitivity": "high",
+  "privacy_level": "business_data",
+  "automation_risk_level": "medium",
+  "approval_required_for": [
+    "customer outreach",
+    "inventory changes",
+    "payments",
+    "credentials",
+    "customer records",
+    "public posts"
+  ],
+  "known_pain_points": [
+    "too many model choices",
+    "token cost confusion",
+    "unclear model routing",
+    "does not want local hosting",
+    "does not want to overbuy hardware"
+  ],
+  "stackfax_questions_to_answer": [
+    "Do I need local hosting?",
+    "Which tasks should use cheap models?",
+    "Which tasks need strong reasoning models?",
+    "Where do I need approval gates?",
+    "Am I wasting tokens?",
+    "What should I upgrade first?"
+  ]
+}
