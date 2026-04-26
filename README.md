@@ -84,3 +84,15 @@ reports/
   sample-noob-openclaw-starter-stack.md
 schema/
   stackfax-report-v0.1.json
+Current Stackfax Standard
+
+Stackfax currently includes:
+
+* Sample human-readable reports
+* A 1–5 star rating system
+* Badge definitions
+* A structured report schema
+* Example stack input
+* A simple project control panel
+
+This is the first public foundation for turning Stackfax into a report engine, stack checker, and Ai stack comparison standard.
