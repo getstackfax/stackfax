@@ -95,3 +95,4 @@ Stackfax currently includes:
 - A simple project control panel
 
 This is the first public foundation for turning Stackfax into a report engine, stack checker, and Ai stack comparison standard.
+
