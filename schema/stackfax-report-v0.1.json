@@ -1,0 +1,51 @@
+{
+  "schema_name": "Stackfax Report",
+  "schema_version": "0.1",
+  "description": "A structured report format for reviewing Ai stacks.",
+  "report": {
+    "title": "Stackfax Report: Example Stack",
+    "overall_rating": {
+      "stars": 4,
+      "score": 82,
+      "score_max": 100
+    },
+    "badges": [
+      "StackChecked",
+      "Token-Smart",
+      "Cloud-Only",
+      "Human Approval Required"
+    ],
+    "stack_summary": {
+      "use_case": "business_automation",
+      "hosting": "cloud_only",
+      "experience_level": "builder",
+      "summary": "A cloud-only Ai stack for business automation with model routing and approval gates."
+    },
+    "risk_review": {
+      "token_burn_risk": "high",
+      "privacy_risk": "medium_high",
+      "automation_risk": "medium",
+      "hardware_overkill_risk": "low"
+    },
+    "recommended_layers": [
+      {
+        "name": "Cheap Daily Driver Layer",
+        "purpose": "Routine summaries, drafts, classification, cleanup, and low-risk research."
+      },
+      {
+        "name": "Strong Reasoning Layer",
+        "purpose": "Strategy, complex research synthesis, sales analysis, and workflow design."
+      },
+      {
+        "name": "Human Approval Layer",
+        "purpose": "Review before actions touching customers, money, inventory, credentials, or production systems."
+      }
+    ],
+    "hardware_verdict": {
+      "verdict": "Do not buy local hardware yet.",
+      "reason": "Cloud tools are enough until the user proves the workflows and has a justified local hosting need."
+    },
+    "best_first_upgrade": "Add model routing and approval gates before adding more automations.",
+    "final_verdict": "Strong starter stack. Biggest risk is using expensive models for routine work or automating business actions without approval gates."
+  }
+}
