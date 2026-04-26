@@ -68,3 +68,30 @@ Stackfax gives people a simple report before they spend money, copy a stack, or 
 Stackfax is in early concept/build mode.
 
 This repo defines the first public Stackfax report format, sample reports, and stack rating philosophy.
+## Repo Map
+
+```text
+README.md
+CONTROL_PANEL.md
+docs/
+  badge-definitions.md
+  rating-system.md
+examples/
+  business-automation-input.json
+reports/
+  sample-business-automation-stack.md
+  sample-noob-openclaw-starter-stack.md
+schema/
+  stackfax-report-v0.1.json
+## Current Stackfax Standard
+
+Stackfax currently includes:
+
+- Sample human-readable reports
+- A 1–5 star rating system
+- Badge definitions
+- A structured report schema
+- Example stack input
+- A simple project control panel
+
+This is the first public foundation for turning Stackfax into a report engine, stack checker, and Ai stack comparison standard.
