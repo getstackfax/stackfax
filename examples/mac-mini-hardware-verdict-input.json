@@ -1,0 +1,51 @@
+{
+  "stack_name": "Mac Mini Hardware Verdict Example",
+  "user_level": "beginner_builder",
+  "primary_question": "Do I need to buy a Mac mini for my Ai stack?",
+  "primary_goal": "Explore OpenClaw, Ai agents, business automation, research workflows, and local model testing without overbuying hardware.",
+  "current_setup": {
+    "computer_owned": "existing laptop or desktop",
+    "dedicated_ai_machine_owned": false,
+    "local_models_installed": false,
+    "cloud_ai_tools_used": true,
+    "openclaw_interest": true
+  },
+  "hardware_considered": [
+    "Mac mini",
+    "local Ai box",
+    "dedicated lab machine"
+  ],
+  "planned_use_cases": [
+    "OpenClaw testing",
+    "Ai agent experiments",
+    "business automation",
+    "research summaries",
+    "report generation",
+    "SEO/content drafts",
+    "local model learning"
+  ],
+  "privacy_needs": {
+    "personal_file_access": "should be limited",
+    "business_data_access": "possible later",
+    "customer_data_access": "not yet",
+    "wallet_or_financial_access": "never without explicit approval"
+  },
+  "always_on_need": "unclear",
+  "local_model_need": "learning_interest_only",
+  "budget_sensitivity": "medium_high",
+  "risk_concerns": [
+    "buying hardware too early",
+    "copying influencer setups",
+    "wasting premium-model tokens",
+    "giving agents too much access",
+    "unclear approval gates"
+  ],
+  "stackfax_questions_to_answer": [
+    "Should this user buy a Mac mini now?",
+    "Would cloud-first be enough?",
+    "What would justify local hardware later?",
+    "Which workflows should be tested before buying?",
+    "What approval gates are required?"
+  ],
+  "expected_verdict_type": "Local-Ready or Cloud-First"
+}
