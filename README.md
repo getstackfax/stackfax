@@ -235,6 +235,7 @@ docs/
   badge-definitions.md
   hardware-verdict.md
   rating-system.md
+  scoring-rubric.md
 examples/
   business-automation-input.json
   mac-mini-hardware-verdict-input.json
