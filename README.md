@@ -75,6 +75,62 @@ A Stackfax Report can check your stack for:
 - Scaling risks
 - Upgrade path
 
+## Report Ladder
+
+Stackfax starts with simple reports and can grow into deeper reviews.
+
+### Free Mini Report
+
+For users who want a fast first verdict.
+
+Includes:
+
+- Basic verdict
+- 1–5 star rating
+- Mini score
+- 2–3 risk flags
+- One best next move
+
+### Stackfax Quick Report
+
+An early manual report for people who want clarity before buying hardware, burning premium-model tokens, copying an Ai agent setup, or building the wrong stack.
+
+Common Quick Report types:
+
+- Mac Mini Hardware Verdict
+- Token Burn Audit
+- OpenClaw Starter Stack Check
+- Model Subscription Fit Check
+- Business Automation Safety Check
+
+### Stackfax Pro Report
+
+A deeper optimization report for serious builders, experts, solo operators, agencies, and users trying to scale from one workflow into repeatable systems.
+
+Possible Pro sections:
+
+- Score breakdown
+- Token burn map
+- Model routing map
+- Hardware fit review
+- Permission boundary review
+- Scaling path
+- 30-day recheck
+
+### Business Automation Safety Audit
+
+A deeper report for businesses using Ai around customer data, credentials, email, CRM, payments, inventory, production systems, or client workflows.
+
+Focus areas:
+
+- Approval gates
+- Credential isolation
+- Customer data risk
+- Permission boundaries
+- Uptime or production readiness
+- Human review requirements
+- Business system safety
+
 ## Example Stackfax Rating
 
 Overall Rating: ⭐⭐⭐⭐  
@@ -148,37 +204,6 @@ In plain English:
 
 **Save money. Build smarter. Scale with Ai.**
 
-## Current Offer Concept
-
-The first manual offer is the Stackfax Quick Report.
-
-The Stackfax Quick Report is an early manual report for people who want clarity before they buy hardware, burn premium-model tokens, copy an Ai agent setup, or build the wrong stack.
-
-Common Quick Report types:
-
-- Mac Mini Hardware Verdict
-- Token Burn Audit
-- OpenClaw Starter Stack Check
-- Model Subscription Fit Check
-- Business Automation Safety Audit
-
-Early reports are manual and should be treated as part of the Stackfax standard-building process.
-
-## Free and Paid Report Ladder
-
-The early Stackfax ladder may look like:
-
-- Free Mini Report
-- Paid Quick Report
-- Future Pro Report
-- Business or Automation Audit
-
-The free report gives a basic verdict.
-
-The paid quick report gives a fuller manual review.
-
-Early paid reports may include a beta preview of the upcoming Pro Report format.
-
 ## Trust Rule
 
 Stackfax is a trust product.
@@ -223,28 +248,65 @@ Example:
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, badge definitions, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, badge definitions, report ladder, intake examples, and early offer structure.
 
 ## Repo Map
 
-```text
-README.md
-BRAND_ASSETS.md
-CONTROL_PANEL.md
-docs/
-  badge-definitions.md
-  hardware-verdict.md
-  rating-system.md
-  scoring-rubric.md
-examples/
-  business-automation-input.json
-  mac-mini-hardware-verdict-input.json
-offers/
-  stackfax-quick-report.md
-reports/
-  sample-business-automation-stack.md
-  sample-mac-mini-hardware-verdict.md
-  sample-mac-mini-local-stack.md
-  sample-noob-openclaw-starter-stack.md
-schema/
-  stackfax-report-v0.1.json
+- README.md
+- BRAND_ASSETS.md
+- CONTROL_PANEL.md
+
+### docs
+
+- badge-definitions.md
+- hardware-verdict.md
+- rating-system.md
+- scoring-rubric.md
+- report-ladder.md
+
+### examples
+
+- business-automation-input.json
+- free-mini-report-intake.md
+- mac-mini-hardware-verdict-input.json
+
+### landing-page
+
+- homepage-copy.md
+
+### offers
+
+- stackfax-quick-report.md
+
+### reports
+
+- sample-business-automation-stack.md
+- sample-free-mini-report.md
+- sample-mac-mini-hardware-verdict.md
+- sample-mac-mini-local-stack.md
+- sample-noob-openclaw-starter-stack.md
+
+### schema
+
+- stackfax-report-v0.1.json
+
+## Current Stackfax Standard
+
+Stackfax currently includes:
+
+- Sample human-readable reports
+- A 1–5 star rating system
+- A scoring rubric
+- Badge definitions
+- A hardware verdict standard
+- A structured report schema
+- Example stack input files
+- A free mini report intake
+- A sample free mini report
+- A report ladder
+- A manual quick report offer
+- A homepage copy draft
+- A simple project control panel
+- A brand assets tracker
+
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, and Ai stack comparison standard.
