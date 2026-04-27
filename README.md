@@ -52,6 +52,32 @@ Possible verdicts:
 
 The goal is not to push hardware. The goal is to match the hardware to the workload.
 
+## OpenClaw Stack Check
+
+The OpenClaw Stack Check helps users use OpenClaw without overbuilding, burning tokens, or giving agents too much access.
+
+It reviews:
+
+- Use case fit
+- Model routing
+- Model subscriptions
+- Local vs cloud setup
+- Hardware fit
+- Token burn risk
+- Context bloat risk
+- Silent fallback escalation
+- Tool permissions
+- Memory and file access
+- Approval gates
+- Credential isolation
+- Workflow design
+- Uptime or production readiness
+- Scaling path
+
+Core rule:
+
+Do not copy the best OpenClaw stack. Find the right OpenClaw stack for the job.
+
 ## What does a Stackfax Report show?
 
 A Stackfax Report can check your stack for:
@@ -248,7 +274,7 @@ Example:
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, badge definitions, report ladder, intake examples, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, badge definitions, report ladder, intake examples, and early offer structure.
 
 ## Repo Map
 
@@ -260,6 +286,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 - badge-definitions.md
 - hardware-verdict.md
+- openclaw-stack-check.md
 - rating-system.md
 - scoring-rubric.md
 - report-ladder.md
@@ -299,6 +326,7 @@ Stackfax currently includes:
 - A scoring rubric
 - Badge definitions
 - A hardware verdict standard
+- An OpenClaw Stack Check standard
 - A structured report schema
 - Example stack input files
 - A free mini report intake
@@ -308,5 +336,4 @@ Stackfax currently includes:
 - A homepage copy draft
 - A simple project control panel
 - A brand assets tracker
-
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, and Ai stack comparison standard.
