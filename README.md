@@ -133,6 +133,10 @@ Common Quick Report types:
 - Model Subscription Fit Check
 - Business Automation Safety Check
 
+The Quick Report now has a reusable template in:
+
+- templates/stackfax-quick-report-template.md
+
 ### Stackfax Pro Report
 
 A deeper optimization report for serious builders, experts, solo operators, agencies, and users trying to scale from one workflow into repeatable systems.
@@ -279,7 +283,7 @@ Example:
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, badge definitions, report ladder, intake examples, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, badge definitions, report ladder, intake examples, templates, and early offer structure.
 
 ## Repo Map
 
@@ -326,6 +330,10 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 - stackfax-report-v0.1.json
 
+### templates
+
+- stackfax-quick-report-template.md
+
 ## Current Stackfax Standard
 
 Stackfax currently includes:
@@ -344,6 +352,7 @@ Stackfax currently includes:
 - A sample free mini report
 - A report ladder
 - A manual quick report offer
+- A reusable Quick Report template
 - A homepage copy draft
 - A simple project control panel
 - A brand assets tracker
