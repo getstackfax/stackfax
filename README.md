@@ -82,6 +82,14 @@ Core rule:
 
 Do not pay for every model because every model looks useful. Pay for the access that fits the workflow.
 
+### Business Automation Safety Audit
+
+Checks whether a business Ai automation stack is safe enough before agents touch customers, credentials, money, inventory, files, or production systems.
+
+Core rule:
+
+Business automation should start with trust, not speed.
+
 ## What does a Stackfax Report show?
 
 A Stackfax Report can check your stack for:
@@ -133,7 +141,7 @@ Common Quick Report types:
 - Model Subscription Fit Check
 - Business Automation Safety Check
 
-The Quick Report now has a reusable template in:
+The Quick Report has a reusable template in:
 
 - templates/stackfax-quick-report-template.md
 
@@ -203,6 +211,8 @@ Do not copy the best stack. Find the right stack.
 Vendor stacks are still stacks. Stackfax checks whether they fit.
 
 Creators show what is possible. Stackfax shows what fits.
+
+Observe first. Draft second. Approve third. Automate last.
 
 ## Who Stackfax is for
 
@@ -283,7 +293,7 @@ Example:
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, badge definitions, report ladder, intake examples, templates, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, badge definitions, report ladder, intake examples, templates, field research notes, and early offer structure.
 
 ## Repo Map
 
@@ -293,10 +303,13 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### docs
 
+- ai-stack-field-guide.md
 - badge-definitions.md
+- business-automation-safety-audit.md
 - hardware-verdict.md
 - model-subscription-fit.md
 - openclaw-stack-check.md
+- pro-report-outline.md
 - rating-system.md
 - report-ladder.md
 - scoring-rubric.md
@@ -311,6 +324,11 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 ### landing-page
 
 - homepage-copy.md
+- quick-report-offer-copy.md
+
+### marketing
+
+- soft-launch-posts.md
 
 ### offers
 
@@ -318,13 +336,19 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### reports
 
+- sample-business-automation-safety-audit.md
 - sample-business-automation-stack.md
 - sample-free-mini-report.md
 - sample-mac-mini-hardware-verdict.md
 - sample-mac-mini-local-stack.md
 - sample-model-subscription-fit.md
 - sample-noob-openclaw-starter-stack.md
+- sample-openclaw-starter-stack-check.md
 - sample-token-burn-audit.md
+
+### research
+
+- field-research-log.md
 
 ### schema
 
@@ -332,6 +356,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### templates
 
+- pro-report-beta-preview-template.md
 - stackfax-quick-report-template.md
 
 ## Current Stackfax Standard
@@ -346,6 +371,7 @@ Stackfax currently includes:
 - An OpenClaw Stack Check standard
 - A Token Burn Audit standard
 - A Model Subscription Fit standard
+- A Business Automation Safety Audit standard
 - A structured report schema
 - Example stack input files
 - A free mini report intake
@@ -353,8 +379,14 @@ Stackfax currently includes:
 - A report ladder
 - A manual quick report offer
 - A reusable Quick Report template
+- A Pro Report outline
+- A Pro Report beta preview template
 - A homepage copy draft
+- Quick Report offer page copy
+- Soft launch post drafts
+- An Ai Stack Field Guide
+- A field research log
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, and Ai stack comparison standard.
