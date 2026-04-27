@@ -52,31 +52,35 @@ Possible verdicts:
 
 The goal is not to push hardware. The goal is to match the hardware to the workload.
 
-## OpenClaw Stack Check
+## Core Report Types
 
-The OpenClaw Stack Check helps users use OpenClaw without overbuilding, burning tokens, or giving agents too much access.
+### Hardware Verdict
 
-It reviews:
+Checks whether dedicated hardware, local models, a cloud server, or a simpler stack is the right fit.
 
-- Use case fit
-- Model routing
-- Model subscriptions
-- Local vs cloud setup
-- Hardware fit
-- Token burn risk
-- Context bloat risk
-- Silent fallback escalation
-- Tool permissions
-- Memory and file access
-- Approval gates
-- Credential isolation
-- Workflow design
-- Uptime or production readiness
-- Scaling path
+### OpenClaw Stack Check
+
+Helps users use OpenClaw without overbuilding, burning tokens, or giving agents too much access.
 
 Core rule:
 
 Do not copy the best OpenClaw stack. Find the right OpenClaw stack for the job.
+
+### Token Burn Audit
+
+Finds where a stack is wasting premium-model tokens, loading too much context, using expensive models for simple work, or silently escalating to higher-cost models.
+
+Core rule:
+
+Do not spend premium-model money on intern tasks.
+
+### Model Subscription Fit
+
+Checks whether paid Ai subscriptions, APIs, routers, local models, and agent platforms actually fit the workflow.
+
+Core rule:
+
+Do not pay for every model because every model looks useful. Pay for the access that fits the workflow.
 
 ## What does a Stackfax Report show?
 
@@ -139,6 +143,7 @@ Possible Pro sections:
 - Token burn map
 - Model routing map
 - Hardware fit review
+- Subscription overlap review
 - Permission boundary review
 - Scaling path
 - 30-day recheck
@@ -274,7 +279,7 @@ Example:
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, badge definitions, report ladder, intake examples, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, badge definitions, report ladder, intake examples, and early offer structure.
 
 ## Repo Map
 
@@ -286,10 +291,12 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 - badge-definitions.md
 - hardware-verdict.md
+- model-subscription-fit.md
 - openclaw-stack-check.md
 - rating-system.md
-- scoring-rubric.md
 - report-ladder.md
+- scoring-rubric.md
+- token-burn-audit.md
 
 ### examples
 
@@ -311,7 +318,9 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-free-mini-report.md
 - sample-mac-mini-hardware-verdict.md
 - sample-mac-mini-local-stack.md
+- sample-model-subscription-fit.md
 - sample-noob-openclaw-starter-stack.md
+- sample-token-burn-audit.md
 
 ### schema
 
@@ -327,6 +336,8 @@ Stackfax currently includes:
 - Badge definitions
 - A hardware verdict standard
 - An OpenClaw Stack Check standard
+- A Token Burn Audit standard
+- A Model Subscription Fit standard
 - A structured report schema
 - Example stack input files
 - A free mini report intake
@@ -336,4 +347,5 @@ Stackfax currently includes:
 - A homepage copy draft
 - A simple project control panel
 - A brand assets tracker
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, and Ai stack comparison standard.
+
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, and Ai stack comparison standard.
