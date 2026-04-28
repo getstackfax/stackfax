@@ -90,6 +90,30 @@ Core rule:
 
 Business automation should start with trust, not speed.
 
+### Vendor Stack Verdict
+
+Reviews prebuilt, packaged, or promoted Ai stacks from vendors, platforms, hardware companies, model providers, creators, or agencies.
+
+Core rule:
+
+Vendors show what they want you to build or buy. Stackfax shows whether it fits.
+
+## Key Risk Categories
+
+Stackfax tracks risk categories such as:
+
+- Hardware Overbuild Risk
+- Token Burn Risk
+- Context Bloat Risk
+- Silent Escalation Risk
+- Subscription Overlap Risk
+- Credential Isolation Risk
+- Fragile UI Automation Risk
+- Human Approval Required
+- Customer Data Risk
+- Production Not Ready
+- Vendor Stack Overkill Risk
+
 ## What does a Stackfax Report show?
 
 A Stackfax Report can check your stack for:
@@ -140,10 +164,13 @@ Common Quick Report types:
 - OpenClaw Starter Stack Check
 - Model Subscription Fit Check
 - Business Automation Safety Check
+- Vendor Stack Verdict
 
-The Quick Report has a reusable template in:
+The Quick Report has reusable templates in:
 
+- templates/free-mini-report-template.md
 - templates/stackfax-quick-report-template.md
+- templates/token-burn-audit-template.md
 
 ### Stackfax Pro Report
 
@@ -214,6 +241,10 @@ Creators show what is possible. Stackfax shows what fits.
 
 Observe first. Draft second. Approve third. Automate last.
 
+One agent should not get the keys to the whole building.
+
+If a workflow breaks because a button moved, it is not production-ready.
+
 ## Who Stackfax is for
 
 ### Beginners
@@ -274,6 +305,10 @@ New stacks drop. Stackfax scores them.
 
 I do not just copy the stack. Show me the Stackfax.
 
+Stackfax is not an Ai report card generator for schools.
+
+Stackfax is the report card for Ai stacks.
+
 ## Stackfax Language
 
 Action:
@@ -289,11 +324,35 @@ Example:
 
 **Get Stackfaxed. Stay StackChecked.**
 
+## Rabble Scouts
+
+Stackfax may eventually use OpenClaw-style Rabble Scouts.
+
+Rabble Scouts do not act.
+
+They observe, summarize, classify, and report.
+
+They may help Stackfax detect public Ai stack confusion around:
+
+- OpenClaw setup confusion
+- Mac mini and local hardware questions
+- Token burn complaints
+- Model subscription overlap
+- Vendor stack announcements
+- Creator stack guides
+- Agent permission mistakes
+- Credential isolation risk
+- Business automation safety questions
+
+Core rule:
+
+Stackfax and OpenClaw are PB&J. We just have to go to the grocery store first.
+
 ## Status
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, badge definitions, report ladder, intake examples, templates, field research notes, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, and early offer structure.
 
 ## Repo Map
 
@@ -306,14 +365,18 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - ai-stack-field-guide.md
 - badge-definitions.md
 - business-automation-safety-audit.md
+- credential-isolation-risk.md
+- fragile-ui-automation-risk.md
 - hardware-verdict.md
 - model-subscription-fit.md
+- openclaw-rabble-scout-plan.md
 - openclaw-stack-check.md
 - pro-report-outline.md
 - rating-system.md
 - report-ladder.md
 - scoring-rubric.md
 - token-burn-audit.md
+- vendor-stack-verdict.md
 
 ### examples
 
@@ -328,7 +391,9 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### marketing
 
+- example-user-reactions.md
 - soft-launch-posts.md
+- what-is-stackfax.md
 
 ### offers
 
@@ -345,6 +410,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-noob-openclaw-starter-stack.md
 - sample-openclaw-starter-stack-check.md
 - sample-token-burn-audit.md
+- sample-vendor-stack-verdict.md
 
 ### research
 
@@ -356,8 +422,10 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### templates
 
+- free-mini-report-template.md
 - pro-report-beta-preview-template.md
 - stackfax-quick-report-template.md
+- token-burn-audit-template.md
 
 ## Current Stackfax Standard
 
@@ -372,6 +440,9 @@ Stackfax currently includes:
 - A Token Burn Audit standard
 - A Model Subscription Fit standard
 - A Business Automation Safety Audit standard
+- A Vendor Stack Verdict standard
+- Credential Isolation Risk logic
+- Fragile UI Automation Risk logic
 - A structured report schema
 - Example stack input files
 - A free mini report intake
@@ -379,14 +450,19 @@ Stackfax currently includes:
 - A report ladder
 - A manual quick report offer
 - A reusable Quick Report template
+- A Free Mini Report template
+- A Token Burn Audit template
 - A Pro Report outline
 - A Pro Report beta preview template
 - A homepage copy draft
 - Quick Report offer page copy
 - Soft launch post drafts
+- Example user reactions
+- What Is Stackfax marketing copy
 - An Ai Stack Field Guide
 - A field research log
+- An OpenClaw Rabble Scout plan
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, and Ai stack comparison standard.
