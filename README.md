@@ -34,6 +34,7 @@ Stackfax helps users answer questions like:
 - How do I move from beginner to builder to operator?
 - What public stack advice should I trust?
 - What should stay private if Stackfax becomes a real product?
+- How do I submit a stack and get a useful report?
 
 ## First Wedge: Hardware Verdict
 
@@ -216,6 +217,58 @@ Focus areas:
 - Human review requirements
 - Business system safety
 
+## First-Dollar Readiness
+
+Stackfax is preparing for early manual paid reports.
+
+The first-dollar path is:
+
+1. Free Mini Report
+2. Stackfax Quick Report
+3. Payment link
+4. Intake form
+5. Manual report production
+6. Delivery within a clear time window
+7. Feedback
+8. Improved templates
+
+Early Stackfax Quick Reports are manual.
+
+Expected delivery target:
+
+24 to 48 hours after intake is received and accepted.
+
+First dollar is proof, not the finish line.
+
+Every paid report should improve the Stackfax standard.
+
+## Intake And Delivery
+
+Stackfax has early intake and delivery planning for:
+
+- Free Mini Report intake
+- Quick Report intake
+- Payment link setup
+- Report delivery workflow
+- Refund and expectations
+- Quick Report delivery terms
+- Manual report production checklist
+- Test Stackfax self-report
+
+Users should not submit:
+
+- Passwords
+- API keys
+- Recovery codes
+- Payment details
+- Wallet information
+- Private customer data
+- Private legal documents
+- Private financial account information
+- Sensitive personal information
+
+Stackfax only needs a description of the stack, workflow, tools, and concerns.
+
 ## Example Stackfax Rating
 
 Overall Rating: ⭐⭐⭐⭐  
@@ -270,6 +323,10 @@ Hardware should match the job, not the hype.
 
 Public trust layer. Private business engine.
 
+Manual first. Repeatable second. Automated later.
+
+Trust before scale.
+
 ## Who Stackfax is for
 
 ### Beginners
@@ -306,21 +363,6 @@ The goal is not to force every user to become an expert.
 
 The goal is to give each user the next right level of clarity.
 
-## First Dollar Direction
-
-The early first-dollar path is:
-
-1. Free Mini Report
-2. Stackfax Quick Report
-3. Manual report delivery
-4. Real feedback
-5. Better templates
-6. Repeatable offer
-
-First dollar is proof, not the finish line.
-
-Every paid report should improve the Stackfax standard.
-
 ## Stackfax Pillars
 
 Stackfax is built around four pillars:
@@ -348,6 +390,12 @@ Example content should be clearly labeled as:
 - Built for moments like this
 
 Real testimonials should only be used with permission.
+
+Do not overpromise.
+
+Do not pretend Stackfax is automated before it is.
+
+Do not guarantee savings, outcomes, revenue, security, compliance, legal results, trading results, or technical performance.
 
 ## How people explain Stackfax
 
@@ -439,7 +487,7 @@ Keep enough private to build the business.
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, and early offer structure.
 
 ## Repo Map
 
@@ -475,6 +523,11 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - free-mini-report-intake.md
 - mac-mini-hardware-verdict-input.json
 
+### forms
+
+- free-mini-report-intake-form.md
+- quick-report-intake-form.md
+
 ### landing-page
 
 - homepage-copy.md
@@ -485,13 +538,22 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - example-reddit-comment-drafts.md
 - example-user-reactions.md
 - first-dollar-weekend-plan.md
+- first-paid-report-launch-post.md
 - seo-keyword-map.md
 - soft-launch-posts.md
 - what-is-stackfax.md
 
 ### offers
 
+- payment-link-setup.md
+- quick-report-delivery-terms.md
 - stackfax-quick-report.md
+
+### operations
+
+- manual-report-production-checklist.md
+- refund-and-expectations.md
+- report-delivery-workflow.md
 
 ### reports
 
@@ -506,6 +568,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-openclaw-starter-stack-check.md
 - sample-token-burn-audit.md
 - sample-vendor-stack-verdict.md
+- test-stackfax-self-report.md
 
 ### research
 
@@ -558,11 +621,20 @@ Stackfax currently includes:
 - A homepage copy draft
 - Quick Report offer page copy
 - Soft launch post drafts
+- First paid report launch posts
 - Example Reddit comment drafts
 - Example user reactions
 - What Is Stackfax marketing copy
 - First Dollar Weekend Plan
 - SEO Keyword Map
+- Free Mini Report intake form
+- Quick Report intake form
+- Payment link setup plan
+- Report delivery workflow
+- Refund and expectations policy
+- Quick Report delivery terms
+- Manual report production checklist
+- Test Stackfax self-report
 - An Ai Stack Field Guide
 - A field research log
 - An OpenClaw Rabble Scout plan
@@ -571,4 +643,4 @@ Stackfax currently includes:
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, and Ai stack comparison standard.
