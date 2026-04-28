@@ -31,6 +31,9 @@ Stackfax helps users answer questions like:
 - Where could tokens drain?
 - What should require human approval?
 - What might break when this stack scales?
+- How do I move from beginner to builder to operator?
+- What public stack advice should I trust?
+- What should stay private if Stackfax becomes a real product?
 
 ## First Wedge: Hardware Verdict
 
@@ -98,6 +101,14 @@ Core rule:
 
 Vendors show what they want you to build or buy. Stackfax shows whether it fits.
 
+### Noob To Expert Stack Path
+
+Helps users move from stack confusion to confident stack decisions.
+
+Core rule:
+
+Meet the user at their current level.
+
 ## Key Risk Categories
 
 Stackfax tracks risk categories such as:
@@ -136,6 +147,8 @@ A Stackfax Report can check your stack for:
 - Use-case fit
 - Scaling risks
 - Upgrade path
+- Public/private fit
+- First-dollar readiness
 
 ## Report Ladder
 
@@ -171,6 +184,8 @@ The Quick Report has reusable templates in:
 - templates/free-mini-report-template.md
 - templates/stackfax-quick-report-template.md
 - templates/token-burn-audit-template.md
+- templates/model-subscription-fit-template.md
+- templates/business-automation-safety-audit-template.md
 
 ### Stackfax Pro Report
 
@@ -245,6 +260,16 @@ One agent should not get the keys to the whole building.
 
 If a workflow breaks because a button moved, it is not production-ready.
 
+Meet the user at their current level.
+
+Do not shame beginners.
+
+Do not slow down experts.
+
+Hardware should match the job, not the hype.
+
+Public trust layer. Private business engine.
+
 ## Who Stackfax is for
 
 ### Beginners
@@ -266,6 +291,35 @@ Stackfax gives experts a shared language for scoring and discussing stacks.
 ### Businesses
 
 For businesses that want to use Ai safely across automations, outreach, research, reports, support, sales, inventory, internal workflows, or client operations.
+
+## Noob To Expert Path
+
+Stackfax can help users move through stages:
+
+1. Stack Confused
+2. Stack Curious
+3. Stack Builder
+4. Stack Operator
+5. Stack Expert
+
+The goal is not to force every user to become an expert.
+
+The goal is to give each user the next right level of clarity.
+
+## First Dollar Direction
+
+The early first-dollar path is:
+
+1. Free Mini Report
+2. Stackfax Quick Report
+3. Manual report delivery
+4. Real feedback
+5. Better templates
+6. Repeatable offer
+
+First dollar is proof, not the finish line.
+
+Every paid report should improve the Stackfax standard.
 
 ## Stackfax Pillars
 
@@ -348,11 +402,44 @@ Core rule:
 
 Stackfax and OpenClaw are PB&J. We just have to go to the grocery store first.
 
+## Public And Private Strategy
+
+Stackfax currently fits a mixed public/private direction.
+
+Public:
+
+- Brand docs
+- Field guide
+- Sample reports
+- Public report types
+- Basic templates
+- Marketing copy
+- Education
+- High-level scoring philosophy
+
+Private later:
+
+- Actual paid report workflow
+- Customer submissions
+- Scoring engine
+- Payment and intake operations
+- Automation scripts
+- Internal notes
+- Advanced templates
+- Real customer reports
+- OpenClaw/Rabble Scout working system
+
+Best current rule:
+
+Show enough to build trust.
+
+Keep enough private to build the business.
+
 ## Status
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, and early offer structure.
 
 ## Repo Map
 
@@ -365,10 +452,14 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - ai-stack-field-guide.md
 - badge-definitions.md
 - business-automation-safety-audit.md
+- community-standards-plan.md
 - credential-isolation-risk.md
 - fragile-ui-automation-risk.md
 - hardware-verdict.md
+- license-strategy.md
+- mac-mini-decision-tree.md
 - model-subscription-fit.md
+- noob-to-expert-stack-path.md
 - openclaw-rabble-scout-plan.md
 - openclaw-stack-check.md
 - pro-report-outline.md
@@ -391,7 +482,10 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### marketing
 
+- example-reddit-comment-drafts.md
 - example-user-reactions.md
+- first-dollar-weekend-plan.md
+- seo-keyword-map.md
 - soft-launch-posts.md
 - what-is-stackfax.md
 
@@ -408,6 +502,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-mac-mini-local-stack.md
 - sample-model-subscription-fit.md
 - sample-noob-openclaw-starter-stack.md
+- sample-noob-to-expert-stack-path.md
 - sample-openclaw-starter-stack-check.md
 - sample-token-burn-audit.md
 - sample-vendor-stack-verdict.md
@@ -422,7 +517,9 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### templates
 
+- business-automation-safety-audit-template.md
 - free-mini-report-template.md
+- model-subscription-fit-template.md
 - pro-report-beta-preview-template.md
 - stackfax-quick-report-template.md
 - token-burn-audit-template.md
@@ -436,11 +533,13 @@ Stackfax currently includes:
 - A scoring rubric
 - Badge definitions
 - A hardware verdict standard
+- A Mac Mini Decision Tree
 - An OpenClaw Stack Check standard
 - A Token Burn Audit standard
 - A Model Subscription Fit standard
 - A Business Automation Safety Audit standard
 - A Vendor Stack Verdict standard
+- A Noob To Expert Stack Path
 - Credential Isolation Risk logic
 - Fragile UI Automation Risk logic
 - A structured report schema
@@ -452,16 +551,23 @@ Stackfax currently includes:
 - A reusable Quick Report template
 - A Free Mini Report template
 - A Token Burn Audit template
+- A Model Subscription Fit template
+- A Business Automation Safety Audit template
 - A Pro Report outline
 - A Pro Report beta preview template
 - A homepage copy draft
 - Quick Report offer page copy
 - Soft launch post drafts
+- Example Reddit comment drafts
 - Example user reactions
 - What Is Stackfax marketing copy
+- First Dollar Weekend Plan
+- SEO Keyword Map
 - An Ai Stack Field Guide
 - A field research log
 - An OpenClaw Rabble Scout plan
+- A Community Standards Plan
+- A License Strategy
 - A simple project control panel
 - A brand assets tracker
 
