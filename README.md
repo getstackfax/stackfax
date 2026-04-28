@@ -4,11 +4,11 @@ The first report card for Ai stacks.
 
 Clarity before you build.
 
-Before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, or copy a random OpenClaw setup, Stackfax your stack.
+Before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, migrate to a new model, or copy a random OpenClaw setup, Stackfax your stack.
 
 Go to getstackfax.com and get your free stack report.
 
-Stackfax checks whether your tools, models, subscriptions, hardware, workflow, and permissions match the task before you spend money, burn tokens, or overbuild.
+Stackfax checks whether your tools, models, subscriptions, hardware, workflow, communication channels, permissions, and approval gates match the task before you spend money, burn tokens, or overbuild.
 
 ## What is Stackfax?
 
@@ -29,6 +29,9 @@ Stackfax helps users answer questions like:
 - Am I paying for overlapping model subscriptions?
 - Am I using expensive models for simple work?
 - Is this OpenClaw setup overkill for my use case?
+- Should I use local models, cloud models, or both?
+- Can I avoid API bills with local models?
+- Should I migrate after a new model or OpenClaw update?
 - What should run locally, in the cloud, or manually?
 - Where could tokens drain?
 - What should require human approval?
@@ -114,6 +117,16 @@ Vendors show what they want you to build or buy.
 
 Stackfax shows whether it fits.
 
+### Stack Migration Fit
+
+Checks whether a user should move from one stack, model route, tool setup, local runner, agent platform, or workflow configuration to another.
+
+Core rule:
+
+Do not rebuild your stack every time the hype changes.
+
+Migrate only when the new setup solves a real bottleneck.
+
 ### Noob To Expert Stack Path
 
 Helps users move from stack confusion to confident stack decisions.
@@ -142,6 +155,9 @@ Stackfax tracks risk categories such as:
 - Customer Data Risk
 - Production Not Ready
 - Vendor Stack Overkill Risk
+- Local Model Quality Gap
+- Setup Complexity Risk
+- Personal Machine Exposure Risk
 
 ## What does a Stackfax Report show?
 
@@ -163,6 +179,10 @@ A Stackfax Report can check your stack for:
 - Approval gates
 - Use-case fit
 - Scaling risks
+- Migration fit
+- Version drift
+- Agentic trap risk
+- Local model fit
 - Upgrade path
 - Public/private fit
 - First-dollar readiness
@@ -196,6 +216,8 @@ Common Quick Report types:
 - Model Subscription Fit Check
 - Business Automation Safety Check
 - Vendor Stack Verdict
+- Stack Migration Fit Check
+- Local LLM Cost Avoidance Check
 
 The Quick Report has reusable templates in:
 
@@ -218,6 +240,8 @@ Possible Pro sections:
 - Subscription overlap review
 - Permission boundary review
 - Communication channel review
+- Migration review
+- Version drift review
 - Scaling path
 - 30-day recheck
 
@@ -311,6 +335,178 @@ Stackfax now has launch-tool planning for:
 The launch-tool goal is simple:
 
 Make Stackfax usable before making Stackfax complicated.
+
+## OpenClaw Field Research
+
+Stackfax tracks OpenClaw and adjacent agent-platform updates as field research.
+
+OpenClaw 4.26 field notes highlighted several major Stackfax signals:
+
+- Migration tools matter because users will keep switching stacks
+- Plan mode and backups matter because users need safe rollback paths
+- Fast inference routing matters because expensive models should not do cheap tasks
+- Matrix and encrypted channels matter because communication is part of the stack
+- Compaction matters because long-running agents can bloat and drift
+- Ollama and local model support matter because local models are becoming easier to test
+- Discord, Mattermost, and WhatsApp targeting matter because chat channels can become agent control rooms
+- Docker and macOS fixes matter because environment fit is part of the stack
+
+Core OpenClaw field note:
+
+Lower friction does not remove risk.
+
+It makes the right guardrails more important.
+
+## Agentic Trap Risk
+
+Agentic Trap Risk is the risk that a user spends more time optimizing the Ai agent stack than producing useful work.
+
+The setup feels productive.
+
+The output does not improve enough to justify the setup.
+
+Core question:
+
+What did this stack produce this week?
+
+If the answer is mostly setup, config, migration, dashboards, prompt tuning, model testing, and experiments, the user may need to simplify.
+
+Core rule:
+
+A better stack should create more output, not just more stack.
+
+## Communication Channel Risk
+
+A communication channel is part of the Ai stack.
+
+If an agent can talk through Discord, Slack, Matrix, Mattermost, WhatsApp, email, SMS, browser chat, or a support inbox, that channel should be reviewed like any other tool.
+
+Stackfax checks:
+
+- Where can the agent talk?
+- Who can it reach?
+- Can it post publicly?
+- Can it DM users?
+- Can it contact customers?
+- Is it test-only or production?
+- Does a human approve before sending?
+
+Core rule:
+
+If your agent can talk, Stackfax checks where it talks and who it can reach.
+
+## Local Agent Stack Anatomy
+
+Local agents are not just “run a model.”
+
+A local agent stack may include:
+
+- Host machine
+- Local runtime
+- Model runner
+- Model
+- Agent framework
+- Memory
+- Tools
+- Communication channel
+- Schedule or heartbeat
+- File access
+- Browser access
+- Approval gates
+- Safety boundaries
+
+Core rule:
+
+If an agent has eyes, tentacles, and a heartbeat, it needs a cage.
+
+## Stack Migration Fit
+
+Stack Migration Fit checks whether a user should move from one stack, model route, tool setup, local runner, agent platform, or workflow configuration to another.
+
+Migration may make sense if it improves:
+
+- Cost
+- Reliability
+- Speed
+- Privacy
+- Model quality
+- Local control
+- Permission boundaries
+- Approval gates
+- Workflow simplicity
+- Repeatability
+- Maintainability
+
+But migration is not progress unless the workflow gets better.
+
+Core rule:
+
+Do not rebuild your stack every time the hype changes.
+
+## Version Drift Risk
+
+Version Drift Risk is the risk that Ai stack advice, reports, setup guides, model recommendations, or workflow assumptions become outdated because the tools changed.
+
+A stack can be a good fit today and need a recheck tomorrow.
+
+Version drift does not mean the original stack was bad.
+
+It means the environment moved.
+
+Core rule:
+
+A stack verdict should age honestly.
+
+If the stack changes, recheck the fit.
+
+## Local LLM Cost Avoidance
+
+Local LLMs can help reduce paid API usage for the right tasks.
+
+But local does not automatically mean free, better, safer, or easier.
+
+Local setup still has costs:
+
+- Hardware
+- Setup time
+- Maintenance
+- Power
+- Slower inference
+- Model quality gaps
+- Troubleshooting
+- Storage
+- Updates
+- Migration friction
+
+Core rule:
+
+Free is not always free.
+
+Hardware, setup time, maintenance, quality, speed, and workflow fit still count.
+
+## Model Drop Recheck Logic
+
+New model drops create stack confusion.
+
+Stackfax turns that confusion into a recheck moment.
+
+Users may need a recheck when:
+
+- A new model gets hyped
+- A cheaper model becomes good enough
+- A local model becomes usable
+- OpenClaw adds migration tools
+- A provider changes limits
+- A subscription tier changes
+- A workflow starts burning tokens
+- A local setup becomes easier
+- A cloud setup becomes too expensive
+
+Core line:
+
+Ai stacks expire.
+
+Stackfax keeps them checked.
 
 ## Private Customer Data
 
@@ -496,6 +692,10 @@ Earn attention by being useful.
 
 A stack is only impressive if it fits the job.
 
+Migration is not progress unless the workflow gets better.
+
+A stack verdict should age honestly.
+
 ## Who Stackfax is for
 
 ### Beginners
@@ -510,7 +710,7 @@ These users want to move fast without locking themselves into the wrong hardware
 
 ### Experts
 
-For people who want to compare, publish, review, stress-test, or improve Ai stacks.
+For people who want to compare, publish, review, stress-test, migrate, or improve Ai stacks.
 
 Stackfax gives experts a shared language for scoring and discussing stacks.
 
@@ -570,7 +770,7 @@ Do not guarantee savings, outcomes, revenue, security, compliance, legal results
 
 Stackfax is like Carfax meets IGN for Ai stacks.
 
-Before buying a used car, people ask for the Carfax. Before buying, building, or copying an Ai stack, Stackfax gives the verdict.
+Before buying a used car, people ask for the Carfax. Before buying, building, migrating, or copying an Ai stack, Stackfax gives the verdict.
 
 New stacks drop. Stackfax scores them.
 
@@ -617,6 +817,7 @@ They may help Stackfax detect public Ai stack confusion around:
 - Communication channel risk
 - Version drift
 - Migration confusion
+- Local model cost-avoidance questions
 
 Core rule:
 
@@ -636,6 +837,7 @@ Public:
 - Marketing copy
 - Education
 - High-level scoring philosophy
+- Field research notes
 
 Private later:
 
@@ -659,7 +861,7 @@ Keep enough private to build the business.
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, beta-user readiness docs, private-customer-data planning, launch tools, community prompt logic, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, stack migration logic, version drift logic, local agent stack logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, beta-user readiness docs, private-customer-data planning, launch tools, community prompt logic, and early offer structure.
 
 ## Repo Map
 
@@ -669,14 +871,17 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### docs
 
+- agentic-trap-risk.md
 - ai-stack-field-guide.md
 - badge-definitions.md
 - business-automation-safety-audit.md
+- communication-channel-risk.md
 - community-standards-plan.md
 - credential-isolation-risk.md
 - fragile-ui-automation-risk.md
 - hardware-verdict.md
 - license-strategy.md
+- local-agent-stack-anatomy.md
 - mac-mini-decision-tree.md
 - model-subscription-fit.md
 - noob-to-expert-stack-path.md
@@ -687,9 +892,11 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - rating-system.md
 - report-ladder.md
 - scoring-rubric.md
+- stack-migration-fit.md
 - stackchecked-badge-rules.md
 - token-burn-audit.md
 - vendor-stack-verdict.md
+- version-drift-risk.md
 
 ### examples
 
@@ -717,6 +924,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - example-user-reactions.md
 - first-dollar-weekend-plan.md
 - first-paid-report-launch-post.md
+- model-drop-recheck-angle.md
 - seo-keyword-map.md
 - soft-launch-posts.md
 - what-is-stackfax.md
@@ -747,12 +955,14 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-business-automation-stack.md
 - sample-free-mini-report.md
 - sample-free-mini-report-reddit-subscription-user.md
+- sample-local-llm-openclaw-cost-avoidance-report.md
 - sample-mac-mini-hardware-verdict.md
 - sample-mac-mini-local-stack.md
 - sample-model-subscription-fit.md
 - sample-model-subscription-fit-reddit-user.md
 - sample-noob-openclaw-starter-stack.md
 - sample-noob-to-expert-stack-path.md
+- sample-openclaw-4-26-noob-safe-starter-report.md
 - sample-openclaw-community-builder-report.md
 - sample-openclaw-starter-stack-check.md
 - sample-quick-report-mac-mini-buyer.md
@@ -763,6 +973,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 ### research
 
 - field-research-log.md
+- openclaw-4-26-field-notes.md
 
 ### schema
 
@@ -789,6 +1000,12 @@ Stackfax currently includes:
 - A hardware verdict standard
 - A Mac Mini Decision Tree
 - An OpenClaw Stack Check standard
+- OpenClaw 4.26 field notes
+- An Agentic Trap Risk standard
+- A Communication Channel Risk standard
+- A Local Agent Stack Anatomy guide
+- A Stack Migration Fit standard
+- A Version Drift Risk standard
 - A Token Burn Audit standard
 - A Model Subscription Fit standard
 - A Business Automation Safety Audit standard
@@ -820,6 +1037,7 @@ Stackfax currently includes:
 - Example user reactions
 - What Is Stackfax marketing copy
 - What’s Your Stack community prompt
+- Model Drop Recheck Angle
 - First Dollar Weekend Plan
 - SEO Keyword Map
 - Free Mini Report intake form
@@ -840,6 +1058,8 @@ Stackfax currently includes:
 - Test Stackfax self-report
 - Sample Reddit model subscription report
 - Sample OpenClaw community builder report
+- Sample OpenClaw 4.26 noob-safe starter report
+- Sample local LLM OpenClaw cost-avoidance report
 - Sample Mac mini buyer Quick Report
 - Public/private roadmap
 - An Ai Stack Field Guide
@@ -850,4 +1070,4 @@ Stackfax currently includes:
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, beta-user readiness system, launch-tool checklist, community stack prompt, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, stack migration checker, version drift checker, first-dollar manual report workflow, beta-user readiness system, launch-tool checklist, community stack prompt, and Ai stack comparison standard.
