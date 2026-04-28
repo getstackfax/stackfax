@@ -8,15 +8,17 @@ Before you buy hardware, burn premium-model tokens, pay for overlapping subscrip
 
 Go to getstackfax.com and get your free stack report.
 
-Stackfax checks whether your tools, models, subscriptions, and hardware match the task before you spend money, burn tokens, or overbuild.
+Stackfax checks whether your tools, models, subscriptions, hardware, workflow, and permissions match the task before you spend money, burn tokens, or overbuild.
 
 ## What is Stackfax?
 
 Stackfax helps people understand, score, and improve their Ai stacks.
 
-An Ai stack is the combination of models, providers, tools, subscriptions, agents, memory, hosting, hardware, permissions, workflows, and approval gates used to get work done with Ai.
+An Ai stack is the combination of models, providers, tools, subscriptions, agents, memory, hosting, hardware, permissions, workflows, communication channels, and approval gates used to get work done with Ai.
 
-Most people do not need one giant expensive model, one perfect machine, or every subscription at once. They need the right stack for the job.
+Most people do not need one giant expensive model, one perfect machine, or every subscription at once.
+
+They need the right stack for the job.
 
 ## What does Stackfax solve?
 
@@ -36,6 +38,7 @@ Stackfax helps users answer questions like:
 - What should stay private if Stackfax becomes a real product?
 - How do I submit a stack and get a useful report?
 - How should Stackfax protect real customer submissions?
+- What does it mean to stay StackChecked?
 
 ## First Wedge: Hardware Verdict
 
@@ -55,7 +58,9 @@ Possible verdicts:
 - Mac Mini Justified
 - Overkill Warning
 
-The goal is not to push hardware. The goal is to match the hardware to the workload.
+The goal is not to push hardware.
+
+The goal is to match the hardware to the workload.
 
 ## Core Report Types
 
@@ -69,7 +74,9 @@ Helps users use OpenClaw without overbuilding, burning tokens, or giving agents 
 
 Core rule:
 
-Do not copy the best OpenClaw stack. Find the right OpenClaw stack for the job.
+Do not copy the best OpenClaw stack.
+
+Find the right OpenClaw stack for the job.
 
 ### Token Burn Audit
 
@@ -85,7 +92,9 @@ Checks whether paid Ai subscriptions, APIs, routers, local models, and agent pla
 
 Core rule:
 
-Do not pay for every model because every model looks useful. Pay for the access that fits the workflow.
+Do not pay for every model because every model looks useful.
+
+Pay for the access that fits the workflow.
 
 ### Business Automation Safety Audit
 
@@ -101,7 +110,9 @@ Reviews prebuilt, packaged, or promoted Ai stacks from vendors, platforms, hardw
 
 Core rule:
 
-Vendors show what they want you to build or buy. Stackfax shows whether it fits.
+Vendors show what they want you to build or buy.
+
+Stackfax shows whether it fits.
 
 ### Noob To Expert Stack Path
 
@@ -122,6 +133,11 @@ Stackfax tracks risk categories such as:
 - Subscription Overlap Risk
 - Credential Isolation Risk
 - Fragile UI Automation Risk
+- Communication Channel Risk
+- Private Memory Risk
+- Agentic Trap Risk
+- Version Drift Risk
+- Migration Risk
 - Human Approval Required
 - Customer Data Risk
 - Production Not Ready
@@ -143,14 +159,14 @@ A Stackfax Report can check your stack for:
 - Context bloat risk
 - Silent escalation risk
 - Fragile UI automation risk
-- Uptime or production readiness
-- Missing tools
+- Communication channel risk
 - Approval gates
 - Use-case fit
 - Scaling risks
 - Upgrade path
 - Public/private fit
 - First-dollar readiness
+- Recheck triggers
 
 ## Report Ladder
 
@@ -201,6 +217,7 @@ Possible Pro sections:
 - Hardware fit review
 - Subscription overlap review
 - Permission boundary review
+- Communication channel review
 - Scaling path
 - 30-day recheck
 
@@ -250,9 +267,13 @@ Stackfax has early intake and delivery planning for:
 - Free Mini Report intake
 - Quick Report intake
 - Google Form intake layout
+- Google Form build checklist
 - Payment link setup
 - Gumroad product page copy
+- Gumroad launch checklist
+- Private folder setup
 - Report delivery workflow
+- Report delivery email copy
 - Refund and expectations
 - Quick Report delivery terms
 - Manual report production checklist
@@ -273,6 +294,23 @@ Users should not submit:
 - Sensitive personal information
 
 Stackfax only needs a description of the stack, workflow, tools, and concerns.
+
+## Launch Tools
+
+Stackfax now has launch-tool planning for:
+
+- Building the Google Form intake
+- Launching a Gumroad Quick Report product
+- Setting up a private customer folder
+- Sending clean report delivery emails
+- Posting a soft beta launch
+- Tracking first reports
+- Handling private customer data
+- Keeping public and private layers separate
+
+The launch-tool goal is simple:
+
+Make Stackfax usable before making Stackfax complicated.
 
 ## Private Customer Data
 
@@ -319,6 +357,82 @@ Track:
 - Feedback
 - Product lesson
 - Template improvements
+
+## StackChecked
+
+StackChecked means a stack has been reviewed by Stackfax against a specific use case, workflow, risk level, and point in time.
+
+It does not mean the stack is perfect.
+
+It does not mean the stack is certified.
+
+It does not mean the stack guarantees outcomes.
+
+It means:
+
+The stack has been checked for fit.
+
+Possible StackChecked display:
+
+- StackChecked
+- Score
+- Verdict
+- Checked date
+- Recheck window
+- Risk flags
+
+Core phrase:
+
+**Get Stackfaxed. Stay StackChecked.**
+
+## Recheck Logic
+
+Ai stacks change quickly.
+
+Recheck may be needed when:
+
+- A model changes
+- Pricing changes
+- Usage limits change
+- OpenClaw updates
+- Local model tooling changes
+- The user adds agents
+- The user adds communication channels
+- The user adds hardware
+- The user changes from cloud to local
+- The user changes from local to cloud
+- The stack touches customer data, payments, files, credentials, or production systems
+
+A stack that fits today may need a new verdict later.
+
+## Community Layer
+
+Stackfax may later support community stack prompts, builder profiles, and Stack of the Month ideas.
+
+Core community question:
+
+**What’s your stack, and what job is it built for?**
+
+Community stack talk should include:
+
+- Use case
+- Tools
+- Models
+- Hardware
+- Local/cloud/hybrid direction
+- Workflow
+- Communication channel
+- Permissions
+- Approval gates
+- Cost concerns
+- Risk flags
+- What worked
+- What broke
+- What changed
+
+Community stack sharing should be public-safe.
+
+Do not ask people to share credentials, private files, private customer data, or sensitive information.
 
 ## Example Stackfax Rating
 
@@ -379,6 +493,8 @@ Manual first. Repeatable second. Automated later.
 Trust before scale.
 
 Earn attention by being useful.
+
+A stack is only impressive if it fits the job.
 
 ## Who Stackfax is for
 
@@ -498,6 +614,9 @@ They may help Stackfax detect public Ai stack confusion around:
 - Agent permission mistakes
 - Credential isolation risk
 - Business automation safety questions
+- Communication channel risk
+- Version drift
+- Migration confusion
 
 Core rule:
 
@@ -540,7 +659,7 @@ Keep enough private to build the business.
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, beta-user readiness docs, private-customer-data planning, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, beta-user readiness docs, private-customer-data planning, launch tools, community prompt logic, and early offer structure.
 
 ## Repo Map
 
@@ -568,6 +687,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - rating-system.md
 - report-ladder.md
 - scoring-rubric.md
+- stackchecked-badge-rules.md
 - token-burn-audit.md
 - vendor-stack-verdict.md
 
@@ -580,6 +700,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 ### forms
 
 - free-mini-report-intake-form.md
+- google-form-build-checklist.md
 - quick-report-intake-form.md
 - report-intake-google-form-layout.md
 
@@ -590,6 +711,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### marketing
 
+- beta-launch-soft-post.md
 - beta-user-outreach-plan.md
 - example-reddit-comment-drafts.md
 - example-user-reactions.md
@@ -598,9 +720,11 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - seo-keyword-map.md
 - soft-launch-posts.md
 - what-is-stackfax.md
+- whats-your-stack-community-prompt.md
 
 ### offers
 
+- gumroad-launch-checklist.md
 - gumroad-product-page-copy.md
 - payment-link-setup.md
 - quick-report-delivery-terms.md
@@ -612,7 +736,9 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - first-10-report-tracker.md
 - manual-report-production-checklist.md
 - private-customer-data-plan.md
+- private-folder-setup.md
 - refund-and-expectations.md
+- report-delivery-email-copy.md
 - report-delivery-workflow.md
 
 ### reports
@@ -620,6 +746,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-business-automation-safety-audit.md
 - sample-business-automation-stack.md
 - sample-free-mini-report.md
+- sample-free-mini-report-reddit-subscription-user.md
 - sample-mac-mini-hardware-verdict.md
 - sample-mac-mini-local-stack.md
 - sample-model-subscription-fit.md
@@ -628,6 +755,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-noob-to-expert-stack-path.md
 - sample-openclaw-community-builder-report.md
 - sample-openclaw-starter-stack-check.md
+- sample-quick-report-mac-mini-buyer.md
 - sample-token-burn-audit.md
 - sample-vendor-stack-verdict.md
 - test-stackfax-self-report.md
@@ -657,6 +785,7 @@ Stackfax currently includes:
 - A 1–5 star rating system
 - A scoring rubric
 - Badge definitions
+- StackChecked badge rules
 - A hardware verdict standard
 - A Mac Mini Decision Tree
 - An OpenClaw Stack Check standard
@@ -683,18 +812,24 @@ Stackfax currently includes:
 - A homepage copy draft
 - Quick Report offer page copy
 - Gumroad product page copy
+- Gumroad launch checklist
 - Soft launch post drafts
+- Beta launch soft post drafts
 - First paid report launch posts
 - Example Reddit comment drafts
 - Example user reactions
 - What Is Stackfax marketing copy
+- What’s Your Stack community prompt
 - First Dollar Weekend Plan
 - SEO Keyword Map
 - Free Mini Report intake form
 - Quick Report intake form
 - Google Form intake layout
+- Google Form build checklist
 - Payment link setup plan
+- Private folder setup plan
 - Report delivery workflow
+- Report delivery email copy
 - Refund and expectations policy
 - Quick Report delivery terms
 - Manual report production checklist
@@ -705,6 +840,7 @@ Stackfax currently includes:
 - Test Stackfax self-report
 - Sample Reddit model subscription report
 - Sample OpenClaw community builder report
+- Sample Mac mini buyer Quick Report
 - Public/private roadmap
 - An Ai Stack Field Guide
 - A field research log
@@ -714,4 +850,4 @@ Stackfax currently includes:
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, beta-user readiness system, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, beta-user readiness system, launch-tool checklist, community stack prompt, and Ai stack comparison standard.
