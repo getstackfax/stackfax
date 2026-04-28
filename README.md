@@ -35,6 +35,7 @@ Stackfax helps users answer questions like:
 - What public stack advice should I trust?
 - What should stay private if Stackfax becomes a real product?
 - How do I submit a stack and get a useful report?
+- How should Stackfax protect real customer submissions?
 
 ## First Wedge: Hardware Verdict
 
@@ -248,12 +249,16 @@ Stackfax has early intake and delivery planning for:
 
 - Free Mini Report intake
 - Quick Report intake
+- Google Form intake layout
 - Payment link setup
+- Gumroad product page copy
 - Report delivery workflow
 - Refund and expectations
 - Quick Report delivery terms
 - Manual report production checklist
+- Customer email templates
 - Test Stackfax self-report
+- First 10 report tracker
 
 Users should not submit:
 
@@ -268,6 +273,52 @@ Users should not submit:
 - Sensitive personal information
 
 Stackfax only needs a description of the stack, workflow, tools, and concerns.
+
+## Private Customer Data
+
+Stackfax should not collect sensitive data unless it is truly needed.
+
+The public repo should never contain real customer submissions, real customer reports, customer emails, payment information, private screenshots, passwords, API keys, or private business data.
+
+Real customer work should stay in a private system.
+
+Best current rule:
+
+Protect the user before improving the product.
+
+Trust is the asset.
+
+Do not collect what you do not need.
+
+## Beta Readiness
+
+Stackfax is preparing for early beta users and first real reports.
+
+Beta users may include:
+
+- Hardware-curious builders
+- Token-burned builders
+- Model subscription users
+- OpenClaw starters
+- Business automation users
+- Vendor stack viewers
+- Creator stack copiers
+- Local model experimenters
+- Budget-constrained builders
+- Expert stack publishers
+
+The first 10 reports should be treated as product learning, not just sales.
+
+Track:
+
+- User type
+- Main pain point
+- Report type
+- Main verdict
+- Risk flags
+- Feedback
+- Product lesson
+- Template improvements
 
 ## Example Stackfax Rating
 
@@ -326,6 +377,8 @@ Public trust layer. Private business engine.
 Manual first. Repeatable second. Automated later.
 
 Trust before scale.
+
+Earn attention by being useful.
 
 ## Who Stackfax is for
 
@@ -487,7 +540,7 @@ Keep enough private to build the business.
 
 Stackfax is in early concept/build mode.
 
-This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, and early offer structure.
+This repo defines the first public Stackfax report format, sample reports, rating philosophy, hardware verdict logic, OpenClaw stack check logic, token burn audit logic, model subscription fit logic, business automation safety logic, vendor stack verdict logic, badge definitions, risk categories, report ladder, intake examples, templates, field research notes, marketing copy, license strategy, first-dollar readiness docs, beta-user readiness docs, private-customer-data planning, and early offer structure.
 
 ## Repo Map
 
@@ -511,6 +564,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - openclaw-rabble-scout-plan.md
 - openclaw-stack-check.md
 - pro-report-outline.md
+- public-private-roadmap.md
 - rating-system.md
 - report-ladder.md
 - scoring-rubric.md
@@ -527,6 +581,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 - free-mini-report-intake-form.md
 - quick-report-intake-form.md
+- report-intake-google-form-layout.md
 
 ### landing-page
 
@@ -535,6 +590,7 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### marketing
 
+- beta-user-outreach-plan.md
 - example-reddit-comment-drafts.md
 - example-user-reactions.md
 - first-dollar-weekend-plan.md
@@ -545,13 +601,17 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 
 ### offers
 
+- gumroad-product-page-copy.md
 - payment-link-setup.md
 - quick-report-delivery-terms.md
 - stackfax-quick-report.md
 
 ### operations
 
+- customer-email-templates.md
+- first-10-report-tracker.md
 - manual-report-production-checklist.md
+- private-customer-data-plan.md
 - refund-and-expectations.md
 - report-delivery-workflow.md
 
@@ -563,8 +623,10 @@ This repo defines the first public Stackfax report format, sample reports, ratin
 - sample-mac-mini-hardware-verdict.md
 - sample-mac-mini-local-stack.md
 - sample-model-subscription-fit.md
+- sample-model-subscription-fit-reddit-user.md
 - sample-noob-openclaw-starter-stack.md
 - sample-noob-to-expert-stack-path.md
+- sample-openclaw-community-builder-report.md
 - sample-openclaw-starter-stack-check.md
 - sample-token-burn-audit.md
 - sample-vendor-stack-verdict.md
@@ -620,6 +682,7 @@ Stackfax currently includes:
 - A Pro Report beta preview template
 - A homepage copy draft
 - Quick Report offer page copy
+- Gumroad product page copy
 - Soft launch post drafts
 - First paid report launch posts
 - Example Reddit comment drafts
@@ -629,12 +692,20 @@ Stackfax currently includes:
 - SEO Keyword Map
 - Free Mini Report intake form
 - Quick Report intake form
+- Google Form intake layout
 - Payment link setup plan
 - Report delivery workflow
 - Refund and expectations policy
 - Quick Report delivery terms
 - Manual report production checklist
+- Private customer data plan
+- Customer email templates
+- First 10 report tracker
+- Beta user outreach plan
 - Test Stackfax self-report
+- Sample Reddit model subscription report
+- Sample OpenClaw community builder report
+- Public/private roadmap
 - An Ai Stack Field Guide
 - A field research log
 - An OpenClaw Rabble Scout plan
@@ -643,4 +714,4 @@ Stackfax currently includes:
 - A simple project control panel
 - A brand assets tracker
 
-This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, and Ai stack comparison standard.
+This is the first public foundation for turning Stackfax into a report engine, stack checker, hardware verdict tool, OpenClaw setup checker, token burn audit, model subscription fit checker, business automation safety checker, vendor stack verdict system, first-dollar manual report workflow, beta-user readiness system, and Ai stack comparison standard.
