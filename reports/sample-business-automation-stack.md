@@ -186,7 +186,6 @@ Only automate tasks that are:
 * easy to reverse
 * easy to monitor
 
-⸻
 ## Upgrade path
 
 1. Start with cloud-first draft workflows.
@@ -196,7 +195,6 @@ Only automate tasks that are:
 5. Route tasks by model cost and risk.
 6. Only consider local hardware after workflows are proven.
 
-⸻
 ## Final Stackfax verdict
 
 This is a strong starter stack if the user keeps the scope narrow.
