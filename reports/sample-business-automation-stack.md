@@ -1,111 +1,210 @@
 # Stackfax Report: Business Automation Starter Stack
 
-Overall Rating: ⭐⭐⭐⭐  
-Stack Score: 82/100
+**Report type:** Business Automation Starter Stack  
+**Status:** Sample report  
+**Audience:** Small business owner / operator  
+**Overall rating:** ⭐⭐⭐⭐  
+**Stack score:** 82/100  
+
+---
+
+## Main verdict
+
+This stack should start **cloud-first**.
+
+The user does not need a Mac mini, local model box, or dedicated Ai machine yet. The better first move is to prove the workflows with hosted tools, clear model routing, approval gates, and cost controls.
+
+The risk is not lack of hardware.
+
+The risk is connecting too many automations before the business knows which workflows are repeatable, safe, and worth automating.
+
+---
+
+## Stack summary
+
+This example stack is designed for a small business owner who wants to use Ai for:
+
+- outreach drafts
+- enquiry handling
+- lead follow-up
+- inventory monitoring
+- sales report analysis
+- trend research
+- SEO/blog content
+- social media drafts
+- basic internal workflow support
+
+This is a practical business automation stack, not a local inference lab.
+
+---
 
 ## Badges
 
-- StackChecked
-- Token-Smart
-- Cloud-Only
-- Human Approval Required
-- Customer Data Risk
+- **StackChecked**
+- **Cloud-First**
+- **Token-Smart**
+- **Human Approval Required**
+- **Customer Data Risk**
+- **No Local Hardware Needed Yet**
 
-## Stack Summary
+---
 
-This is a cloud-only Ai stack for business automation.
+## Key risks
 
-It is designed for users who want to automate outreach, manage enquiries, monitor inventory, analyze sales reports, research trends, and create SEO/blog content without wasting premium-model tokens.
+| Risk | Level | Why it matters |
+|---|---:|---|
+| Token burn | High | Premium models may be wasted on summaries, classification, formatting, and repetitive tasks |
+| Customer data exposure | Medium / High | Enquiries, leads, emails, and sales records may contain sensitive business or customer information |
+| Automation risk | Medium | Customer-facing actions should not run without review at first |
+| Tool sprawl | Medium | Too many subscriptions can create overlapping costs and unclear ownership |
+| Workflow reliability | Medium | The setup needs repeatable workflows, not one-off prompt experiments |
 
-## Main Verdict
+---
 
-This stack does not need local hosting yet.
+## What fits
 
-A Mac mini, local model box, or dedicated Ai machine is not required for this use case. The better first move is model routing, clear approval gates, and cost controls.
+This stack is a good fit for:
 
-## Risk Review
+- drafting email replies
+- summarizing enquiries
+- classifying leads
+- creating first-pass social posts
+- drafting SEO/blog outlines
+- generating sales-report summaries
+- creating task lists from inbound messages
+- preparing customer follow-up drafts
+- helping the operator decide what to do next
 
-### Token Burn Risk: High
+The best early use case is **drafting and organizing**, not fully autonomous action.
 
-The user may waste money if premium models are used for every task.
+---
 
-Routine tasks like summaries, drafts, tagging, classification, and basic research should use cheaper models when possible.
+## What should stay manual
 
-### Privacy Risk: Medium/High
+These actions should stay human-approved until the workflow is proven:
 
-This stack may touch customer enquiries, sales data, inventory information, and business records.
+- sending customer emails
+- issuing refunds
+- changing inventory records
+- publishing social posts
+- updating CRM stages automatically
+- deleting or overwriting business files
+- making purchase decisions
+- giving final answers to customers
 
-Any workflow touching private customer data, credentials, payments, or internal records should have strict approval gates.
+The stack can prepare the action.
 
-### Automation Risk: Medium
+A human should approve the action.
 
-Business automation can create real-world consequences.
+---
 
-Customer outreach, inventory changes, payment-related actions, CRM updates, and public posts should require human approval before execution.
+## Recommended model routing
 
-## Recommended Stack Logic
+| Task type | Recommended route |
+|---|---|
+| Summaries | low-cost model |
+| Classification | low-cost model |
+| Formatting | low-cost model |
+| Draft replies | mid-tier model |
+| Customer-sensitive writing | stronger model + human approval |
+| Strategy / planning | stronger model |
+| Legal, financial, or policy-sensitive content | human review required |
 
-Cheap model drafts.  
-Strong model decides.  
-Human approves anything touching customers, money, inventory, credentials, or production systems.
+The user should not send every task to the most expensive model.
 
-## Recommended Layers
+A good stack routes cheap tasks to cheap models and saves premium models for judgment-heavy work.
 
-### Cheap Daily Driver Layer
+---
 
-Used for:
+## Hardware verdict
 
-- Summaries
-- Drafts
-- Simple classification
-- Basic SEO outlines
-- Inbox triage
-- Routine research cleanup
+**Verdict:** No local hardware needed yet.
 
-### Strong Reasoning Layer
+A Mac mini or local model machine is not justified for this use case unless the user has a specific need for:
 
-Used for:
+- local privacy isolation
+- always-on local workflows
+- local model testing
+- separation from a personal machine
+- learning local inference as its own goal
 
-- Strategy
-- Sales analysis
-- Complex research synthesis
-- Campaign planning
-- Workflow design
-- Final review of risky actions
+For this stack, cloud tools and hosted models are enough to start.
 
-### Writing Polish Layer
+---
 
-Used for:
+## Approval gate recommendation
 
-- Customer-facing copy
-- Blog posts
-- SEO articles
-- Brand voice
-- Social content
+Start with this workflow:
 
-### Human Approval Layer
+```text
+input → Ai draft/summary → human review → human sends/publishes/approves
+For business automation, the first safe milestone is not full autonomy.
 
-Required before:
+The first safe milestone is a reliable draft-and-review loop.
 
-- Sending outreach
-- Changing inventory
-- Updating customer records
-- Handling payments
-- Accessing credentials
-- Publishing public content
+⸻
 
-## Hardware Verdict
+First 30-day plan
 
-Do not buy local hardware yet.
+Week 1: Map workflows
 
-This user should start cloud-only, prove the workflows, and only consider local hosting later if privacy, volume, or always-on execution requirements justify it.
+Pick 3 repetitive business tasks and write down:
 
-## Best First Upgrade
+* trigger
+* input
+* decision needed
+* output
+* risk if wrong
+* who approves it
 
-Add model routing and approval gates before adding more automations.
+Week 2: Build draft-only flows
 
-## Final Stackfax Verdict
+Start with:
 
-Strong business automation starter stack.
+* lead enquiry summary
+* draft customer reply
+* sales report summary
+* social post draft
 
-The user has real business use cases and clear cost concerns. The biggest risk is not lack of power — it is using expensive models for routine work and automating business actions without approval gates.
+Week 3: Add cost controls
+
+Track:
+
+* model used
+* number of runs
+* token/API cost
+* time saved
+* errors or rewrites needed
+
+Week 4: Decide what to automate next
+
+Only automate tasks that are:
+
+* repetitive
+* low-risk
+* measurable
+* easy to reverse
+* easy to monitor
+
+⸻
+## Upgrade path
+
+1. Start with cloud-first draft workflows.
+2. Add saved prompts and templates.
+3. Add lightweight automation with approval gates.
+4. Add logs and cost tracking.
+5. Route tasks by model cost and risk.
+6. Only consider local hardware after workflows are proven.
+
+⸻
+## Final Stackfax verdict
+
+This is a strong starter stack if the user keeps the scope narrow.
+
+Do not buy hardware first.
+
+Do not automate customer-facing actions first.
+
+Do not burn premium models on cheap tasks.
+
+Build the repeatable workflow, add approval gates, measure the cost, and upgrade only after the stack proves where the real bottleneck is.
