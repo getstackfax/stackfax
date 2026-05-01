@@ -99,40 +99,54 @@ A beginner agent should ask before it acts.
 
 ---
 
-## Recommended first workflow
+## Model and provider guidance
 
-Start with one tiny task:
+For a beginner, do not optimize for the biggest model first.
+
+| Task type | Suggested route |
+|---|---|
+| Simple summaries | cheaper model |
+| Classification / sorting | cheaper model |
+| Small coding tasks | mid-tier coding-capable model |
+| Debugging / planning | stronger model |
+| Sensitive customer/business action | stronger model + human approval |
+| Local experimentation | small local model first |
+
+A strong beginner rule:
+
+**Use premium models for judgment, not chores.**
+
+---
+
+## Hardware verdict
+
+**Verdict:** Local hardware is optional.
+
+A Mac mini or dedicated local machine can be useful if the user wants:
+
+- an isolated agent workspace
+- always-on experiments
+- local model learning
+- separation from a personal computer
+- a clean lab environment
+
+But hardware should not be treated as the solution.
+
+Agent host hardware and local inference hardware are not the same decision.
+
+If the model is mostly cloud/API, the local machine needs to be stable, recoverable, and isolated — not necessarily powerful.
+
+If the user wants to run local models, that is a separate hardware verdict.
+
+---
+
+## Approval gate recommendation
+
+Use this starter rule:
 
 ```text
-create file → run file → show output → summarize what happened
-create a small hello-world Python file → run it → confirm the output
+agent suggests → human approves → agent acts → result is logged
 ```
-The goal is to prove:
-
-* the agent can understand the task
-* the right provider/model is connected
-* the tool permissions work
-* the file was created where expected
-* the command actually ran
-* the result is visible
-* errors are understandable
-
-No claim without an artifact.
-
-If the agent says it created, ran, tested, or changed something, there should be proof:
-
-* file path
-* command output
-* screenshot
-* log entry
-* test result
-* diff
-* clear summary of what changed
-
-⸻
-
-Model and provider guidance
-
 For a beginner, do not optimize for the biggest model first.
 
 Start with:
@@ -201,7 +215,7 @@ OpenClaw becomes much safer when the user can see:
 * what changed
 * what failed
 * what it cost
-irst 7-day plan
+First 7-day plan
 
 Day 1: Confirm provider/model access
 
@@ -249,7 +263,7 @@ Only add a new permission, provider, skill, or workflow after the first one is s
 
 ⸻
 
-Upgrade path
+## Upgrade path
 
 1. Start with one safe workflow.
 2. Keep the agent inside a test folder.
@@ -262,7 +276,7 @@ Upgrade path
 
 ⸻
 
-Final Stackfax verdict
+## Final Stackfax verdict
 
 This is a promising starter stack if the user stays disciplined.
 
