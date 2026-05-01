@@ -99,17 +99,75 @@ A beginner agent should ask before it acts.
 
 ---
 
+## Recommended first workflow
+
+Start with one tiny task:
+
+```text
+create file → run file → show output → summarize what happened
+```
+
+
+Example:
+
+```text
+create a small hello-world Python file → run it → confirm the output
+```
+
+The goal is to prove:
+
+- the agent can understand the task
+
+- the right provider/model is connected
+
+- the tool permissions work
+
+- the file was created where expected
+
+- the command actually ran
+
+- the result is visible
+
+- errors are understandable
+
+No claim without an artifact.
+
+If the agent says it created, ran, tested, or changed something, there should be proof:
+
+- file path
+
+- command output
+
+- screenshot
+
+- log entry
+
+- test result
+
+- diff
+
+- clear summary of what changed
+
+---
+
 ## Model and provider guidance
 
 For a beginner, do not optimize for the biggest model first.
 
 | Task type | Suggested route |
+
 |---|---|
+
 | Simple summaries | cheaper model |
+
 | Classification / sorting | cheaper model |
+
 | Small coding tasks | mid-tier coding-capable model |
+
 | Debugging / planning | stronger model |
+
 | Sensitive customer/business action | stronger model + human approval |
+
 | Local experimentation | small local model first |
 
 A strong beginner rule:
@@ -125,9 +183,13 @@ A strong beginner rule:
 A Mac mini or dedicated local machine can be useful if the user wants:
 
 - an isolated agent workspace
+
 - always-on experiments
+
 - local model learning
+
 - separation from a personal computer
+
 - a clean lab environment
 
 But hardware should not be treated as the solution.
@@ -139,97 +201,17 @@ If the model is mostly cloud/API, the local machine needs to be stable, recovera
 If the user wants to run local models, that is a separate hardware verdict.
 
 ---
-
 ## Approval gate recommendation
 
 Use this starter rule:
 
 ```text
 agent suggests → human approves → agent acts → result is logged
-agent decides → agent acts → user discovers later
 ```
-OpenClaw becomes much safer when the user can see:
+Avoid this:
 
-* what the agent planned
-* what tool it called
-* what file/account it touched
-* what changed
-* what failed
-* what it cost
+```text
 
-⸻
+agent decides → agent acts → user discovers later
 
-First 7-day plan
-
-Day 1: Confirm provider/model access
-
-Check:
-
-* provider auth works
-* selected model is the one expected
-* local vs cloud route is clear
-* token/cost dashboard is visible
-
-Day 2: Confirm file boundaries
-
-Create a throwaway test folder.
-
-Only let the agent work inside that folder.
-
-Day 3: Run the tiny file test
-
-Test:
-create file → run file → show output
-Day 4: Add logs
-
-Track:
-
-* prompt
-* model/provider
-* tool calls
-* file changes
-* cost estimate
-* errors
-
-Day 5: Test failure behavior
-
-Give it a bad path, missing file, or impossible request.
-
-See whether it fails clearly or hallucinates success.
-
-Day 6: Try one useful draft workflow
-
-Example:
-summarize notes → draft reply → human approves
-Day 7: Decide what to add next
-
-Only add a new permission, provider, skill, or workflow after the first one is stable.
-
-⸻
-
-Upgrade path
-
-1. Start with one safe workflow.
-2. Keep the agent inside a test folder.
-3. Add logs and cost visibility.
-4. Add approval gates before risky actions.
-5. Test failure behavior.
-6. Add one workflow at a time.
-7. Add local models only when there is a real reason.
-8. Add third-party skills only after reviewing what they can touch.
-
-⸻
-
-Final Stackfax verdict
-
-This is a promising starter stack if the user stays disciplined.
-
-Do not start by copying a giant OpenClaw setup.
-
-Do not give broad permissions on day one.
-
-Do not assume local hardware fixes workflow confusion.
-
-Do not trust memory or tool claims without artifacts.
-
-Start with one tiny workflow, prove it works, log the result, and only then expand the stack.
+```
