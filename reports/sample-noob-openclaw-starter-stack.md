@@ -148,7 +148,7 @@ Use this starter rule:
 agent suggests → human approves → agent acts → result is logged
 ```
 agent decides → agent acts → user discovers later
-
+```
 OpenClaw becomes much safer when the user can see:
 
 * what the agent planned
