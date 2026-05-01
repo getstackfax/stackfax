@@ -106,8 +106,7 @@ Start with one tiny task:
 ```text
 create file → run file → show output → summarize what happened
 create a small hello-world Python file → run it → confirm the output
-The goal is not to make money yet.
-
+```
 The goal is to prove:
 
 * the agent can understand the task
