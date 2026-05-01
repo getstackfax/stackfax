@@ -147,65 +147,6 @@ Use this starter rule:
 ```text
 agent suggests → human approves → agent acts → result is logged
 ```
-For a beginner, do not optimize for the biggest model first.
-
-Start with:
-Task type
-
-Suggested route
-
-Simple summaries
-
-cheaper model
-
-Classification / sorting
-
-cheaper model
-
-Small coding tasks
-
-mid-tier coding-capable model
-
-Debugging / planning
-
-stronger model
-
-Sensitive customer/business action
-
-stronger model + human approval
-
-Local experimentation
-
-small local model first
-A strong beginner rule:
-
-Use premium models for judgment, not chores.
-Hardware verdict
-
-Verdict: Local hardware is optional.
-
-A Mac mini or dedicated local machine can be useful if the user wants:
-
-* an isolated agent workspace
-* always-on experiments
-* local model learning
-* separation from a personal computer
-* a clean lab environment
-
-But hardware should not be treated as the solution.
-
-Agent host hardware and local inference hardware are not the same decision.
-
-If the model is mostly cloud/API, the local machine needs to be stable, recoverable, and isolated — not necessarily powerful.
-
-If the user wants to run local models, that is a separate hardware verdict.
-
-⸻
-
-Approval gate recommendation
-
-Use this starter rule:
-agent suggests → human approves → agent acts → result is logged
 agent decides → agent acts → user discovers later
 OpenClaw becomes much safer when the user can see:
 
@@ -215,6 +156,9 @@ OpenClaw becomes much safer when the user can see:
 * what changed
 * what failed
 * what it cost
+
+⸻
+
 First 7-day plan
 
 Day 1: Confirm provider/model access
@@ -263,7 +207,7 @@ Only add a new permission, provider, skill, or workflow after the first one is s
 
 ⸻
 
-## Upgrade path
+Upgrade path
 
 1. Start with one safe workflow.
 2. Keep the agent inside a test folder.
@@ -276,7 +220,7 @@ Only add a new permission, provider, skill, or workflow after the first one is s
 
 ⸻
 
-## Final Stackfax verdict
+Final Stackfax verdict
 
 This is a promising starter stack if the user stays disciplined.
 
