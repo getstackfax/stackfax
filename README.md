@@ -64,6 +64,35 @@ Read the full Agent ROI standard: [docs/agent-roi.md](docs/agent-roi.md)
 
 ---
 
+## Business Ai Audit
+
+For businesses, Stackfax starts with the operating workflow before recommending agents.
+
+**Compliance system first, Ai assistant second.**
+
+A business should not add autonomous Ai on top of a messy workflow and expect the mess to disappear. First, the workflow needs clear ownership, inputs, review points, approval gates, and audit trails.
+
+This matters most in regulated or high-risk workflows like:
+
+- accounting
+- tax filing
+- payroll
+- legal intake
+- insurance
+- healthcare administration
+- customer data handling
+- financial reporting
+- contract review
+- regulated client communications
+
+Useful Ai roles include anomaly detection, missing-information flags, messy-record summaries, client follow-up drafts, review notes, reconciliation assistance, and checklist generation.
+
+Risky Ai roles include filing without review, sending regulated communications without approval, changing records without logs, making final compliance decisions, or handling sensitive data without access controls.
+
+Read the full Business Ai Audit doctrine: [docs/business-ai-audit.md](docs/business-ai-audit.md)
+
+---
+
 ## Core Principles
 
 Stackfax is built around a few simple principles:
@@ -125,4 +154,6 @@ This is not a finished SaaS product yet. It is the foundation for a clearer way 
 
 Before you buy hardware, burn premium-model tokens, or copy a random agent setup:
 
-> Stack
+> Stackfax your stack.
+
+Go to Stackfax.com and get your free stack report.
