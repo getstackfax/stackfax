@@ -1,140 +1,128 @@
 # Stackfax
 
-**The first report card for Ai stacks.**
+**The report card for Ai stacks.**
 
-Stackfax helps builders, small businesses, and Ai-agent users understand what their setup actually needs before they buy more tools, burn tokens, copy a random agent setup, or overbuild local hardware.
+Stackfax helps builders, operators, and businesses understand whether their Ai setup is useful, safe, cost-aware, and ready for real workflows.
 
-The goal is simple:
-
-**Turn tool confusion into a clear next-step map.**
-
----
-
-## What is an Ai stack?
-
-An Ai stack is the combination of tools used to get Ai-assisted work done.
-
-That can include:
+An Ai stack is more than a model. It can include:
 
 - models
 - providers
-- subscriptions
+- tools
 - agents
 - memory
 - hosting
-- hardware
-- permissions
 - workflows
-- communication channels
+- permissions
 - approval gates
+- cost controls
+- hardware choices
 
-Most people do not need one giant expensive model, one perfect machine, or every subscription at once.
+Stackfax exists to answer one simple question:
 
-They need the right stack for the job.
-
----
-
-## What Stackfax checks
-
-Stackfax reviews an Ai stack across practical risk and fit categories:
-
-| Category | What it checks |
-|---|---|
-| Cost / token burn | Whether premium models are being used for low-value or repetitive work |
-| Model / provider fit | Whether the chosen models match the actual workload |
-| Hardware verdict | Whether local hardware is justified, overbuilt, or unnecessary |
-| Workflow reliability | Whether the setup can repeat the same task without constant babysitting |
-| Memory / state | Whether important context is saved, retrieved, and trusted correctly |
-| Permissions / secrets | Whether tools, files, keys, accounts, and private data are protected |
-| Approval gates | Whether humans approve risky actions before they happen |
-| Automation fit | Whether the task should be automated, drafted, monitored, or kept manual |
-| Upgrade path | The next safest improvement instead of random tool chasing |
+> Is this stack actually fit for the job?
 
 ---
 
-## Common Stackfax questions
+## What Stackfax Checks
 
-Stackfax helps answer questions like:
+A Stackfax report can evaluate:
 
-- What stack do I actually need?
-- Do I need a Mac mini, Mac Studio, GPU box, cloud server, or nothing yet?
-- Am I paying for overlapping model subscriptions?
-- Am I burning premium tokens on cheap tasks?
-- Should this be an agent, a simple automation, or a manual workflow?
-- Where are the risk points before I connect this to customers, files, email, money, or private data?
-- What should I improve next?
-
----
-
-## Example verdicts
-
-A Stackfax report may include verdicts like:
-
-- **Cloud-first**
-- **Local-ready**
-- **Hardware overkill warning**
-- **Human approval required**
-- **Token burn risk**
-- **Provider routing risk**
-- **Memory/state risk**
-- **Workflow reliability gap**
-- **Permissions/secrets risk**
-
-The report is not just a tool list.
-
-It is a practical map of what fits, what is risky, what is overbuilt, and what to do next.
+- **Use-case fit:** does the stack match the actual job?
+- **Token burn risk:** is the setup wasting expensive model calls?
+- **Privacy risk:** is sensitive data handled safely?
+- **Automation risk:** can the system act without enough review?
+- **Approval gates:** where should a human approve before action?
+- **Model routing:** are cheap/simple tasks routed away from premium models?
+- **Hardware fit:** does the workload actually justify local hardware?
+- **Missing tools:** what is needed before the stack is production-ready?
+- **Upgrade path:** what should be improved next?
 
 ---
 
-## Example reports
+## The 7th Dimension: Agent ROI
 
-This repo includes early sample reports showing how Stackfax turns a messy setup into a clear verdict:
+Stackfax does not treat agent activity as success.
 
-- [Business Automation Starter Stack](reports/sample-business-automation-stack.md)
-- [Noob OpenClaw Starter Stack](reports/sample-noob-openclaw-starter-stack.md)
+**Agent ROI is not activity. It is verified outcome.**
 
-These are early examples of the report style: practical, direct, risk-aware, and focused on the next safest step.
+This dimension asks whether an agent can turn intent into useful work safely, repeatedly, and measurably.
+
+A useful agent should be evaluated by more than “time saved.” Stackfax looks at:
+
+- **Execution:** did it actually complete the job?
+- **Reliability:** can it do it again?
+- **Supervision cost:** how much babysitting did it need?
+- **Risk control:** did it stay inside permissions and approval gates?
+- **Compounding value:** did it leave behind reusable output, process, data, or insight?
+
+Core formula:
+
+> Agent ROI = completed useful work minus supervision, cost, risk, and cleanup.
 
 ---
 
-## Current repo structure
+## Core Principles
 
-```text
-docs/
-  badge-definitions.md
-  rating-system.md
+Stackfax is built around a few simple principles:
 
-examples/
-  business-automation-input.json
+### Start with the job, not the tool.
 
-reports/
-  sample-business-automation-stack.md
-  sample-noob-openclaw-starter-stack.md
+A stack should be judged by the workflow it supports, not by how impressive the tools sound.
 
-schema/
-  stackfax-report-v0.1.json
-Current status
+### Fit beats power.
 
-Stackfax is in an early manual-report phase.
+The strongest model is not always the best model for the job. Cheap, fast, reliable layers often matter more.
 
-The current focus is:
+### Approval before autonomy.
 
-* defining the Stackfax report format
-* building sample reports
-* documenting rating categories
-* identifying common Ai-stack failure patterns
-* testing small manual reports before automating the system
+Agents should not be trusted with sensitive actions until the control layer is clear.
 
-Early reports may be created manually before the product becomes more automated.
+### Pass state, not history.
 
-⸻
+Agents should pass only the state needed for the next decision, not the full story of how they got there.
 
-Core rule
+### Compliance system first, Ai assistant second.
 
-Clarity before you build.
+For regulated or high-risk workflows, the boring compliant plumbing comes before agents.
 
-Before buying hardware, stacking subscriptions, giving an agent permissions, or wiring Ai into a business workflow, map the stack first.
+---
 
-Stackfax exists to answer:
+## Example Reports
 
-What should this setup actually do, what can go wrong, and what is the next safest step?
+This repository includes early sample Stackfax reports and standards.
+
+Planned / included examples:
+
+- noob OpenClaw starter stack
+- business automation starter stack
+- personal assistant email/calendar risk review
+- local hardware verdict
+- compliance/business Ai workflow audit
+
+---
+
+## Current Status
+
+Stackfax is an early open standard and product concept for evaluating Ai stacks.
+
+Current focus:
+
+- sample reports
+- rating system
+- badge definitions
+- risk categories
+- structured report schema
+- practical stack reviews
+
+This is not a finished SaaS product yet. It is the foundation for a clearer way to review Ai setups before people waste time, money, tokens, or trust on the wrong thing.
+
+---
+
+## Positioning
+
+Before you buy hardware, burn premium-model tokens, or copy a random agent setup:
+
+> Stackfax your stack.
+
+Go to Stackfax.com and get your free stack report.
