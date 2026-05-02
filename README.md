@@ -60,6 +60,8 @@ Core formula:
 
 > Agent ROI = completed useful work minus supervision, cost, risk, and cleanup.
 
+Read the full Agent ROI standard: [docs/agent-roi.md](docs/agent-roi.md)
+
 ---
 
 ## Core Principles
@@ -123,6 +125,4 @@ This is not a finished SaaS product yet. It is the foundation for a clearer way 
 
 Before you buy hardware, burn premium-model tokens, or copy a random agent setup:
 
-> Stackfax your stack.
-
-Go to Stackfax.com and get your free stack report.
+> Stack
