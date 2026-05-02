@@ -64,7 +64,7 @@ Read the full Agent ROI standard: [docs/agent-roi.md](docs/agent-roi.md)
 
 ---
 
-## Business Ai Audit
+## Business Automation Safety Audit
 
 For businesses, Stackfax starts with the operating workflow before recommending agents.
 
@@ -89,7 +89,7 @@ Useful Ai roles include anomaly detection, missing-information flags, messy-reco
 
 Risky Ai roles include filing without review, sending regulated communications without approval, changing records without logs, making final compliance decisions, or handling sensitive data without access controls.
 
-Read the full Business Ai Audit doctrine: [docs/business-ai-audit.md](docs/business-ai-audit.md)
+Read the full Business Automation Safety Audit: [docs/business-automation-safety-audit.md](docs/business-automation-safety-audit.md)
 
 ---
 
