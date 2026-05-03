@@ -2,11 +2,11 @@
 
 ## Hero
 
-# The first report card for Ai stacks.
+# The report card for Ai stacks.
 
-Clarity before you build.
+Clarity before you build, buy, automate, or deploy.
 
-Stackfax checks whether your tools, models, subscriptions, and hardware match the task before you spend money, burn tokens, or overbuild.
+Stackfax checks whether your tools, models, subscriptions, agents, workflows, and hardware actually fit the job before you spend money, burn tokens, expose data, or overbuild.
 
 ## Primary CTA
 
@@ -16,46 +16,53 @@ Get your free Stackfax mini report.
 
 Run a $19 Stackfax Quick Report.
 
+---
+
 ## What Stackfax Checks
 
-Stackfax reviews your Ai stack across:
+Stackfax reviews the practical parts of your Ai stack:
 
-- Models
-- Providers
-- Subscriptions
-- Token/API costs
-- Local vs cloud hosting
-- Hardware fit
-- Tools and agents
-- Memory and context
-- Permissions
-- Approval gates
-- Workflow design
-- Scaling risks
+- models
+- providers
+- subscriptions
+- token/API costs
+- local vs cloud hosting
+- hardware fit
+- tools and agents
+- memory and context
+- permissions
+- approval gates
+- workflow design
+- run receipts
+- scaling risks
+
+---
 
 ## First Wedge
 
-## Do I need a Mac mini, cloud server, or better stack design?
+## Do I need local hardware, cloud tools, or better stack design?
 
-Before buying a Mac mini, local Ai box, cloud server, or premium model setup, Stackfax checks whether the workload actually needs it.
+Before buying a Mac mini, local Ai box, cloud server, premium model setup, or agent framework, Stackfax checks whether the workload actually needs it.
 
 Possible verdicts:
 
 - Do Not Buy Yet
 - Cloud-First
 - Local-Ready
-- Mac Mini Justified
+- Hardware Justified
 - Overkill Warning
 
 The goal is not to push hardware.
 
 The goal is to match the stack to the job.
 
+---
+
 ## Built For
 
 ### Beginners
 
-You heard about OpenClaw, agents, model subscriptions, Mac minis, and local Ai boxes, but you do not know where to start.
+You heard about OpenClaw, agents, model subscriptions, local Ai, APIs, and automation, but you do not know where to start.
 
 Stackfax gives you a plain-English verdict.
 
@@ -63,19 +70,21 @@ Stackfax gives you a plain-English verdict.
 
 You want to build fast without painting yourself into a corner.
 
-Stackfax helps you avoid bottlenecks before they become expensive.
+Stackfax helps you spot bottlenecks, missing approval gates, token waste, and workflow gaps before they become expensive.
 
 ### Experts
 
 You want to compare, review, stress-test, or publish your stack.
 
-Stackfax gives you a shared scoring language.
+Stackfax gives you a shared scoring language for stack fit, risk, cost, workflow readiness, and Agent ROI.
 
 ### Businesses
 
-You want Ai automation, but you need approval gates before agents touch customers, credentials, money, inventory, or production systems.
+You want Ai automation, but you need clear process, data boundaries, approval gates, and accountability before agents touch customers, credentials, money, inventory, or production systems.
 
-Stackfax helps define the risk boundaries.
+Stackfax helps define the risk boundaries before automation scales the mess.
+
+---
 
 ## Example User Reactions
 
@@ -87,60 +96,75 @@ These are example reactions, not real customer testimonials.
 
 > “Before I copy another creator’s setup, I want to Stackfax it first.”
 
+---
+
 ## How People Explain Stackfax
 
-Stackfax is like Carfax meets IGN for Ai stacks.
+Stackfax is like a report card for Ai stacks.
 
-Before buying a used car, people ask for the Carfax.
-
-Before buying, building, or copying an Ai stack, Stackfax gives the verdict.
+Before buying, building, automating, or copying an Ai setup, Stackfax gives the verdict.
 
 Creators show what is possible.
 
+Vendors sell what is available.
+
 Stackfax shows what fits.
+
+---
 
 ## Quick Report Offer
 
-The Stackfax Quick Report is an early manual report for people who want clarity before they buy hardware, burn premium-model tokens, copy an Ai agent setup, or build the wrong stack.
+The Stackfax Quick Report is an early manual report for people who want clarity before they buy hardware, burn premium-model tokens, copy an Ai agent setup, or automate the wrong workflow.
 
 Common Quick Report types:
 
-- Mac Mini Hardware Verdict
+- Hardware Verdict
 - Token Burn Audit
 - OpenClaw Starter Stack Check
 - Model Subscription Fit Check
 - Business Automation Safety Audit
+- Agent Readiness Check
+- Workflow Fit Review
+
+---
 
 ## Free Mini Report
 
 The free mini report gives:
 
-- Basic verdict
+- basic verdict
 - 1–5 star rating
 - 2–3 risk flags
-- One best next move
+- one best next move
+
+---
 
 ## Paid Quick Report
 
 The paid quick report gives:
 
-- Full manual Stackfax review
-- Stack score
-- Main verdict
-- Risk flags
-- Relevant badges
-- Hardware verdict
-- Token burn risk
-- Model/subscription fit
-- Approval gate warnings
-- Best next move
-- Suggested upgrade path
+- manual Stackfax review
+- stack score
+- main verdict
+- risk flags
+- relevant badges
+- hardware verdict
+- token burn risk
+- model/subscription fit
+- approval gate warnings
+- workflow fit notes
+- best next move
+- suggested upgrade path
+
+---
 
 ## Early Buyer Bonus
 
 Early paid reports may include a beta preview of the upcoming Stackfax Pro Report format.
 
 This is a beta preview, not a finished Pro product.
+
+---
 
 ## Core Rule
 
@@ -150,9 +174,11 @@ Strong model decides.
 
 Human approves anything touching customers, money, inventory, credentials, or production systems.
 
+---
+
 ## Closing CTA
 
-Do not copy the best stack.
+Do not copy the biggest stack.
 
 Find the right stack.
 
