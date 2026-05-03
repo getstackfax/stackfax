@@ -1,10 +1,14 @@
 # Stackfax OpenClaw 4.26 Field Notes
 
-This file captures field notes from OpenClaw 4.26 and related community/video signals.
+This file captures Stackfax field notes from OpenClaw 4.26 and related community/video signals.
 
 The goal is not to document every technical detail.
 
-The goal is to identify what OpenClaw 4.26 changes about Ai stack fit, noob safety, cost control, migration, local models, agent communication, and recheck timing.
+The goal is to identify what OpenClaw 4.26 may change about Ai stack fit, beginner safety, cost control, migration, local models, agent communication, and recheck timing.
+
+This is Stackfax interpretation, not official OpenClaw documentation.
+
+---
 
 ## Core Takeaway
 
@@ -14,13 +18,15 @@ The biggest signal is not one flashy feature.
 
 The biggest signal is reduced friction.
 
-OpenClaw is becoming easier to start, migrate, stabilize, route, and operate.
+OpenClaw appears to be getting easier to start, migrate, stabilize, route, and operate.
 
 That makes Stackfax more relevant, not less relevant.
 
 Lower friction means more users will try agents.
 
 More users trying agents means more people need guardrails before they overbuy, over-route, over-automate, or expose sensitive systems.
+
+---
 
 ## Stackfax Translation
 
@@ -30,19 +36,23 @@ Stackfax helps users start safely.
 
 A maturing agent platform creates more need for:
 
-- Stack checks
-- Cost checks
-- Migration checks
-- Communication channel checks
-- Local vs cloud checks
-- Permission checks
-- Recheck logic
+- stack checks
+- cost checks
+- migration checks
+- communication channel checks
+- local vs cloud checks
+- permission checks
+- recheck logic
+- run receipts
+- approval gates
+
+---
 
 ## Major Stackfax Signals
 
 ### 1. Migration Tools
 
-OpenClaw 4.26 includes migration tooling for moving configurations, MCP servers, and skills from setups like Claude Code or Hermes.
+OpenClaw 4.26 appears to include migration tooling for moving configurations, MCP servers, and skills from setups like Claude Code or Hermes.
 
 Stackfax signal:
 
@@ -62,11 +72,15 @@ Possible Stackfax categories:
 
 Useful line:
 
-Do not rebuild your stack every time the hype changes. Migrate only when the new setup solves a real bottleneck.
+Do not rebuild your stack every time the hype changes.
 
-## 2. Plan Mode And Backups
+Migrate only when the new setup solves a real bottleneck.
 
-Migration tools appear to include preview/dry-run style behavior and backup safety.
+---
+
+### 2. Plan Mode And Backups
+
+Migration tools appear to include preview, dry-run, or backup-safety behavior.
 
 Stackfax signal:
 
@@ -80,14 +94,17 @@ Possible Stackfax categories:
 - Backup Required
 - Rollback Needed
 - High-Risk Change Detected
+- Migration Preview Needed
 
 Useful line:
 
 If the stack can migrate, the user needs a way to preview, backup, and roll back.
 
-## 3. Cerebras / Fast Inference Routing
+---
 
-OpenClaw 4.26 highlights a bundled inference provider for high-speed, cost-effective processing.
+### 3. Fast Inference Routing
+
+OpenClaw 4.26 appears to highlight faster or more cost-effective inference routing options.
 
 The key idea is routing lower-reasoning, high-volume tasks away from expensive reasoning models.
 
@@ -102,14 +119,17 @@ Possible Stackfax categories:
 - Silent Escalation Risk
 - Premium Model Overuse
 - Cheap-Speed Task Fit
+- Cost Visibility Missing
 
 Useful line:
 
-Do not spend premium-model money on intern tasks.
+Do not spend premium-model money on routine tasks.
 
-## 4. Privacy And Matrix Encryption
+---
 
-OpenClaw 4.26 highlights one-command Matrix end-to-end encryption setup.
+### 4. Privacy And Matrix Encryption
+
+OpenClaw 4.26 appears to highlight easier Matrix encryption setup.
 
 Stackfax signal:
 
@@ -124,18 +144,23 @@ Possible Stackfax categories:
 - Credential Isolation Risk
 - Agent Data Protection
 - Business Automation Safety
+- Channel Permission Risk
 
 Useful line:
 
-The agent brain matters. The channel it talks through matters too.
+The agent brain matters.
 
-## 5. Compaction And Long-Running Session Stability
+The channel it talks through matters too.
 
-OpenClaw 4.26 includes compaction/stability changes intended to reduce long-running session bloat.
+---
+
+### 5. Compaction And Long-Running Session Stability
+
+OpenClaw 4.26 appears to include compaction and stability improvements intended to reduce long-running session bloat.
 
 Stackfax signal:
 
-Long-running agents can accumulate too much history and slow down or fail.
+Long-running agents can accumulate too much history and slow down, drift, or fail.
 
 Possible Stackfax categories:
 
@@ -144,14 +169,21 @@ Possible Stackfax categories:
 - Agent History Compaction Needed
 - Rate Limit Risk
 - Latency Risk
+- State Design Needed
 
 Useful line:
 
 Agent memory is useful until it becomes baggage.
 
-## 6. Ollama And Local Model Handling
+Another useful line:
 
-OpenClaw 4.26 includes improved Ollama and local model handling.
+Compacting history is not the same as designing state.
+
+---
+
+### 6. Ollama And Local Model Handling
+
+OpenClaw 4.26 appears to improve Ollama and local model handling.
 
 Stackfax signal:
 
@@ -162,19 +194,24 @@ But local does not automatically mean better, cheaper, safer, or simpler.
 Possible Stackfax categories:
 
 - Local Agent Stack
-- Mac Mini Hardware Verdict
+- Hardware Verdict
 - Local vs Cloud Fit
 - Hybrid Stack
 - Local Model Quality Gap
 - Hardware Overbuild Risk
+- Local Lab Readiness
 
 Useful line:
 
-Ollama is not the whole stack. Ollama is the local model layer.
+Ollama is not the whole stack.
 
-## 7. Discord, Mattermost, WhatsApp Targeting
+Ollama is the local model layer.
 
-OpenClaw 4.26 includes communication target refinements for tools like Discord, Mattermost, and WhatsApp.
+---
+
+### 7. Discord, Mattermost, WhatsApp, And Communication Targets
+
+OpenClaw 4.26 appears to include communication target refinements for tools like Discord, Mattermost, and WhatsApp.
 
 Stackfax signal:
 
@@ -182,7 +219,7 @@ Communication channels are becoming agent control rooms.
 
 A Discord user may be more comfortable controlling an agent there than through a terminal.
 
-But reliable messaging also increases risk if the agent can reach the wrong person or wrong channel.
+But reliable messaging also increases risk if the agent can reach the wrong person, wrong room, or wrong channel.
 
 Possible Stackfax categories:
 
@@ -191,14 +228,17 @@ Possible Stackfax categories:
 - Channel Targeting Risk
 - Approval Gate Needed
 - Discord Agent Control Room
+- Message Boundary Risk
 
 Useful line:
 
 If your agent can talk, Stackfax checks where it talks and who it can reach.
 
-## 8. Docker, macOS, And Environment Fixes
+---
 
-OpenClaw 4.26 includes platform refinements and fixes for environments like Docker and macOS.
+### 8. Docker, macOS, And Environment Fixes
+
+OpenClaw 4.26 appears to include platform refinements and fixes for environments like Docker and macOS.
 
 Stackfax signal:
 
@@ -212,39 +252,47 @@ Possible Stackfax categories:
 
 - Environment Fit
 - Setup Friction
-- Mac Mini Fit
+- Local Hardware Fit
 - Local Lab Readiness
 - Fragile Setup Risk
+- Runtime Risk
 
 Useful line:
 
-The model is not the stack. The environment is part of the stack.
+The model is not the stack.
 
-## Noob-Safe Starter Signal
+The environment is part of the stack.
 
-OpenClaw 4.26 may be one of the cleaner entry points for new users because it reduces friction around migration, local models, stability, privacy, communication, and setup.
+---
 
-Stackfax noob-safe verdict:
+## Beginner-Safe Starter Signal
+
+OpenClaw 4.26 may be one of the cleaner entry points for new users because it appears to reduce friction around migration, local models, stability, privacy, communication, and setup.
+
+Stackfax beginner-safe verdict:
 
 Starter-Ready / Guardrails Required
 
 Good starter permissions:
 
-- Observe
-- Summarize
-- Draft
-- Report
-- Ask for approval
+- observe
+- summarize
+- draft
+- report
+- ask for approval
 
 Avoid at first:
 
-- Sending messages automatically
-- Touching customer data
-- Moving or deleting files
-- Accessing wallets
-- Editing records
-- Connecting sensitive credentials
-- Running unattended workflows
+- sending messages automatically
+- touching customer data
+- moving or deleting files
+- accessing wallets
+- editing records
+- connecting sensitive credentials
+- running unattended workflows
+- modifying production systems
+
+---
 
 ## Agentic Trap Signal
 
@@ -262,44 +310,121 @@ Possible Stackfax categories:
 - Stack Tuning Loop
 - Over-Optimization Risk
 - Productivity Illusion
+- Agent ROI Unclear
 
 Useful line:
 
 A better stack should create more output, not just more stack.
 
+---
+
 ## Recheck Signal
 
-Three updates in a few days shows why Stackfax recheck logic matters.
+Frequent updates show why Stackfax recheck logic matters.
 
 Ai stack advice expires quickly.
 
 A stack may need a new verdict when:
 
 - OpenClaw updates
-- A provider changes
-- A model changes
-- Pricing changes
-- Local model support improves
-- Communication tooling changes
-- Migration tooling improves
-- The user adds agents, tools, channels, or credentials
+- a provider changes
+- a model changes
+- pricing changes
+- local model support improves
+- communication tooling changes
+- migration tooling improves
+- the user adds agents, tools, channels, or credentials
+- permissions expand
+- fallback behavior changes
+- local/cloud routing changes
 
 Useful line:
 
-Updates change the stack. Stackfax checks whether the setup should change with it.
+Updates change the stack.
+
+Stackfax checks whether the setup should change with it.
+
+---
+
+## Possible Recheck Verdicts
+
+OpenClaw-related rechecks may produce verdicts such as:
+
+- Keep Current Stack
+- Test Before Switching
+- Migration Worth Testing
+- Migration Not Worth It Yet
+- Recheck Needed
+- Local-Ready
+- Cloud-First Still Fits
+- Hybrid Stack Recommended
+- Approval Gates Needed
+- Communication Channel Risk
+- Token Burn Risk
+- Model Routing Needed
+- Run Receipts Missing
+- Agentic Trap Risk
+
+---
+
+## Stackfax Product Implications
+
+OpenClaw 4.26 supports several Stackfax product lanes:
+
+### Hardware Verdict
+
+Users may ask whether OpenClaw makes local hardware more justified.
+
+Stackfax should answer based on workload, not hype.
+
+### Token Burn Audit
+
+Faster or cheaper routing makes cost-control questions more important.
+
+Stackfax should check whether routine work is routed away from premium models.
+
+### Stack Migration Fit
+
+Migration tooling creates new questions about whether users should move, wait, test, or stay.
+
+Stackfax should check migration risk before users rebuild everything.
+
+### Communication Channel Risk
+
+Agent messaging through Discord, Matrix, WhatsApp, or Mattermost makes communication boundaries part of the stack.
+
+Stackfax should check who the agent can reach and what it can send.
+
+### Beginner OpenClaw Starter Stack
+
+Lower setup friction means more beginners will try OpenClaw.
+
+Stackfax should give them a safe first workflow before they connect sensitive tools.
+
+### Run Receipts
+
+As agents become easier to run, users need stronger proof of what happened.
+
+Stackfax should require receipts for actions, model calls, tool use, failures, and human review.
+
+---
 
 ## Future Stackfax Files Inspired By This
 
 Possible follow-up docs and reports:
 
-- docs/agentic-trap-risk.md
-- docs/communication-channel-risk.md
-- docs/local-agent-stack-anatomy.md
-- docs/stack-migration-fit.md
-- docs/version-drift-risk.md
-- reports/sample-openclaw-4-26-noob-safe-starter-report.md
-- reports/sample-local-llm-openclaw-cost-avoidance-report.md
-- marketing/model-drop-recheck-angle.md
+- `docs/agentic-trap-risk.md`
+- `docs/communication-channel-risk.md`
+- `docs/local-agent-stack-anatomy.md`
+- `docs/stack-migration-fit.md`
+- `docs/version-drift-risk.md`
+- `docs/environment-fit.md`
+- `docs/channel-permission-risk.md`
+- `reports/sample-openclaw-4-26-beginner-safe-starter-report.md`
+- `reports/sample-local-llm-openclaw-cost-avoidance-report.md`
+- `marketing/model-drop-recheck-angle.md`
+
+---
 
 ## Field Research Verdict
 
@@ -309,15 +434,16 @@ As agent platforms mature, more people will be able to try them.
 
 As more people try them, more people will need help deciding:
 
-- What to buy
-- What to skip
-- What to migrate
-- What to route cheaply
-- What to keep local
-- What to keep cloud
-- What to protect
-- What to approve manually
-- When to recheck
+- what to buy
+- what to skip
+- what to migrate
+- what to route cheaply
+- what to keep local
+- what to keep cloud
+- what to protect
+- what to approve manually
+- what needs a run receipt
+- when to recheck
 
 Final field note:
 
