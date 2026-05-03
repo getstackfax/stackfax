@@ -1,6 +1,6 @@
 # Stackfax Sample OpenClaw Community Builder Report
 
-Report Type: OpenClaw Community Builder Report
+Report Type: Stackfax Quick Report / OpenClaw Starter Stack Check
 
 Use Case: User wants to find or connect with other local OpenClaw builders, compare stacks, and understand what people are building
 
