@@ -471,7 +471,3 @@ Make the concept understandable, useful, trustworthy, and shareable before build
 First dollar is proof, not the finish line.
 
 Every paid report should improve the Stackfax standard.
-Commit message:
-
-```text
-Refresh Stackfax control panel
