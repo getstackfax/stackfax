@@ -6,9 +6,13 @@ The goal is not to build a full app.
 
 The goal is to prove that someone wants a Stackfax verdict enough to submit their stack and pay for a manual report.
 
+---
+
 ## Core Goal
 
 Get the first paid Stackfax customer with a simple manual report.
+
+---
 
 ## Offer
 
@@ -18,29 +22,35 @@ Suggested starting price:
 
 $19
 
+---
+
 ## What The User Gets
 
 A Stackfax Quick Report includes:
 
-- Overall rating
+- overall rating
 - Stack Score
-- Main verdict
-- Risk flags
-- Relevant badges
-- Hardware verdict
-- Token burn review
-- Model subscription fit
-- Approval gate warnings
-- Best next move
-- Suggested upgrade path
+- main verdict
+- risk flags
+- relevant badges
+- hardware verdict
+- token burn review
+- model subscription fit
+- approval gate warnings
+- workflow fit notes
+- best next move
+- suggested upgrade path
 - 30-day recheck notes
+
+---
 
 ## Best First Report Types
 
-### Mac Mini Hardware Verdict
+### Hardware Verdict
 
 For users asking:
 
+- Do I need local hardware?
 - Do I need a Mac mini?
 - Should I buy local Ai hardware?
 - Is this hardware overkill?
@@ -73,43 +83,55 @@ For users asking:
 - Which model should draft, decide, summarize, or review?
 - Where am I paying for overlapping tools?
 
+### Business Automation Safety Audit
+
+For users asking:
+
+- What workflow should I automate first?
+- What should stay human-approved?
+- What customer data is involved?
+- What would prove ROI?
+- What should not be automated yet?
+
+---
+
 ## Funnel
 
 ### Free Mini Report
 
 Purpose:
 
-- Build email list
-- Give quick value
-- Show the Stackfax verdict style
-- Identify who may need a paid report
+- build email list
+- give quick value
+- show the Stackfax verdict style
+- identify who may need a paid report
 
 User gets:
 
-- Basic verdict
+- basic verdict
 - 1–5 star rating
-- Mini score
+- mini score
 - 2–3 risk flags
-- One best next move
+- one best next move
 
 ### Paid Quick Report
 
 Purpose:
 
-- First-dollar product
-- Manual report validation
-- Learn what users actually ask
-- Improve the Stackfax standard
+- first-dollar product
+- manual report validation
+- learn what users actually ask
+- improve the Stackfax standard
 
 User gets:
 
-- Full manual Stackfax review
+- full manual Stackfax review
 - Stack Score
-- Main verdict
-- Badges
-- Risk review
-- Hardware, token, subscription, and approval-gate notes
-- Upgrade path
+- main verdict
+- badges
+- risk review
+- hardware, token, subscription, workflow, and approval-gate notes
+- upgrade path
 - 30-day recheck notes
 
 ### Early Buyer Bonus
@@ -120,15 +142,17 @@ This should be described honestly.
 
 It is:
 
-- A beta preview
-- A way to show deeper report value
-- A way to help shape the Stackfax standard
+- a beta preview
+- a way to show deeper report value
+- a way to help shape the Stackfax standard
 
 It is not:
 
-- A finished Pro product
-- A fake discount
-- A fake testimonial engine
+- a finished Pro product
+- a fake discount
+- a fake testimonial engine
+
+---
 
 ## Weekend Forecast
 
@@ -169,6 +193,8 @@ $190
 Meaning:
 
 Real signal that the offer has demand.
+
+---
 
 ## One Month Forecast
 
@@ -223,6 +249,8 @@ $995
 Total:
 
 $6,265
+
+---
 
 ## Three Month Forecast
 
@@ -286,6 +314,8 @@ Total:
 
 $16,790/month
 
+---
+
 ## Viral Wave Math
 
 If a post, creator mention, or Reddit thread hits:
@@ -306,9 +336,11 @@ This is not the base case.
 
 It is upside planning.
 
+---
+
 ## Launch Copy Draft
 
-Working on Stackfax — the first report card for Ai stacks.
+Working on Stackfax — the report card for Ai stacks.
 
 Before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, or copy a random OpenClaw setup, Stackfax checks whether your stack actually fits the task.
 
@@ -316,14 +348,17 @@ I am doing a few manual Stackfax Quick Reports this weekend.
 
 Best fit:
 
-- Do I need a Mac mini?
+- Do I need local hardware?
 - Am I about to burn tokens?
 - Is this OpenClaw stack overkill?
 - Which Ai subscriptions do I actually need?
+- What should require human approval?
 
 You send your current setup and use case.
 
 Stackfax sends back a simple report with a rating, risks, verdict, and next move.
+
+---
 
 ## Honest Positioning
 
@@ -332,6 +367,8 @@ Stackfax is early.
 Reports are manual first.
 
 The goal is to build the standard with real stack examples before building the full app.
+
+---
 
 ## Trust Rule
 
@@ -342,6 +379,8 @@ Do not invent fake customers.
 Do not present example reports as real customer results.
 
 Do not overpromise savings or outcomes.
+
+---
 
 ## Final Rule
 
