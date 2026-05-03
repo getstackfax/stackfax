@@ -4,13 +4,17 @@ This file maps early Stackfax search themes, keywords, and page ideas.
 
 SEO means Search Engine Optimization.
 
-The goal is to help people find Stackfax when they search for Ai stack, OpenClaw, Mac mini, token burn, model subscription, and automation safety questions.
+The goal is to help people find Stackfax when they search for Ai stack, OpenClaw, local hardware, token burn, model subscription, and automation safety questions.
+
+---
 
 ## Core SEO Positioning
 
 Stackfax is not an Ai report card generator for schools.
 
 Stackfax is the report card for Ai stacks.
+
+---
 
 ## Primary Search Themes
 
@@ -26,13 +30,17 @@ People may search:
 - best ai stack
 - ai tool stack
 - ai workflow stack
+- ai stack checker
+- ai stack review
 
 Stackfax page ideas:
 
 - What Is An Ai Stack?
 - Ai Stack Field Guide
-- Noob To Expert Stack Path
+- Beginner To Builder Stack Path
 - Stackfax Free Mini Report
+
+---
 
 ### OpenClaw Setup
 
@@ -45,16 +53,21 @@ People may search:
 - openclaw beginner guide
 - openclaw model setup
 - openclaw token cost
+- openclaw local models
 - openclaw mac mini
+- openclaw stack check
 
 Stackfax page ideas:
 
 - OpenClaw Starter Stack Check
 - OpenClaw Stack Check
 - OpenClaw Beginner Setup Verdict
-- Do Not Copy The Best OpenClaw Stack
+- Do Not Copy The Biggest OpenClaw Stack
+- OpenClaw Workflow Fit Review
 
-### Mac Mini And Local Hardware
+---
+
+### Local Hardware
 
 People may search:
 
@@ -66,13 +79,19 @@ People may search:
 - best mac mini for ai
 - local ai box
 - cloud vs local ai
+- local ai rig
+- ai hardware overkill
 
 Stackfax page ideas:
 
-- Do I Need A Mac Mini For Ai Agents?
+- Do I Need Local Hardware For Ai Agents?
+- Hardware Verdict
 - Mac Mini Hardware Verdict
-- Mac Mini Decision Tree
+- Local Ai Hardware Decision Tree
 - Cloud-First vs Local-Ready
+- Hardware Overkill Warning
+
+---
 
 ### Token Burn
 
@@ -86,6 +105,8 @@ People may search:
 - context bloat ai
 - model fallback cost
 - ai workflow budget cap
+- ai token waste
+- ai agent cost control
 
 Stackfax page ideas:
 
@@ -93,7 +114,10 @@ Stackfax page ideas:
 - Why Did This Ai Task Cost So Much?
 - Context Bloat Risk
 - Silent Escalation Risk
-- Do Not Spend Premium-Model Money On Intern Tasks
+- Model Routing To Reduce Token Burn
+- Do Not Spend Premium-Model Money On Routine Tasks
+
+---
 
 ### Model Subscriptions
 
@@ -107,6 +131,8 @@ People may search:
 - ai model subscription overlap
 - do i need chatgpt and claude
 - ai api vs subscription
+- model subscription fit
+- ai subscription audit
 
 Stackfax page ideas:
 
@@ -114,6 +140,9 @@ Stackfax page ideas:
 - Do I Need Multiple Ai Subscriptions?
 - Which Ai Subscription Fits My Workflow?
 - 30-Day Subscription Test
+- Subscription Overlap Risk
+
+---
 
 ### Vendor And Creator Stacks
 
@@ -127,13 +156,18 @@ People may search:
 - creator ai stack
 - should i copy this ai stack
 - ai stack review
+- ai stack audit
+- ai stack verdict
 
 Stackfax page ideas:
 
 - Vendor Stack Verdict
 - Creator Stack Audit
-- New Stacks Drop, Stackfax Scores Them
+- New Stacks Drop, Stackfax Checks The Fit
 - Good Reference Stack Or Overkill?
+- Should I Copy This Ai Stack?
+
+---
 
 ### Business Automation Safety
 
@@ -147,6 +181,8 @@ People may search:
 - ai customer support automation risk
 - ai automation production readiness
 - ai agent human approval
+- ai business process automation
+- ai automation risk
 
 Stackfax page ideas:
 
@@ -154,6 +190,10 @@ Stackfax page ideas:
 - Approval Gates For Ai Agents
 - Credential Isolation Risk
 - Production Not Ready
+- Process Before Automation
+- What Should Ai Be Allowed To Touch?
+
+---
 
 ### Fragile UI Automation
 
@@ -166,6 +206,8 @@ People may search:
 - browser agent risk
 - ai screenshot automation
 - ai web automation approval
+- ai ui automation risk
+- ai browser agent safety
 
 Stackfax page ideas:
 
@@ -173,6 +215,34 @@ Stackfax page ideas:
 - API Preferred
 - If A Button Moved, Is Your Workflow Broken?
 - Tool Loop Burn
+- Browser Agent Approval Gates
+
+---
+
+### Run Receipts And Governance
+
+People may search:
+
+- ai agent logs
+- ai agent audit trail
+- ai agent run history
+- ai agent governance
+- ai agent approval workflow
+- ai agent monitoring
+- ai agent accountability
+- ai agent receipts
+- ai agent compliance
+- agent governance
+
+Stackfax page ideas:
+
+- Run Receipts
+- Agent Governance Layer
+- Approval Gates Missing
+- What Did The Agent Touch?
+- Agent Output Is A Claim. A Run Receipt Is Evidence.
+
+---
 
 ## Early Page Priority
 
@@ -180,14 +250,18 @@ Highest priority pages:
 
 1. What Is Stackfax?
 2. What Is An Ai Stack?
-3. Do I Need A Mac Mini For Ai Agents?
-4. Token Burn Audit
-5. Model Subscription Fit Check
-6. OpenClaw Starter Stack Check
-7. Business Automation Safety Audit
-8. Vendor Stack Verdict
-9. Free Mini Report
-10. Stackfax Quick Report
+3. Stackfax Free Mini Report
+4. Stackfax Quick Report
+5. Do I Need Local Hardware For Ai Agents?
+6. Token Burn Audit
+7. Model Subscription Fit Check
+8. OpenClaw Starter Stack Check
+9. Business Automation Safety Audit
+10. Vendor Stack Verdict
+11. Run Receipts
+12. Beginner To Builder Stack Path
+
+---
 
 ## Search Intent Types
 
@@ -197,14 +271,17 @@ User wants:
 
 - explanation
 - plain English
-- no jargon
+- low jargon
 - safe first step
+- help choosing what to do next
 
 Best Stackfax offer:
 
 - Ai Stack Field Guide
 - Free Mini Report
-- Noob To Expert Stack Path
+- Beginner To Builder Stack Path
+
+---
 
 ### Buyer Intent
 
@@ -213,13 +290,17 @@ User wants:
 - should I buy this?
 - should I pay for this?
 - is this overkill?
+- do I need local hardware?
+- do I need another subscription?
 
 Best Stackfax offer:
 
 - Hardware Verdict
-- Model Subscription Fit
+- Model Subscription Fit Check
 - Vendor Stack Verdict
 - Quick Report
+
+---
 
 ### Problem Intent
 
@@ -227,7 +308,9 @@ User wants:
 
 - why did this cost so much?
 - why is my setup confusing?
+- why is this slow?
 - what broke?
+- what should I stop doing?
 
 Best Stackfax offer:
 
@@ -236,6 +319,8 @@ Best Stackfax offer:
 - Credential Isolation Risk
 - Quick Report
 
+---
+
 ### Business Intent
 
 User wants:
@@ -243,12 +328,36 @@ User wants:
 - can I automate this safely?
 - what should require approval?
 - can this touch customer data?
+- what process should be automated first?
+- what would prove ROI?
 
 Best Stackfax offer:
 
 - Business Automation Safety Audit
 - Approval Gate Review
+- Process Before Automation
 - Quick Report
+
+---
+
+### Governance Intent
+
+User wants:
+
+- what did the agent do?
+- what did it touch?
+- what failed?
+- what needs human review?
+- how do we prove the output is usable?
+
+Best Stackfax offer:
+
+- Run Receipts
+- Agent Governance Layer
+- Evaluation Layer
+- Agent ROI Review
+
+---
 
 ## Copy Notes
 
@@ -261,10 +370,14 @@ Use clear search-friendly phrases:
 - Ai stack verdict
 - Ai agent stack check
 - OpenClaw stack check
+- local Ai hardware verdict
 - Mac mini hardware verdict
 - Token Burn Audit
 - Model Subscription Fit Check
 - Business Automation Safety Audit
+- Run Receipts
+- Agent Governance Layer
+- Approval Gates For Ai Agents
 
 Avoid making Stackfax sound like:
 
@@ -273,12 +386,18 @@ Avoid making Stackfax sound like:
 - a trading signal product
 - an automation agency
 - a hardware seller
+- a model leaderboard
+- a generic SaaS wrapper
+
+---
 
 ## Core SEO Line
 
 Stackfax is not an Ai report card generator for schools.
 
 Stackfax is the report card for Ai stacks.
+
+---
 
 ## Final Rule
 
