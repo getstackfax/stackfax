@@ -24,12 +24,12 @@ Do not store passwords, recovery codes, private emails, API keys, payment detail
 
 - Main brand: Stackfax
 - Public account/handle pattern: getstackfax
-- Community: AiStackClinic
+- Reddit community: r/AiStackClinic
 - Badge/result language: StackChecked
 - Report language: Stackfax report
 - Free offer: Stackfax mini report
 - Paid offer: Stackfax Quick Report
-
+  
 ---
 
 ## Notes
