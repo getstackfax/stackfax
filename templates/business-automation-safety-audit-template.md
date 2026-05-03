@@ -10,9 +10,13 @@ Stack Score: [0–100]
 
 Verdict: [Main business automation verdict]
 
+---
+
 ## Summary
 
 [Short plain-English summary of whether the business automation stack is safe enough for the workflow.]
+
+---
 
 ## Business Goal
 
@@ -22,13 +26,19 @@ The business wants to use Ai for:
 - [Goal 2]
 - [Goal 3]
 
+---
+
 ## Current Stack
 
 The current or proposed stack includes:
 
-- [Tool/model/platform 1]
-- [Tool/model/platform 2]
-- [Business system 3]
+- Tool/model/platform:
+- Tool/model/platform:
+- Business system:
+- Customer data source:
+- Human approval or review process:
+
+---
 
 ## Main Verdict
 
@@ -46,6 +56,10 @@ Possible verdict examples:
 - Human Review Required
 - Automation Overreach
 - Business System Risk
+- Process Before Automation
+- Compliance System First
+
+---
 
 ## Risk Flags
 
@@ -62,6 +76,12 @@ Possible risk flags:
 - Business System Risk
 - Automation Overreach Risk
 - Fragile UI Automation Risk
+- Approval Gates Missing
+- Run Receipts Missing
+- Process Before Automation
+- Agent ROI Unclear
+
+---
 
 ## What Fits
 
@@ -73,14 +93,20 @@ This business automation stack fits well for:
 
 Possible fits:
 
-- Customer inquiry summaries
-- Drafting email replies
-- Sales report explanations
+- customer inquiry summaries
+- draft email replies
+- lead triage
+- sales report explanations
 - SEO/content drafts
-- Inventory status summaries
-- Internal research
-- Operations notes
-- Weekly business recaps
+- inventory status summaries
+- internal research
+- operations notes
+- weekly business recaps
+- missing-information flags
+- review notes
+- internal task preparation
+
+---
 
 ## What May Be Unsafe
 
@@ -92,16 +118,20 @@ This stack may be unsafe if it can:
 
 Possible unsafe actions:
 
-- Send customer messages automatically
-- Change customer records
-- Access payment tools
-- Issue refunds
-- Change inventory
-- Contact vendors
-- Post publicly
-- Delete or move business files
-- Modify production systems
-- Use shared credentials across workflows
+- send customer messages automatically
+- change customer records
+- access payment tools
+- issue refunds
+- change inventory
+- contact vendors
+- post publicly
+- delete or move business files
+- modify production systems
+- use shared credentials across workflows
+- make claims without human review
+- file, submit, or approve compliance-sensitive work without review
+
+---
 
 ## Automation Level Verdict
 
@@ -118,28 +148,65 @@ Notes:
 
 [Explain why this level fits.]
 
+Default recommendation:
+
+Most early business Ai workflows should start at Level 1 or Level 2.
+
+---
+
+## Process Fit Review
+
+Process fit: [Unclear / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether the business process is clear enough to automate.]
+
+A business process should be mapped before automation if it lacks:
+
+- clear trigger
+- clear owner
+- clear input
+- clear output
+- clear done-state
+- clear approval point
+- clear exception path
+- clear failure owner
+
+Principle:
+
+Do not automate chaos.
+
+Diagnose the process first.
+
+---
+
 ## Approval Gate Review
 
 Risk level: [Low / Medium / High]
 
-Human approval should be required before the stack can:
+Human approval should be required before Ai can:
 
-- Send messages
-- Contact customers
-- Contact leads
-- Contact vendors
-- Post publicly
-- Edit customer records
-- Change inventory
-- Process payments
-- Issue refunds
-- Move or delete files
-- Access credentials
-- Modify production systems
+- send messages
+- contact customers
+- contact leads
+- contact vendors
+- post publicly
+- edit customer records
+- change inventory
+- process payments
+- issue refunds
+- move or delete files
+- access credentials
+- modify production systems
+- submit compliance-sensitive work
+- make legal, financial, medical, or safety-sensitive claims
 
 Notes:
 
 [Explain which approval gates are missing or needed.]
+
+---
 
 ## Customer Data Review
 
@@ -147,20 +214,55 @@ Risk level: [Low / Medium / High]
 
 Customer or business data involved may include:
 
-- Customer names
-- Customer emails
-- Phone numbers
-- Addresses
-- Order history
-- Support history
-- Private notes
-- Sales records
-- Internal reports
-- Client files
+- customer names
+- customer emails
+- phone numbers
+- addresses
+- order history
+- support history
+- private notes
+- sales records
+- internal reports
+- client files
+- invoices
+- payment status
+- contracts
+- operational records
 
 Notes:
 
 [Explain whether customer data is being handled safely.]
+
+---
+
+## Data Boundary Review
+
+Data boundary status: [Unclear / Basic / Good / Strong]
+
+Notes:
+
+[Explain what the Ai system can see and what should stay restricted.]
+
+Recommended boundaries:
+
+- public data
+- internal non-sensitive data
+- customer data
+- financial data
+- credentials
+- production systems
+- compliance-sensitive records
+
+The stack should define:
+
+- what Ai can read
+- what Ai can draft
+- what Ai can modify
+- what Ai can never touch
+- what requires approval
+- what must stay manual
+
+---
 
 ## Credential Isolation Review
 
@@ -168,19 +270,66 @@ Risk level: [Low / Medium / High]
 
 The stack should separate:
 
-- Personal accounts
-- Business accounts
-- Client accounts
-- Email sessions
+- personal accounts
+- business accounts
+- client accounts
+- email sessions
 - CRM access
-- Payment tools
-- File storage
+- payment tools
+- file storage
 - API keys
-- Browser sessions
+- browser sessions
+- automation accounts
+- production admin access
 
 Notes:
 
 [Explain whether credentials and sessions are separated properly.]
+
+---
+
+## Forbidden Actions
+
+The stack should not be allowed to do these without explicit human approval:
+
+- send customer-facing messages
+- issue refunds
+- process payments
+- change inventory
+- delete files
+- change production records
+- submit official filings
+- modify legal, financial, medical, or compliance-sensitive documents
+- publish posts
+- rotate or expose credentials
+- contact vendors or customers
+- make irreversible changes
+
+Notes:
+
+[Add any workflow-specific forbidden actions.]
+
+---
+
+## Fragile UI Automation Review
+
+Risk level: [Low / Medium / High]
+
+Notes:
+
+[Explain whether the automation depends on clicking websites, reading screenshots, browser sessions, or unstable UI flows.]
+
+Recommended controls:
+
+- prefer APIs when available
+- limit browser automation
+- add human review before submit/click actions
+- add screenshot/run receipt evidence
+- add retry limits
+- stop if buttons, labels, or page states change
+- do not run fragile UI automation on payment, refund, or production systems without review
+
+---
 
 ## Production Readiness Review
 
@@ -188,19 +337,72 @@ Current verdict: [Not Ready / Safe To Test / Ready With Controls]
 
 Before production use, the stack needs:
 
-- Written approval rules
-- Logs
-- Tool permission limits
-- Failure handling
-- Escalation rules
-- Access boundaries
-- Human owner for mistakes
-- Rollback plan
+- written approval rules
+- logs
+- run receipts
+- tool permission limits
+- failure handling
+- escalation rules
+- access boundaries
+- human owner for mistakes
+- rollback plan
+- budget caps
 - 30-day recheck
 
 Notes:
 
 [Explain what is missing.]
+
+---
+
+## Run Receipt Review
+
+Run receipt status: [Missing / Basic / Good / Strong]
+
+A useful business automation run receipt should show:
+
+- requested task
+- business system involved
+- model/tool used
+- data source used
+- actions taken
+- records touched
+- drafts created
+- messages prepared
+- what changed
+- what failed
+- approximate cost
+- what needs human review
+- next recommended action
+
+Notes:
+
+[Explain whether the business can prove what the automation did.]
+
+---
+
+## Agent ROI Review
+
+Agent ROI status: [Unclear / Early Signal / Good / Strong]
+
+Notes:
+
+[Explain whether the automation is producing useful verified work, or just activity.]
+
+Agent ROI should consider:
+
+- time saved
+- errors reduced
+- response speed improved
+- human supervision required
+- cleanup required
+- cost created
+- risk introduced
+- repeatability
+- customer impact
+- operational value
+
+---
 
 ## Best First Business Workflow
 
@@ -216,6 +418,39 @@ Example:
 4. Flag risks, missing data, or uncertain claims.
 5. Ask for human approval before saving, sending, posting, or connecting tools.
 
+Good first workflows are usually:
+
+- internal
+- read-only
+- low-risk
+- repeated often
+- easy to verify
+- useful even before full automation
+
+---
+
+## What Should Stay Manual For Now
+
+These actions should stay manual until the stack proves reliability:
+
+- [Manual action 1]
+- [Manual action 2]
+- [Manual action 3]
+
+Examples:
+
+- refunds
+- payments
+- customer record changes
+- inventory changes
+- production edits
+- public posting
+- compliance-sensitive submissions
+- credential changes
+- deletion of files or records
+
+---
+
 ## What Would Improve The Score
 
 To improve the score, add:
@@ -227,16 +462,21 @@ To improve the score, add:
 
 Possible improvements:
 
-- Written approval gates
-- Credential isolation
-- Customer data boundaries
-- Tool permission limits
-- Logging
-- Budget caps
-- List of forbidden actions
-- Failure handling
-- Human review checkpoints
+- written approval gates
+- credential isolation
+- customer data boundaries
+- tool permission limits
+- forbidden action list
+- run receipt template
+- logging
+- budget caps
+- failure handling
+- human review checkpoints
+- sandbox test
 - 30-day recheck
+- process map before automation
+
+---
 
 ## Stackfax Principle
 
@@ -249,6 +489,12 @@ Draft second.
 Approve third.
 
 Automate last.
+
+Compliance system first.
+
+Ai assistant second.
+
+---
 
 ## Final Business Automation Verdict
 
