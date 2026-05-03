@@ -12,7 +12,7 @@ Verdict: Strong Public Foundation / First-Dollar Infrastructure Still Needed
 
 ## Summary
 
-Stackfax has moved beyond idea stage.
+Stackfax has moved beyond the idea stage.
 
 The project now has a strong public foundation, clear positioning, report types, sample reports, templates, safety rules, and first-dollar planning.
 
