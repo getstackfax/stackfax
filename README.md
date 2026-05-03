@@ -173,6 +173,8 @@ A full Stackfax report may include:
 - [Business Ai Audit](docs/business-ai-audit.md) — evaluate business workflows before adding agents or automation.
 - [Agent ROI](docs/agent-roi.md) — measure whether agents produce verified useful work, not just activity.
 
+- [Run Receipts](docs/run-receipts.md) — require agents to show what happened, what changed, what failed, what cost was created, and what needs review next.-
+
 - ## Status
 
 Stackfax is early.
