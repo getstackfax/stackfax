@@ -32,8 +32,6 @@ The user wants to:
 
 The current or proposed stack includes:
 
-The current or proposed stack includes:
-
 - Model/provider/subscription/tool:
 - Model/provider/subscription/tool:
 - Agent/workflow/tool:
