@@ -166,8 +166,14 @@ A full Stackfax report may include:
 - final verdict
 
 ---
+## Key docs
 
-## Status
+- [Hardware Verdicts](docs/hardware-verdicts.md) — decide whether a stack should stay cloud-first, go local-ready, justify hardware, or trigger an overkill warning.
+- [Token Burn Risk](docs/token-burn-risk.md) — identify where tokens are being misrouted, wasted, retried, or used where cheaper layers would work.
+- [Business Ai Audit](docs/business-ai-audit.md) — evaluate business workflows before adding agents or automation.
+- [Agent ROI](docs/agent-roi.md) — measure whether agents produce verified useful work, not just activity.
+
+- ## Status
 
 Stackfax is early.
 
