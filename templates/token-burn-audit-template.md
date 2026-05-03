@@ -32,12 +32,14 @@ The user wants to:
 
 The current or proposed stack includes:
 
-- [Model/provider/subscription/tool 1]
-- [Model/provider/subscription/tool 2]
-- [Agent/workflow/tool 3]
-- [Router/API/local model/tooling layer]
-- [Human approval or review process, if any]
+The current or proposed stack includes:
 
+- Model/provider/subscription/tool:
+- Model/provider/subscription/tool:
+- Agent/workflow/tool:
+- Router/API/local model/tooling layer:
+- Human approval or review process:
+  
 ---
 
 ## Main Verdict
