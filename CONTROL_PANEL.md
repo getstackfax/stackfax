@@ -129,7 +129,8 @@ docs/
   business-ai-audit.md
   agent-roi.md
   run-receipts.md
-Important Canon Docs
+```
+## Important Canon Docs
 
 These are durable Stackfax project-source items.
 Stackfax Manual Intake Form v0
@@ -226,9 +227,9 @@ Stackfax Quick Report — $19.
 
 ⸻
 
-Report Types To Build
+## Report Types To Build
 
-Early report types
+### Early report types
 
 * Free Mini Report
 * Stackfax Quick Report
@@ -241,7 +242,7 @@ Early report types
 * Workflow Fit Review
 * Agent Readiness Check
 
-Future report types
+### Future report types
 
 * Beginner OpenClaw Starter Stack
 * Business Automation Starter Stack
@@ -258,7 +259,7 @@ Future report types
 
 ⸻
 
-Current Verdict Types
+## Current Verdict Types
 
 * Do Not Buy Yet
 * Cloud-First
@@ -278,7 +279,7 @@ Current Verdict Types
 
 ⸻
 
-Current Risk Flags
+## Current Risk Flags
 
 * Hardware Overbuild Risk
 * Token Burn Risk
@@ -301,9 +302,9 @@ Current Risk Flags
 
 ⸻
 
-Money Paths To Explore
+## Money Paths To Explore
 
-Near-term
+### Near-term
 
 * Free Mini Report
 * $19 Stackfax Quick Report
@@ -311,7 +312,7 @@ Near-term
 * $49 deeper report
 * $199 early business audit
 
-Mid-term
+### Mid-term
 
 * Pro subscription
 * report templates
@@ -322,7 +323,7 @@ Mid-term
 * setup calls
 * agency referrals
 
-Later
+### Later
 
 * business tier
 * team / enterprise governance
@@ -333,7 +334,8 @@ Later
 
 ⸻
 
-Current Funnel
+## Current Funnel
+
 Public chaos
 ↓
 AiStackClinic / Reddit scouting
@@ -349,7 +351,8 @@ $19 Quick Report
 Recheck / deeper report / business audit
 ↓
 Future Stackfax app
-Rabble Scout Rule
+
+## Rabble Scout Rule
 
 Rabble Scouts do not act.
 
@@ -370,9 +373,9 @@ Gold becomes build material. Silver becomes watchlist. Bronze becomes market tex
 
 ⸻
 
-Public / Private Boundary
+## Public / Private Boundary
 
-Public map
+### Public map
 
 Can include:
 
@@ -384,7 +387,7 @@ Can include:
 * community standards
 * public verdict language
 
-Private engine
+### Private engine
 
 Should protect:
 
@@ -403,9 +406,9 @@ Open the map. Protect the engine.
 
 ⸻
 
-Source Rules
+## Source Rules
 
-Project source it
+### Project source it
 
 Use when something becomes durable Stackfax canon.
 
@@ -420,7 +423,7 @@ Examples:
 * beta outreach plan
 * Reddit operating doctrine
 
-Memory it
+### Memory it
 
 Use for durable operating preferences.
 
@@ -431,7 +434,7 @@ Examples:
 * build-mode behavior
 * naming rules
 
-Gold Reports only
+### Gold Reports only
 
 Use for high-signal scouting that is not canon yet.
 
@@ -445,7 +448,7 @@ Project source the durable decision, not the temporary instruction.
 
 ⸻
 
-Near-Term Next Builds
+## Near-Term Next Builds
 
 1. Create public Manual Intake Form v0.
 2. Create Stackfax Quick Report template.
@@ -460,7 +463,7 @@ Near-Term Next Builds
 
 ⸻
 
-Build Rule
+## Build Rule
 
 Do not overbuild yet.
 
