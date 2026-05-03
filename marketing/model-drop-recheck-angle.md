@@ -4,11 +4,15 @@ This file captures the Stackfax marketing and product angle for new model drops,
 
 The goal is to explain why Ai stacks need rechecks when the market changes.
 
+---
+
 ## Core Idea
 
 New model drops create stack confusion.
 
 Stackfax turns that confusion into a recheck moment.
+
+---
 
 ## Why This Matters
 
@@ -16,17 +20,17 @@ Ai stack advice gets old quickly.
 
 A stack can be a good fit today and need a recheck after:
 
-- New model launches
-- New OpenClaw updates
-- Local model improvements
-- Pricing changes
-- Usage limit changes
-- New routing options
-- New migration tools
-- Better privacy options
-- Better communication channel support
-- Better local model runners
-- Better agent frameworks
+- new model launches
+- new OpenClaw updates
+- local model improvements
+- pricing changes
+- usage limit changes
+- new routing options
+- new migration tools
+- better privacy options
+- better communication channel support
+- better local model runners
+- better agent frameworks
 
 That creates a recurring need:
 
@@ -36,6 +40,8 @@ Make changes.
 
 Recheck when the stack changes.
 
+---
+
 ## Stackfax Recheck Thesis
 
 People do not only need a one-time Ai stack report.
@@ -44,23 +50,27 @@ They need a way to understand whether their stack still fits after the market mo
 
 A stack may need a recheck when:
 
-- A new model gets hyped
-- A cheaper model becomes good enough
-- A local model becomes usable
+- a new model gets hyped
+- a cheaper model becomes good enough
+- a local model becomes usable
 - OpenClaw adds migration tools
 - OpenClaw improves Discord, Matrix, WhatsApp, or Mattermost support
-- A provider changes limits
-- A subscription tier changes
-- A model router changes behavior
-- A workflow starts burning tokens
-- A local setup becomes easier
-- A cloud setup becomes too expensive
+- a provider changes limits
+- a subscription tier changes
+- a model router changes behavior
+- a workflow starts burning tokens
+- a local setup becomes easier
+- a cloud setup becomes too expensive
+
+---
 
 ## Core Marketing Line
 
 Ai stacks expire.
 
 Stackfax keeps them checked.
+
+---
 
 ## Alternate Lines
 
@@ -78,6 +88,8 @@ Model news tells you what changed.
 
 Stackfax tells you whether your stack should change.
 
+---
+
 ## Model Drop User Questions
 
 After a new model drops, users ask:
@@ -93,6 +105,8 @@ After a new model drops, users ask:
 - Does it reduce token burn?
 - Does it improve local or cloud fit?
 - Does it make my hardware more or less useful?
+
+---
 
 ## Stackfax Recheck Questions
 
@@ -111,6 +125,8 @@ Stackfax should ask:
 - Does it create new risks?
 - Should the user test, switch, wait, or ignore?
 
+---
+
 ## Recheck Verdicts
 
 Possible recheck verdicts:
@@ -121,11 +137,13 @@ Possible recheck verdicts:
 - Route Cheap Tasks Here
 - Use For Drafts Only
 - Use For Final Review
-- Local-Ready Later
+- Local-Ready
 - Migration Not Worth It
 - Migration Justified
 - Recheck Needed
 - Wait For Stability
+
+---
 
 ## Model Drop Risk Flags
 
@@ -140,6 +158,8 @@ Possible risk flags:
 - Context Bloat Risk
 - Local Model Quality Gap
 - Setup Complexity Risk
+
+---
 
 ## Recheck Offer Ideas
 
@@ -171,6 +191,8 @@ For users after major OpenClaw updates.
 
 For users moving from one stack to another.
 
+---
+
 ## Stack Of The Month Angle
 
 New model drops can feed community content.
@@ -183,6 +205,8 @@ Possible community posts:
 - Which model became good enough for cheap tasks?
 - Which setup is now overkill?
 - Which local stack improved?
+
+---
 
 ## OpenClaw Update Angle
 
@@ -201,13 +225,15 @@ Before you migrate, ask:
 - What new permissions exist?
 - Does your current report need a recheck?
 
-## Noob-Friendly Angle
+---
+
+## Beginner-Friendly Angle
 
 Beginners may feel forced to switch when a new model drops.
 
 Stackfax should slow the decision down.
 
-Noob-safe advice:
+Beginner-safe advice:
 
 - Do not switch everything immediately.
 - Test one workflow.
@@ -215,6 +241,8 @@ Noob-safe advice:
 - Compare cost.
 - Keep rollback available.
 - Recheck after real use.
+
+---
 
 ## Expert Angle
 
@@ -230,6 +258,8 @@ Expert recheck areas:
 - permission boundaries
 - context bloat
 - version assumptions
+
+---
 
 ## Business Angle
 
@@ -247,6 +277,8 @@ Business recheck questions:
 - Does the new model change risk?
 - Does the update change permissions?
 - Should this be tested in a sandbox first?
+
+---
 
 ## CTA Drafts
 
@@ -281,6 +313,8 @@ Is it still right now?
 Stackfax Recheck:
 
 for when your model, tools, pricing, or workflow changed.
+
+---
 
 ## Final Rule
 
