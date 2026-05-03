@@ -2,7 +2,7 @@
 
 **The report card for Ai stacks.**
 
-Stackfax helps builders, noobs, teams, and small businesses understand whether their Ai setup actually fits the job.
+Stackfax helps beginners, builders, teams, and small businesses understand whether their Ai setup actually fits the job before they overbuild, overspend, or automate the wrong thing.
 
 Before you buy the Mac mini, copy a random OpenClaw setup, burn premium-model tokens, or connect agents to real tools, Stackfax your stack.
 
@@ -61,7 +61,7 @@ The right stack depends on the job.
 
 For example:
 
-- A noob asking “Do I need a Mac mini?” may need a **hardware verdict**, not a GPU shopping list.
+- A beginner asking “Do I need a Mac mini?” may need a **hardware verdict**, not a GPU shopping list.
 - A founder using agents for business ops may need **approval gates**, not more autonomy.
 - A developer burning tokens in coding loops may need **model routing**, not another subscription.
 - A local-model builder may need **workflow tests**, not just benchmark scores.
