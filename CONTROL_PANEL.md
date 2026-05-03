@@ -149,9 +149,10 @@ Stackfax Beta Launch Soft Post
 Stackfax Community Standards Plan
 Stackfax What’s Your Stack Community Prompt
 Stackfax Model Drop Recheck Angle
-Current Build Priority
 
-1. Public front door
+## Current Build Priority
+
+### Public front door
 
 Goal:
 
@@ -165,7 +166,7 @@ Needed:
 * simple intake form link
 * clear early/manual status
 
-2. Manual Intake Form
+### Manual Intake Form
 
 Goal:
 
@@ -179,7 +180,7 @@ Next step:
 
 Create shorter public-facing form.
 
-3. Manual Report Template
+### Manual Report Template
 
 Goal:
 
@@ -200,7 +201,7 @@ Should include:
 * best next move
 * 30-day recheck notes
 
-4. First Beta Users
+### First Beta Users
 
 Goal:
 
@@ -215,7 +216,7 @@ Best first users:
 * business automation user
 * vendor / creator stack viewer
 
-5. First Dollar Test
+### First Dollar Test
 
 Goal:
 
@@ -438,7 +439,7 @@ Examples:
 
 Use for high-signal scouting that is not canon yet.
 
-Skip
+### Skip
 
 Use for temporary click-by-click instructions.
 
