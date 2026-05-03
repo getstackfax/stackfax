@@ -2,7 +2,9 @@
 
 This file contains early community prompt ideas for Stackfax.
 
-The goal is to create a simple way for builders, noobs, experts, and businesses to describe their Ai stacks without turning the conversation into hype, flexing, or unsafe oversharing.
+The goal is to create a simple way for beginners, builders, experts, and businesses to describe their Ai stacks without turning the conversation into hype, flexing, or unsafe oversharing.
+
+---
 
 ## Core Idea
 
@@ -16,6 +18,8 @@ Stackfax version:
 
 Stackfax your stack before you copy someone else’s.
 
+---
+
 ## Why This Matters
 
 People are already comparing Ai stacks in public.
@@ -24,7 +28,7 @@ They ask:
 
 - Which model should I use?
 - Which subscription should I pay for?
-- Should I buy a Mac mini?
+- Should I buy local hardware?
 - Should I use local models?
 - Should I use OpenClaw?
 - Can I avoid API bills?
@@ -35,19 +39,21 @@ But most public stack talk is incomplete.
 
 A useful stack prompt should capture:
 
-- Use case
-- Tools
-- Models
-- Hardware
-- Hosting
-- Workflow
-- Permissions
-- Approval gates
-- Cost concerns
-- Risk flags
-- What worked
-- What broke
-- What changed
+- use case
+- tools
+- models
+- hardware
+- hosting
+- workflow
+- permissions
+- approval gates
+- cost concerns
+- risk flags
+- what worked
+- what broke
+- what changed
+
+---
 
 ## Community Prompt 1
 
@@ -55,15 +61,17 @@ What’s your Ai stack, and what job is it built for?
 
 Share:
 
-- Main use case
-- Tools/models
-- Local, cloud, or hybrid
-- Hardware
-- What agents can touch
-- What requires human approval
-- Biggest cost risk
-- Biggest safety risk
-- What you would change if starting over
+- main use case
+- tools/models
+- local, cloud, or hybrid
+- hardware
+- what agents can touch
+- what requires human approval
+- biggest cost risk
+- biggest safety risk
+- what you would change if starting over
+
+---
 
 ## Community Prompt 2
 
@@ -71,31 +79,35 @@ What’s your OpenClaw stack?
 
 Share:
 
-- What you’re building
-- Model setup
-- Local or cloud
+- what you’re building
+- model setup
+- local or cloud
 - Ollama or paid APIs
-- Communication channel
-- Memory setup
-- Tools/skills
-- Approval gates
-- Biggest issue so far
-- Best thing that works
+- communication channel
+- memory setup
+- tools/skills
+- approval gates
+- biggest issue so far
+- best thing that works
+
+---
 
 ## Community Prompt 3
 
-What’s your noob-safe Ai stack?
+What’s your beginner-safe Ai stack?
 
 Share the simplest setup you would recommend to someone starting today.
 
 Include:
 
-- One primary model
-- One workflow
-- One safety rule
-- One thing to avoid
-- One upgrade path
-- One recheck trigger
+- one primary model
+- one workflow
+- one safety rule
+- one thing to avoid
+- one upgrade path
+- one recheck trigger
+
+---
 
 ## Community Prompt 4
 
@@ -103,12 +115,14 @@ What stack would you not copy again?
 
 Share:
 
-- What looked good at first
-- What broke
-- What cost too much
-- What was overkill
-- What you replaced
-- What you would do now
+- what looked good at first
+- what broke
+- what cost too much
+- what was overkill
+- what you replaced
+- what you would do now
+
+---
 
 ## Community Prompt 5
 
@@ -118,13 +132,15 @@ Share a stack that is useful, not just flashy.
 
 Include:
 
-- Who it is for
-- What it does well
-- What it should not be used for
-- Cost range
-- Risk flags
-- Approval gates
-- Why others can learn from it
+- who it is for
+- what it does well
+- what it should not be used for
+- cost range
+- risk flags
+- approval gates
+- why others can learn from it
+
+---
 
 ## Stackfax Reply Format
 
@@ -138,6 +154,8 @@ Useful response format:
 - Missing guardrail:
 - Best next move:
 - Recheck trigger:
+
+---
 
 ## Example Response
 
@@ -165,49 +183,55 @@ Recheck trigger:
 
 Recheck after adding Discord, email, API credentials, or scheduled tasks.
 
+---
+
 ## Safe Sharing Rule
 
 Do not ask people to share:
 
-- Passwords
+- passwords
 - API keys
-- Recovery codes
-- Payment details
-- Wallet information
-- Private customer data
-- Private legal documents
-- Private financial account information
-- Sensitive personal information
+- recovery codes
+- payment details
+- wallet information
+- private customer data
+- private legal documents
+- private financial account information
+- sensitive personal information
 
 Community stack sharing should be public-safe.
+
+---
 
 ## Public Stack Fields
 
 Safe public fields may include:
 
-- General use case
-- Tool names
-- Model names
-- Local/cloud/hybrid direction
-- Hardware category
-- Communication channel category
-- General workflow
-- Approval gate status
-- Cost range
-- Risk flags
-- Lessons learned
+- general use case
+- tool names
+- model names
+- local/cloud/hybrid direction
+- hardware category
+- communication channel category
+- general workflow
+- approval gate status
+- cost range
+- risk flags
+- lessons learned
 
 Unsafe public fields may include:
 
-- Private customer workflows
-- Exact credentials
-- Private files
-- Private screenshots
-- Internal URLs
-- Payment data
+- private customer workflows
+- exact credentials
+- private files
+- private screenshots
+- internal URLs
+- payment data
 - API keys
-- Wallet details
-- Sensitive business data
+- wallet details
+- sensitive business data
+
+---
 
 ## Stackfax Community Principles
 
@@ -231,9 +255,13 @@ Do not treat cloud as automatically better.
 
 Do not automate before approval gates exist.
 
+---
+
 ## Best Community Line
 
 What’s your stack, and what job is it built for?
+
+---
 
 ## Alternate Lines
 
@@ -241,9 +269,11 @@ Stackfax your stack before you copy someone else’s.
 
 Show the stack. Show the job. Show the guardrails.
 
-New stacks drop. Stackfax scores them.
+New stacks drop. Stackfax checks the fit.
 
-Get Stackfaxed. Stay StackChecked.
+Get the verdict before you copy the stack.
+
+---
 
 ## Future Community Uses
 
@@ -252,13 +282,15 @@ This prompt could support:
 - Reddit posts
 - OpenClaw showcase threads
 - Stack of the Month
-- Builder stack profiles
+- builder stack profiles
 - StackChecked profiles
-- Community comparisons
-- Newsletter sections
+- community comparisons
+- newsletter sections
 - YouTube comment prompts
 - Discord community prompts
-- Future Stackfax directory
+- future Stackfax directory
+
+---
 
 ## Final Rule
 
