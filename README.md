@@ -124,7 +124,7 @@ Common signs:
 - copying influencer setups without a use case
 - using premium models for every small task
 - giving agents too many tools too early
-- building a NASA rig to play FarmSim
+- building a high-end rig for a low-demand workflow
 
 ---
 
