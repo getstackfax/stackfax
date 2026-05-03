@@ -8,13 +8,64 @@ Do not hard-sell Stackfax.
 
 Use these only when the context is relevant and the comment is genuinely helpful.
 
-## Rule
+The goal is to be useful first.
+
+Stackfax should show up as practical thinking, not as a forced pitch.
+
+---
+
+## Core Rule
 
 Help first.
 
 Mention Stackfax later.
 
 If Stackfax is mentioned, be honest that it is early and being built.
+
+Do not pretend to be a neutral user while promoting your own project.
+
+---
+
+## Reply Decision Rule
+
+Before replying, ask:
+
+- Is the thread actually asking for help?
+- Can the reply be useful without a link?
+- Can the reply stand on its own?
+- Does the comment add a diagnostic frame?
+- Would this look helpful if Stackfax were never mentioned?
+- Is the subreddit tolerant of project mentions?
+- Is this reply better than simply saving the thread as a Gold Report?
+
+Default action:
+
+Gold Reports first.
+
+Replies only when useful.
+
+Links almost never.
+
+---
+
+## Comment Structure
+
+A good Stackfax-style Reddit comment should usually:
+
+1. Acknowledge the actual question.
+2. Name the hidden stack issue.
+3. Give a simple decision frame.
+4. Suggest one safe next step.
+5. Avoid pitching.
+6. Exit cleanly.
+
+Do not turn every reply into an essay.
+
+Do not argue.
+
+Do not chase hostile threads.
+
+---
 
 ## Model Subscription Fit Comment
 
@@ -27,7 +78,7 @@ If you can only pick one subscription, I would map the jobs first.
 From what you listed, your jobs sound like:
 
 - coding help
-- OpenClaw experimenting
+- agent experimenting
 - law/research support
 - general study support
 
@@ -39,9 +90,13 @@ I would ask:
 - Which task saves the most time?
 - Do you need long-context research more than coding?
 - Are you using API calls or just chat subscription?
-- Does OpenClaw need a model route, or are you mostly experimenting?
+- Does your agent setup need a model route, or are you mostly experimenting?
 
-Pick the one subscription that handles your highest-frequency task best, then add others only after you know what job they fill.
+Pick the one subscription that handles your highest-frequency task best.
+
+Then add others only after you know what job they fill.
+
+---
 
 ## OpenClaw Beginner Comment
 
@@ -62,29 +117,36 @@ A safe first workflow is:
 
 Do not start with full automation.
 
-Prove one workflow first, then expand permissions later.
+Prove one workflow first.
 
-## Mac Mini / Hardware Comment
+Then expand permissions later.
 
-For someone asking whether they need a Mac mini or local Ai box.
+---
+
+## Local Hardware Comment
+
+For someone asking whether they need a Mac mini, local Ai box, GPU rig, or dedicated machine.
 
 Draft:
 
 I would not buy hardware until the workflow proves it needs hardware.
 
-A Mac mini can make sense if you need:
+Local hardware can make sense if you need:
 
 - local model testing
 - privacy isolation
 - always-on local workflows
+- high-volume repeatable tasks
 - a dedicated Ai workspace
 - separation from your personal machine
 
-But if you mostly need summaries, drafts, research, coding help, or early OpenClaw testing, cloud-first is probably enough at the start.
+But if you mostly need summaries, drafts, research, coding help, or early agent testing, cloud-first is probably enough at the start.
 
 Build the workflow first.
 
 Then decide if hardware solves a real bottleneck.
+
+---
 
 ## Token Burn Comment
 
@@ -111,7 +173,9 @@ A cleaner pattern is:
 - stronger model reviews or decides
 - human approves important actions
 
-Do not spend premium-model money on intern tasks.
+Do not spend premium-model money on routine tasks.
+
+---
 
 ## Vendor Stack Comment
 
@@ -133,6 +197,8 @@ The questions I would ask are:
 - What happens if something breaks?
 
 A stack can be impressive and still be wrong for your use case.
+
+---
 
 ## Business Automation Comment
 
@@ -160,11 +226,113 @@ I would require human approval before Ai can:
 - delete files
 - modify production systems
 
-Ai can be very useful for business workflows, but the approval gates and credential boundaries matter first.
+Ai can be useful for business workflows, but the approval gates and credential boundaries matter first.
+
+---
+
+## Process Before Automation Comment
+
+For someone saying Ai is not helping their business yet.
+
+Draft:
+
+I would look at the process before adding more Ai.
+
+If the workflow is unclear, Ai usually just makes the confusion faster.
+
+The questions I would ask first are:
+
+- What is the exact task?
+- Who owns it now?
+- What input starts it?
+- What output counts as done?
+- Where do mistakes happen?
+- What needs approval?
+- What should never be automated?
+
+Once that is clear, Ai can help with drafting, summarizing, routing, checking, or preparing the next step.
+
+But if the process is messy, the first win is usually cleaning the handoff, not adding another tool.
+
+---
+
+## Run Receipts Comment
+
+For someone building agents that take actions.
+
+Draft:
+
+If the agent is doing anything beyond answering, I would want some kind of run receipt.
+
+Not just logs.
+
+A useful receipt should show:
+
+- what task was requested
+- what tools were used
+- what files/accounts/systems were touched
+- what changed
+- what failed
+- what it cost
+- what needs human review next
+
+Agent output is a claim.
+
+The run receipt is the evidence.
+
+---
+
+## Agent Permissions Comment
+
+For someone giving agents access to tools too early.
+
+Draft:
+
+I would separate agent memory from agent permission.
+
+Remembering context does not mean it should be allowed to act on everything.
+
+For a first setup, I would keep permissions narrow:
+
+- read-only before write access
+- draft before send
+- summarize before modify
+- local/sandbox before production
+- human approval before anything customer-facing
+
+The agent can get smarter over time.
+
+Permissions should expand slower than capability.
+
+---
+
+## Context Bloat Comment
+
+For someone whose agent/project gets slower or worse over time.
+
+Draft:
+
+This sounds less like a model problem and more like a context/state problem.
+
+Compacting history can help, but it is not the same as designing state.
+
+I would separate:
+
+- what the agent needs to know now
+- what should be saved as durable state
+- what can be archived
+- what should be retrieved only when needed
+- what should never be passed into the next run
+
+The goal is not to make the model read the whole story every time.
+
+The goal is to hand it the right state for the next decision.
+
+---
 
 ## Community Builder Comment
 
-For someone trying to find other OpenClaw builders.
+For someone trying to find other OpenClaw builders or Ai stack builders.
 
 Draft:
 
@@ -177,16 +345,21 @@ I would be curious what people are using for:
 - token control
 - approval gates
 - hardware
-- OpenClaw workflows
+- agent workflows
 - what agents are allowed to touch
+- what they would not automate yet
 
 “What are you building?” is good.
 
 “What is your stack and why?” might be even better.
 
+---
+
 ## Soft Stackfax Mention
 
 Use only when appropriate.
+
+Do not use this as the default reply.
 
 Draft:
 
@@ -194,24 +367,72 @@ I am working on an early project called Stackfax that is basically a report card
 
 The idea is to check whether your tools, models, subscriptions, hardware, permissions, and workflow actually fit the task before you spend money, burn tokens, or overbuild.
 
-Still early, but these are exactly the kinds of stack questions it is meant to help with.
+It is still early, but these are exactly the kinds of stack questions it is meant to help with.
+
+---
+
+## Even Softer Stackfax Mention
+
+Use when a direct project mention would feel too promotional.
+
+Draft:
+
+This is the kind of stack-check question I think more people are going to need.
+
+The useful frame is not “what is the best tool?”
+
+It is:
+
+- what job is this stack for?
+- what should each tool do?
+- what can it touch?
+- what does it cost?
+- what should require approval?
+- what would prove it is working?
+
+Once those answers are clear, the tool choice gets a lot easier.
+
+---
 
 ## Do Not Do This
 
 Avoid:
 
-- Dropping links randomly
-- Pretending to be a neutral user if promoting your own project
-- Saying Stackfax is finished when it is not
-- Offering paid reports in unrelated threads
-- Arguing with communities
-- Hijacking posts
-- Fake testimonials
-- Fake urgency
-- Overclaiming results
+- dropping links randomly
+- pretending to be a neutral user if promoting your own project
+- saying Stackfax is finished when it is not
+- offering paid reports in unrelated threads
+- arguing with communities
+- hijacking posts
+- fake testimonials
+- fake urgency
+- overclaiming results
+- posting the same comment repeatedly
+- replying only to farm attention
+- forcing Stackfax into threads that do not need it
+
+---
+
+## When To Skip
+
+Skip the thread if:
+
+- the poster is ranting, not asking
+- the community is hostile to builders
+- the thread is mostly promo
+- the answer would require legal, medical, financial, or security guarantees
+- someone already gave the useful answer
+- the reply would look like marketing
+- the post is too vague to diagnose
+- the account needs cooldown
+- the best action is simply saving it as a Gold Report
+
+---
 
 ## Final Rule
 
 Reddit should be used for learning first.
 
 If Stackfax shows up, it should show up as useful thinking, not spam.
+
+The best Stackfax reply should still be useful if the reader never clicks anything.
