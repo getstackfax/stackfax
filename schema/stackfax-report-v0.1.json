@@ -4,28 +4,81 @@
   "description": "A structured report format for reviewing Ai stacks.",
   "report": {
     "title": "Stackfax Report: Example Stack",
+    "report_type": "Stackfax Quick Report",
+    "use_case": "business_automation",
     "overall_rating": {
       "stars": 4,
       "score": 82,
       "score_max": 100
     },
+    "verdict": {
+      "primary": "Cloud-First",
+      "secondary": [
+        "Model Routing Needed",
+        "Human Approval Required"
+      ],
+      "summary": "Strong starter stack. Biggest risk is using expensive models for routine work or automating business actions without approval gates."
+    },
     "badges": [
       "StackChecked",
       "Token-Smart",
-      "Cloud-Only",
+      "Cloud-First",
       "Human Approval Required"
     ],
     "stack_summary": {
-      "use_case": "business_automation",
-      "hosting": "cloud_only",
       "experience_level": "builder",
-      "summary": "A cloud-only Ai stack for business automation with model routing and approval gates."
+      "hosting": "cloud",
+      "hardware": "not_required_yet",
+      "workflow_stage": "early_manual",
+      "summary": "A cloud-first Ai stack for business automation with model routing and approval gates."
+    },
+    "current_stack": {
+      "models": [
+        "Example strong reasoning model",
+        "Example cheaper drafting model"
+      ],
+      "providers": [
+        "Example cloud provider"
+      ],
+      "tools": [
+        "Chat interface",
+        "Automation tool",
+        "Spreadsheet or CRM"
+      ],
+      "agents": [
+        "Draft-only assistant"
+      ],
+      "hardware": [
+        "Existing computer"
+      ],
+      "human_review": "Required before customer-facing or business-critical actions."
     },
     "risk_review": {
-      "token_burn_risk": "high",
-      "privacy_risk": "medium_high",
-      "automation_risk": "medium",
-      "hardware_overkill_risk": "low"
+      "token_burn_risk": {
+        "level": "high",
+        "notes": "Premium models may be used for routine summaries, drafting, classification, or repeated agent loops."
+      },
+      "privacy_risk": {
+        "level": "medium_high",
+        "notes": "Business and customer data may require stronger data boundaries before automation expands."
+      },
+      "automation_risk": {
+        "level": "medium",
+        "notes": "The stack should stay draft-only until approval gates and run receipts are in place."
+      },
+      "hardware_overbuild_risk": {
+        "level": "low",
+        "notes": "Local hardware is not required until the workload proves a local hosting need."
+      },
+      "subscription_overlap_risk": {
+        "level": "medium",
+        "notes": "Paid tools should each have a clear job before adding more subscriptions."
+      }
+    },
+    "workflow_fit": {
+      "status": "basic",
+      "notes": "The workflow is useful but should be narrowed into repeatable steps before deeper automation.",
+      "recommended_first_workflow": "Observe, summarize, draft, and ask for approval."
     },
     "recommended_layers": [
       {
@@ -39,13 +92,86 @@
       {
         "name": "Human Approval Layer",
         "purpose": "Review before actions touching customers, money, inventory, credentials, or production systems."
+      },
+      {
+        "name": "Run Receipt Layer",
+        "purpose": "Record what happened, which tools/models were used, what changed, what failed, and what needs review."
       }
     ],
     "hardware_verdict": {
-      "verdict": "Do not buy local hardware yet.",
-      "reason": "Cloud tools are enough until the user proves the workflows and has a justified local hosting need."
+      "verdict": "Do Not Buy Yet",
+      "reason": "Cloud tools are enough until the user proves the workflow and has a justified local hosting need."
     },
-    "best_first_upgrade": "Add model routing and approval gates before adding more automations.",
-    "final_verdict": "Strong starter stack. Biggest risk is using expensive models for routine work or automating business actions without approval gates."
+    "model_routing": {
+      "status": "needed",
+      "recommended_pattern": [
+        "Code or tools gather and filter.",
+        "Cheap model drafts.",
+        "Mid-tier or cheap model summarizes.",
+        "Strong model reviews, reasons, or decides.",
+        "Human approves important actions."
+      ]
+    },
+    "approval_gates": {
+      "status": "required",
+      "human_approval_required_before": [
+        "sending customer messages",
+        "posting publicly",
+        "changing customer records",
+        "moving or deleting files",
+        "accessing credentials",
+        "touching wallets or financial accounts",
+        "changing inventory",
+        "processing payments",
+        "modifying production systems"
+      ]
+    },
+    "run_receipts": {
+      "status": "missing",
+      "should_track": [
+        "requested task",
+        "model used",
+        "tools used",
+        "files or context used",
+        "actions taken",
+        "what changed",
+        "what failed",
+        "approximate cost",
+        "what needs human review",
+        "what to change next run"
+      ]
+    },
+    "agent_roi": {
+      "status": "unclear",
+      "notes": "The stack should prove useful completed work, not just activity.",
+      "should_measure": [
+        "time saved",
+        "supervision required",
+        "cost created",
+        "cleanup required",
+        "risk introduced",
+        "repeatability",
+        "business value"
+      ]
+    },
+    "best_first_upgrade": "Add model routing, approval gates, and run receipts before adding more automations.",
+    "next_test": {
+      "name": "Safe Starter Workflow Test",
+      "description": "Run one low-risk workflow that observes, summarizes, drafts, and asks for approval before touching customer data, credentials, or production systems."
+    },
+    "recheck_plan": {
+      "timeframe": "30 days",
+      "track": [
+        "which tools were actually used",
+        "which models handled which tasks",
+        "how much was spent",
+        "where tokens drained",
+        "what required human approval",
+        "which workflows repeated",
+        "whether hardware became justified",
+        "whether the stack produced useful work"
+      ]
+    },
+    "final_verdict": "Strong starter stack. Keep it cloud-first for now, route models by job, require human approval for business actions, and add run receipts before expanding automation."
   }
 }
