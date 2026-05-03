@@ -44,14 +44,12 @@ The fix is evidence.
 ---
 
 ## Safer Beginner Pattern
-
-## Safer Beginner Pattern
-
 Use this pattern:
 
 ```text
-agent suggests → human approves → agent acts → result is logged
 Avoid this pattern:
+agent suggests → human approves → agent acts → result is logged
+
 agent decides → agent acts → user discovers later
 Artifact-First Starter Workflow
 
