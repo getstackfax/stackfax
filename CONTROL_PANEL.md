@@ -353,6 +353,8 @@ Recheck / deeper report / business audit
 ↓
 Future Stackfax app
 
+---
+
 ## Rabble Scout Rule
 
 Rabble Scouts do not act.
