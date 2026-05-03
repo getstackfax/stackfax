@@ -1,0 +1,620 @@
+# Stackfax OpenClaw 4.29 Field Notes
+
+This file captures Stackfax field notes from OpenClaw 4.29 and related public release/community signals.
+
+The goal is not to document every technical detail.
+
+The goal is to identify what OpenClaw 4.29 may change about Ai stack fit, active-run control, memory governance, communication accountability, subagent routing, follow-up commitments, update risk, and recheck timing.
+
+This is Stackfax interpretation, not official OpenClaw documentation.
+
+---
+
+## Source Note
+
+Public release sources for OpenClaw 2026.4.29 highlight active-run steering, visible-reply enforcement, spawned subagent routing metadata, opt-in follow-up commitments, people-aware memory wiki behavior, provenance views, Active Memory filters, partial recall on timeout, and bounded REM preview diagnostics.
+
+Stackfax treats these as stack-fit signals, not as implementation guarantees.
+
+---
+
+## Core Takeaway
+
+OpenClaw 4.29 appears to be a control-layer update.
+
+The biggest signal is not simply that agents got smarter.
+
+The bigger signal is that agents appear to be getting more steerable, more memory-aware, more communication-visible, and more operationally accountable.
+
+That makes Stackfax more relevant, not less relevant.
+
+When agents can be steered mid-run, remember people, route subagents, send visible replies, and create follow-up commitments, the stack needs stronger governance.
+
+The question is no longer only:
+
+> Can the agent do the task?
+
+The better Stackfax question is:
+
+> Who can steer it, what can it remember, what can it promise, where can it reply, and what receipt proves what happened?
+
+---
+
+## Stackfax Translation
+
+OpenClaw 4.29 signals a shift from setup friction toward operational control.
+
+A maturing agent platform creates more need for:
+
+- steering policies
+- communication boundaries
+- memory governance
+- follow-up controls
+- subagent routing receipts
+- run receipts
+- permission checks
+- rollback plans
+- recheck logic
+- human approval gates
+
+Keeper line:
+
+> A steerable agent still needs a steering policy.
+
+Another keeper:
+
+> When agents can remember people and promise follow-ups, memory and commitments become governance problems.
+
+---
+
+## Major Stackfax Signals
+
+### 1. Active-Run Steering
+
+OpenClaw 4.29 appears to make active-run steering a stronger default behavior for messaging and automation flows.
+
+Stackfax signal:
+
+If an agent can be steered while it is already working, the stack needs rules for who can steer it and what kind of steering is allowed.
+
+Possible Stackfax categories:
+
+- Active-Run Steering Risk
+- Intervention Policy Needed
+- Operator Control Layer
+- Mid-Run Instruction Risk
+- Human Override Required
+- Run Receipt Required
+
+Useful line:
+
+A steerable agent still needs a steering policy.
+
+Stackfax questions:
+
+- Who is allowed to interrupt or redirect the run?
+- Are mid-run instructions logged?
+- Can steering override the original task?
+- Can steering expand permissions?
+- Does the final receipt show what changed mid-run?
+- Does the agent pause before risky redirected actions?
+
+---
+
+### 2. Visible-Reply Enforcement
+
+OpenClaw 4.29 appears to highlight visible-reply enforcement for messaging.
+
+Stackfax signal:
+
+If an agent can reply through a communication channel, users need proof of what it said, where it said it, and why.
+
+Possible Stackfax categories:
+
+- Communication Channel Risk
+- Visible Reply Required
+- Accidental Send Risk
+- Message Boundary Risk
+- Public Reply Risk
+- Run Receipt Required
+
+Useful line:
+
+If the agent can talk, the receipt should show where it talked.
+
+Stackfax questions:
+
+- Which channel did the agent reply in?
+- Was the reply visible to the right people?
+- Could the agent reply publicly by mistake?
+- Does the run receipt capture the message?
+- Was human approval required before sending?
+- Can the agent distinguish draft, private, and public replies?
+
+---
+
+### 3. Spawned Subagent Routing Metadata
+
+OpenClaw 4.29 appears to include stronger metadata for spawned subagent routing.
+
+Stackfax signal:
+
+Multi-agent handoffs need receipts.
+
+If work passes between agents, the stack needs visibility into which subagent handled which part and why.
+
+Possible Stackfax categories:
+
+- Subagent Routing Risk
+- Multi-Agent Handoff Receipt
+- Responsibility Boundary Needed
+- Agent Coordination Risk
+- Routing Visibility Missing
+- Evaluation Layer Needed
+
+Useful line:
+
+Agents do not become a team until responsibility moves through a durable handoff.
+
+Stackfax questions:
+
+- Which subagent was spawned?
+- What task was handed off?
+- Why was that subagent chosen?
+- What context did it receive?
+- What did it return?
+- Did the parent agent verify the result?
+- Did the run receipt preserve the handoff?
+
+---
+
+### 4. Follow-Up Commitments
+
+OpenClaw 4.29 appears to add opt-in follow-up commitments for heartbeat-delivered reminders.
+
+Stackfax signal:
+
+When an agent can promise to follow up later, commitments become part of governance.
+
+A follow-up is not just a reminder.
+
+It is a future action path.
+
+Possible Stackfax categories:
+
+- Commitment Governance Risk
+- Reminder Boundary Needed
+- Follow-Up Approval Required
+- Spam Risk
+- Customer Contact Risk
+- Owner Review Needed
+
+Useful line:
+
+A reminder becomes risk when it can contact the outside world.
+
+Stackfax questions:
+
+- What did the agent promise to follow up on?
+- Who receives the follow-up?
+- Is the follow-up internal or external?
+- Can the follow-up send messages automatically?
+- Is there a human review step before contact?
+- Can the user cancel or edit the commitment?
+- Does the system show all pending commitments?
+
+---
+
+### 5. People-Aware Memory Wiki
+
+OpenClaw 4.29 appears to expand memory into a people-aware wiki with provenance views and per-conversation Active Memory filters.
+
+Stackfax signal:
+
+Memory is becoming relationship infrastructure.
+
+That is powerful, but it creates new risk around provenance, boundaries, false memory, and inappropriate recall.
+
+Possible Stackfax categories:
+
+- People Memory Risk
+- Memory Provenance Needed
+- False Memory Risk
+- Private Memory Risk
+- Active Memory Boundary
+- Relationship Context Risk
+
+Useful line:
+
+False memory breaks trust faster than missing memory.
+
+Another useful line:
+
+Memory is not automatically permission.
+
+Stackfax questions:
+
+- What people can the system remember?
+- Where did the memory come from?
+- Can the user inspect provenance?
+- Can the memory be corrected or deleted?
+- Is memory scoped by conversation?
+- Can private relationship context leak into the wrong workflow?
+- Is memory used for drafting only, or can it trigger actions?
+
+---
+
+### 6. Active Memory Filters
+
+OpenClaw 4.29 appears to highlight per-conversation Active Memory filters.
+
+Stackfax signal:
+
+Memory scope is now a stack-design problem.
+
+The issue is not only what the agent knows.
+
+The issue is what the agent is allowed to bring into this specific run.
+
+Possible Stackfax categories:
+
+- Memory Scope Risk
+- Context Boundary Needed
+- State Design Needed
+- Private Context Leakage
+- Run-Specific Memory Policy
+- Prompt Governance Risk
+
+Useful line:
+
+Pass state, not history.
+
+Another useful line:
+
+Continuity requires context discipline, not just stored facts.
+
+Stackfax questions:
+
+- Which memories are active for this conversation?
+- Which memories are excluded?
+- Who decides the memory scope?
+- Does memory scope change by channel, person, or task?
+- Can memory from one workflow contaminate another?
+- Does the run receipt show memory/context used?
+
+---
+
+### 7. Partial Recall On Timeout
+
+OpenClaw 4.29 appears to include partial recall behavior on timeout.
+
+Stackfax signal:
+
+Partial recall can be useful, but partial memory can also create false confidence.
+
+A system that recalls only part of the relevant context should reveal that limitation.
+
+Possible Stackfax categories:
+
+- Partial Recall Risk
+- Context Completeness Risk
+- Confidence Boundary Needed
+- Review Required
+- Memory Receipt Needed
+
+Useful line:
+
+Partial recall should not create full-confidence output.
+
+Stackfax questions:
+
+- Did recall complete or time out?
+- What was missing?
+- Did the agent warn the user?
+- Did the agent downgrade confidence?
+- Did the output require review?
+- Was partial recall captured in the run receipt?
+
+---
+
+### 8. Bounded REM Preview Diagnostics
+
+OpenClaw 4.29 appears to include bounded REM preview diagnostics.
+
+Stackfax signal:
+
+Diagnostics are becoming part of the stack.
+
+This supports Stackfax doctrine: serious Ai stacks need observability, not vibes.
+
+Possible Stackfax categories:
+
+- Diagnostic Layer Needed
+- Memory Debugging Needed
+- Evaluation Layer Needed
+- Run Receipt Required
+- Production Readiness Risk
+
+Useful line:
+
+Diagnostics turn agent behavior from mystery into evidence.
+
+Stackfax questions:
+
+- Can the user inspect what memory/context is being used?
+- Can they preview relevant memory before the run?
+- Is the preview bounded?
+- Does the preview expose sensitive information?
+- Does the diagnostic layer help reduce false memory?
+- Does it feed the run receipt?
+
+---
+
+### 9. Provider And Reliability Expansion
+
+Public 4.29 summaries also mention broader provider, gateway, plugin, channel, and reliability improvements.
+
+Stackfax signal:
+
+Provider flexibility creates routing power, but also routing complexity.
+
+More providers means more need for routing policy, cost visibility, fallback visibility, and receipts.
+
+Possible Stackfax categories:
+
+- Provider Routing Risk
+- Silent Escalation Risk
+- Cost Visibility Missing
+- Fallback Policy Needed
+- Model Routing Needed
+- Version Drift Risk
+
+Useful line:
+
+Fallback is not enough. Routing needs policy, priority, logging, and visibility.
+
+Stackfax questions:
+
+- Which provider handled the task?
+- Did fallback happen?
+- Why did fallback happen?
+- Did cost change?
+- Did quality change?
+- Was the user told?
+- Does the receipt show the route?
+
+---
+
+### 10. Update And Breakage Signal
+
+OpenClaw 4.29 is a reminder that fast-moving agent platforms can change behavior quickly.
+
+Even useful updates can break assumptions.
+
+Stackfax signal:
+
+Every meaningful agent-platform update creates a recheck moment.
+
+Possible Stackfax categories:
+
+- Version Drift Risk
+- Update Breakage Risk
+- Migration Risk
+- Rollback Needed
+- Staging Needed
+- Recheck Needed
+
+Useful line:
+
+Updates change the stack.
+
+Stackfax checks whether the setup should change with it.
+
+Stackfax questions:
+
+- What version is running?
+- What changed since the last check?
+- Did behavior change in messaging, memory, routing, or permissions?
+- Is there a rollback path?
+- Was this tested in a sandbox?
+- Should production workflows wait?
+
+---
+
+## Beginner-Safe Starter Signal
+
+OpenClaw 4.29 may make agents feel easier to operate because steering, replies, memory, and follow-ups are becoming more usable.
+
+That does not mean beginners should start with broad automation.
+
+Stackfax beginner-safe verdict:
+
+Starter-Ready / Guardrails Required
+
+Good starter permissions:
+
+- observe
+- summarize
+- draft
+- report
+- ask for approval
+
+Avoid at first:
+
+- sending messages automatically
+- touching customer data
+- moving or deleting files
+- accessing wallets
+- editing records
+- connecting sensitive credentials
+- running unattended workflows
+- modifying production systems
+- creating external follow-ups without review
+
+---
+
+## Business Automation Signal
+
+OpenClaw 4.29 matters for business workflows because communication, memory, and follow-up are exactly where business risk lives.
+
+Stackfax signal:
+
+Business automation should start with trust, not speed.
+
+Possible Stackfax categories:
+
+- Business Automation Safety Audit
+- Approval Gates Missing
+- Customer Data Risk
+- Follow-Up Commitment Risk
+- Communication Channel Risk
+- Run Receipts Missing
+- Agent ROI Unclear
+
+Business questions:
+
+- Can the agent contact customers?
+- Can it remember customer-specific context?
+- Can it schedule or promise follow-ups?
+- Can it send messages without approval?
+- Can the owner review pending commitments?
+- Does every customer-facing action have a receipt?
+- What should stay manual?
+
+---
+
+## Agent ROI Signal
+
+Steering, memory, visible replies, and follow-ups can make agents more useful.
+
+But more capability does not automatically mean more value.
+
+Stackfax signal:
+
+Agent ROI should measure useful completed work, not agent activity.
+
+Possible Stackfax categories:
+
+- Agent ROI Review
+- Activity vs Outcome
+- Supervision Cost
+- Cleanup Cost
+- Compounding Value
+- Workflow Fit Review
+
+Useful line:
+
+A more capable agent still has to earn its seat.
+
+Agent ROI questions:
+
+- Did the agent finish useful work?
+- Did steering reduce failure or increase babysitting?
+- Did memory improve output or create cleanup?
+- Did follow-ups help or annoy?
+- Did visible replies improve trust?
+- Did subagents improve quality or add complexity?
+
+---
+
+## Possible Recheck Verdicts
+
+OpenClaw 4.29-related rechecks may produce verdicts such as:
+
+- Keep Current Stack
+- Test Before Switching
+- Recheck Needed
+- Steering Policy Needed
+- Memory Boundary Needed
+- Follow-Up Approval Required
+- Visible Reply Required
+- Subagent Receipts Needed
+- Provider Routing Needed
+- Cost Visibility Missing
+- Run Receipts Missing
+- Approval Gates Needed
+- Production Not Ready
+- Safe To Test
+
+---
+
+## Stackfax Product Implications
+
+OpenClaw 4.29 supports several Stackfax product lanes.
+
+### OpenClaw Starter Stack Check
+
+Users need safe starter workflows before connecting broad tools, memory, channels, and permissions.
+
+### Business Automation Safety Audit
+
+Visible replies, follow-ups, and people-aware memory create direct business-risk questions.
+
+### Run Receipts
+
+Active steering, subagent routing, provider fallback, visible replies, and follow-up commitments all need receipts.
+
+### Model Subscription Fit Check
+
+Provider expansion and fallback behavior increase the need for routing policy and cost visibility.
+
+### Stack Migration Recheck
+
+Fast OpenClaw updates create recurring recheck moments.
+
+### Communication Channel Risk
+
+Agents operating through chat systems need channel boundaries and approval rules.
+
+### Memory Governance
+
+People-aware memory creates a new need for provenance, correction, deletion, scoping, and review.
+
+---
+
+## Future Stackfax Files Inspired By This
+
+Possible follow-up docs and reports:
+
+- `docs/active-run-steering-risk.md`
+- `docs/communication-channel-risk.md`
+- `docs/people-memory-risk.md`
+- `docs/follow-up-commitment-risk.md`
+- `docs/subagent-routing-receipts.md`
+- `docs/version-drift-risk.md`
+- `docs/provider-routing-policy.md`
+- `docs/memory-governance.md`
+- `reports/sample-openclaw-4-29-beginner-safe-starter-report.md`
+- `reports/sample-openclaw-4-29-business-automation-recheck.md`
+- `templates/openclaw-update-recheck-template.md`
+
+---
+
+## Field Research Verdict
+
+OpenClaw 4.29 supports the Stackfax thesis.
+
+As agent platforms become easier to steer, remember, message, route, and follow up, users need stronger guardrails.
+
+They need help deciding:
+
+- who can steer the agent
+- what the agent can remember
+- where the agent can reply
+- what follow-ups it can create
+- which subagent handled what
+- which provider handled what
+- what changed after the update
+- what requires human approval
+- what needs a run receipt
+- when to recheck
+
+Final field note:
+
+Capability without governance becomes hidden risk.
+
+Steer the agent.
+
+Receipt the run.
+
+Approve the action.
