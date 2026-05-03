@@ -45,7 +45,40 @@ The fix is evidence.
 
 ## Safer Beginner Pattern
 
+## Safer Beginner Pattern
+
 Use this pattern:
 
 ```text
 agent suggests → human approves → agent acts → result is logged
+Avoid this pattern:
+agent decides → agent acts → user discovers later
+Artifact-First Starter Workflow
+
+A good first OpenClaw workflow should prove each step.
+
+Example:
+create file → run file → show output → summarize what happened
+For a simple Python test:
+create hello.py → run python3 hello.py → show command output → summarize result
+The goal is to prove:
+
+* the agent understood the task
+* the right model/provider was connected
+* the tool permissions worked
+* the file was created where expected
+* the command actually ran
+* the result was visible
+* errors were understandable
+
+⸻
+
+Stackfax Principle
+
+Agent output is a claim.
+
+The artifact is the proof.
+
+A beginner stack should not be judged only by what the agent says.
+
+It should be judged by what the agent can show.
