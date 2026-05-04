@@ -101,6 +101,7 @@ Early Stackfax report types include:
 Current sample reports live in:
 
 ```text
+
 reports/
 
 Examples may include:
@@ -114,7 +115,7 @@ Examples may include:
 
 These reports are examples of the Stackfax verdict style.
 
-## Docs
+Docs
 
 Current doctrine and product notes live in:
 
@@ -133,22 +134,7 @@ Useful areas include:
 
 ⸻
 
-## Stackfax Principles
-
-Useful areas include:
-
-* hardware verdicts
-* token burn risk
-* business Ai audit
-* agent ROI
-* run receipts
-* approval gates
-* workflow fit
-* agent permissions
-
----
-
-## Stackfax Principles
+Stackfax Principles
 
 The model is not the stack
 
@@ -180,7 +166,7 @@ Local-first is not automatically safe
 
 Local hardware can help with privacy and isolation, but it does not replace permissions, logs, backups, or approval gates.
 
----
+⸻
 
 Common Verdicts
 
@@ -200,7 +186,7 @@ Stackfax verdicts may include:
 * Safe To Test
 * Recheck Needed
 
----
+⸻
 
 Common Badges
 
@@ -217,7 +203,7 @@ Stackfax badges may include:
 * Production Not Ready
 * Business Automation Ready
 
----
+⸻
 
 Who Stackfax Is For
 
@@ -237,7 +223,7 @@ Businesses
 
 You want Ai automation, but need process clarity, data boundaries, approval gates, and accountability before agents touch real systems.
 
----
+⸻
 
 Current Status
 
@@ -255,7 +241,7 @@ Current focus:
 * first-dollar manual report path
 * AiStackClinic community scouting
 
----
+⸻
 
 Public Language
 
@@ -274,9 +260,9 @@ Stackfax avoids public wording that makes people feel embarrassed for asking beg
 
 The goal is to make stack questions easier to ask.
 
----
+⸻
 
-### Community
+Community
 
 Stackfax is connected to the broader Ai stack discussion through practical field research.
 
@@ -291,21 +277,25 @@ Community direction:
 * public examples become product lessons only after review
 
 Related community idea:
+
 r/AiStackClinic
+
 A practical place to discuss Ai builds, stacks, tools, workflows, hardware plans, and automation safety.
 
----
+⸻
 
-### Core CTA
+Core CTA
 
 Go to Stackfax.com and get your free stack report.
 
----
+⸻
 
-### Project Note
+Project Note
 
 Stackfax is being built as a verdict layer for Ai stacks.
 
 The goal is not to chase every tool.
 
 The goal is to help people understand what fits, what is overkill, what is risky, and what should happen next.
+
+
