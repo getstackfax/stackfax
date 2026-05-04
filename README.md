@@ -95,6 +95,7 @@ Early Stackfax report types include:
 - Run Receipt Review
 
 ---
+
 ## Sample Reports
 
 Current sample reports live in:
