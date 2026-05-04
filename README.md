@@ -101,6 +101,7 @@ Early Stackfax report types include:
 Current sample reports live in:
 
 ```text
+
 reports/
 Examples may include:
 
@@ -113,12 +114,17 @@ Examples may include:
 
 These reports are examples of the Stackfax verdict style.
 
----
-
-Docs
+⸻
+## Docs
 
 Current doctrine and product notes live in:
+
+```text
+
 docs/
+
+```
+
 Useful areas include:
 
 * hardware verdicts
@@ -132,7 +138,7 @@ Useful areas include:
 
 ---
 
-Stackfax Principles
+## Stackfax Principles
 
 The model is not the stack
 
