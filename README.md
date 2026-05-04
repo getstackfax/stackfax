@@ -101,8 +101,8 @@ Early Stackfax report types include:
 Current sample reports live in:
 
 ```text
-
 reports/
+
 Examples may include:
 
 * beginner OpenClaw starter stack
@@ -114,16 +114,26 @@ Examples may include:
 
 These reports are examples of the Stackfax verdict style.
 
-⸻
 ## Docs
 
 Current doctrine and product notes live in:
 
-```text
-
 docs/
 
-```
+Useful areas include:
+
+* hardware verdicts
+* token burn risk
+* business Ai audit
+* agent ROI
+* run receipts
+* approval gates
+* workflow fit
+* agent permissions
+
+⸻
+
+## Stackfax Principles
 
 Useful areas include:
 
