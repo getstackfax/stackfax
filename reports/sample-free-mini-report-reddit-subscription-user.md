@@ -8,7 +8,7 @@ Overall Rating: ⭐⭐⭐
 
 Mini Score: 68/100
 
-Mini Verdict: Pick One Primary Subscription / Recheck After Real Usage
+Verdict for consistency: One Primary Subscription / Recheck After Real Usage
 
 ## Summary
 
