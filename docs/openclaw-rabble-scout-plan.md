@@ -1,5 +1,9 @@
 # Rabble Scout Operating Doctrine
 
+Rabble Scout is Stackfax’s internal name for field research.
+
+This doctrine explains how Stackfax turns public Ai-stack confusion into useful report logic, intake questions, risk flags, and product lessons without spamming, scraping private data, or automating public replies.
+
 This file defines how Stackfax uses Rabble Scouts, Gold Reports, and human-approved scouting to turn public Ai-stack chaos into product doctrine, intake questions, report logic, and future Stackfax verdicts.
 
 Rabble Scouts are not posting bots, spam bots, sales bots, or autonomous operators.
