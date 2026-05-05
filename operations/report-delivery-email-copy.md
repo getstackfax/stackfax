@@ -20,12 +20,9 @@ It should not present Stackfax as legal, financial, medical, security, trading, 
 
 ## Standard Delivery Email
 
-Subject:
+**Subject:** Your Stackfax report is ready
 
-```text
-Your Stackfax report is ready
-
-Body:
+**Body:**
 
 Hi,
 
@@ -50,14 +47,14 @@ Optional feedback would help improve the report format:
 - What should Stackfax check next time?
 
 Thanks for trying Stackfax.
-```
-Free Mini Report Delivery Email
 
-Subject:
+---
 
-Your free Stackfax mini report is ready
+## Free Mini Report Delivery Email
 
-Body:
+**Subject:** Your free Stackfax mini report is ready
+
+**Body:**
 
 Hi,
 
@@ -82,13 +79,13 @@ Optional feedback would help improve Stackfax:
 
 Thanks for trying Stackfax.
 
-Paid Quick Report Delivery Email
+---
 
-Subject:
+## Paid Quick Report Delivery Email
 
-Your Stackfax Quick Report is ready
+**Subject:** Your Stackfax Quick Report is ready
 
-Body:
+**Body:**
 
 Hi,
 
@@ -119,13 +116,13 @@ Optional feedback would help improve the report format:
 
 Thanks for trying Stackfax.
 
-Pro Report Beta Preview Delivery Email
+---
 
-Subject:
+## Pro Report Beta Preview Delivery Email
 
-Your Stackfax Pro Report beta preview is ready
+**Subject:** Your Stackfax Pro Report beta preview is ready
 
-Body:
+**Body:**
 
 Hi,
 
@@ -155,11 +152,13 @@ Optional feedback would help improve the Pro format:
 
 Thanks for helping shape Stackfax.
 
-Safety Resubmission Email
+---
 
-Please resubmit your Stackfax intake without sensitive information
+## Safety Resubmission Email
 
-Body:
+**Subject:** Please resubmit your Stackfax intake without sensitive information
+
+**Body:**
 
 Hi,
 
@@ -189,13 +188,13 @@ Please resend a safer version of your intake with sensitive details removed or g
 
 Thanks.
 
-Intake Too Vague Email
+---
 
-Subject:
+## Intake Too Vague Email
 
-A little more detail needed for your Stackfax report
+**Subject:** A little more detail needed for your Stackfax report
 
-Body:
+**Body:**
 
 Hi,
 
@@ -216,13 +215,13 @@ The goal is to make the report specific enough to be useful.
 
 Thanks.
 
-Wrong Report Type Email
+---
 
-Subject:
+## Wrong Report Type Email
 
-A better Stackfax report type may fit your request
+**Subject:** A better Stackfax report type may fit your request
 
-Body:
+**Body:**
 
 Hi,
 
@@ -248,13 +247,13 @@ If you prefer the original report type, reply and let me know.
 
 Thanks.
 
-Report Cannot Be Completed Email
+---
 
-Subject:
+## Report Cannot Be Completed Email
 
-Unable to complete this Stackfax report as submitted
+**Subject:** Unable to complete this Stackfax report as submitted
 
-Body:
+**Body:**
 
 Hi,
 
@@ -274,13 +273,13 @@ If payment was taken and the report cannot be delivered, a refund should be issu
 
 Thanks.
 
-Optional Feedback Follow-Up
+---
 
-Subject:
+## Optional Feedback Follow-Up
 
-Quick feedback on your Stackfax report?
+**Subject:** Quick feedback on your Stackfax report?
 
-Body:
+**Body:**
 
 Hi,
 
@@ -302,11 +301,13 @@ No pressure either way.
 
 Thanks again for trying Stackfax.
 
-30-Day Recheck Follow-Up
+---
 
-Subject:
+## 30-Day Recheck Follow-Up
 
-Time for a Stackfax recheck?
+**Subject:** Time for a Stackfax recheck?
+
+**Body:**
 
 Hi,
 
@@ -337,13 +338,13 @@ A recheck should compare:
 
 No pressure — this is just a useful checkpoint if your stack has changed.
 
-### Refund / Expectation Email
+---
 
-Subject:
+## Refund / Expectation Email
 
-Stackfax report refund update
+**Subject:** Stackfax report refund update
 
-Body:
+**Body:**
 
 Hi,
 
@@ -357,7 +358,9 @@ Stackfax reports are early and manual. If a report cannot be completed safely or
 
 Thanks for understanding.
 
-### Short Delivery Note
+---
+
+## Short Delivery Note
 
 Use this when the report is attached or linked elsewhere.
 
@@ -369,12 +372,16 @@ The report is attached / linked below.
 
 Stackfax is still early and manual. This is practical stack-fit feedback, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
 
+---
+
 ## Signature Block
 
 Thanks,
 
-Stackfax
+Stackfax  
 The report card for Ai stacks.
+
+---
 
 ## Final Rule
 
