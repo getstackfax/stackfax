@@ -1,75 +1,57 @@
 # Stackfax Report Delivery Email Copy
 
-This file contains simple delivery email copy for early Stackfax reports.
+This file contains reusable email copy for delivering early manual Stackfax reports.
 
-The goal is to deliver reports clearly, safely, and professionally without overcomplicating the process.
+The goal is to keep delivery clear, honest, useful, and low-pressure.
 
-## Core Goal
-
-Send the user a clean email that makes the report easy to read and the next step obvious.
+---
 
 ## Core Rule
 
-The report should feel useful even if the user never buys anything else.
+The delivery email should make the report easy to understand and easy to act on.
 
-Do not overpromise.
+It should not overpromise.
 
-Do not pressure the user.
+It should not pressure the user into another purchase.
 
-Do not include sensitive private information unless absolutely needed.
+It should not present Stackfax as legal, financial, medical, security, trading, tax, or compliance advice.
 
-## Main Delivery Email
+---
+
+## Standard Delivery Email
 
 Subject:
 
+```text
 Your Stackfax report is ready
 
 Body:
 
-Hi [Name],
+Hi,
 
 Your Stackfax report is ready.
 
-Report type:
+Report type: [Report Type]
 
-[Report Type]
+Main verdict: [Main Verdict]
 
-Main verdict:
+I’ve included the report below.
 
-[Main Verdict]
+A quick note: Stackfax is still early and manual. The goal is to give you a practical stack-fit verdict, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
 
-Stack Score:
+Optional feedback would help improve the report format:
 
-[Score]/100
+- Was the verdict clear?
+- Was the next move useful?
+- What part was most helpful?
+- What felt confusing?
+- Did the score feel fair?
+- Did the risk flags make sense?
+- What should Stackfax check next time?
 
-Risk flags:
+Thanks for trying Stackfax.
 
-- [Risk Flag 1]
-- [Risk Flag 2]
-- [Risk Flag 3]
-
-Best next move:
-
-[Best Next Move]
-
-Report:
-
-[Paste report text here or include approved private report link]
-
-Optional feedback:
-
-1. Was the verdict clear?
-2. Was the best next move useful?
-3. What part helped most?
-4. What felt confusing?
-5. Would you want a deeper Pro Report?
-6. What should Stackfax check next time?
-
-Thanks for helping shape Stackfax while it is still early.
-
-Stackfax
-
-## Free Mini Report Delivery Email
+Free Mini Report Delivery Email
 
 Subject:
 
@@ -77,49 +59,30 @@ Your free Stackfax mini report is ready
 
 Body:
 
-Hi [Name],
+Hi,
 
 Your free Stackfax mini report is ready.
 
-Mini verdict:
+Report type: Free Mini Report
 
-[Mini Verdict]
+Main verdict: [Main Verdict]
 
-Mini score:
+I’ve included the report below.
 
-[Mini Score]/100
+This mini report is meant to give you a quick stack-fit read before you spend more money, burn more tokens, add more tools, or automate too much too soon.
 
-Risk flags:
+A quick note: Stackfax is still early and manual. This is practical stack-fit feedback, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
 
-- [Risk Flag 1]
-- [Risk Flag 2]
-- [Risk Flag 3]
+Optional feedback would help improve Stackfax:
 
-Best next move:
+- Was the verdict clear?
+- Was the next move useful?
+- What felt confusing?
+- What should Stackfax check next time?
 
-[Best Next Move]
+Thanks for trying Stackfax.
 
-Mini report:
-
-[Paste mini report text here]
-
-If you want a deeper review, the paid Stackfax Quick Report can go further into:
-
-- Hardware fit
-- Token burn
-- Model subscription fit
-- OpenClaw setup
-- Approval gates
-- Upgrade path
-- 30-day recheck notes
-
-No pressure. The free mini report is meant to give you a useful first verdict either way.
-
-Thanks,
-
-Stackfax
-
-## Quick Report Delivery Email
+Paid Quick Report Delivery Email
 
 Subject:
 
@@ -127,225 +90,298 @@ Your Stackfax Quick Report is ready
 
 Body:
 
-Hi [Name],
+Hi,
 
 Your Stackfax Quick Report is ready.
 
-Report type:
+Report type: [Quick Report Type]
 
-[Report Type]
+Main verdict: [Main Verdict]
 
-Main verdict:
+Stack Score: [Score]/100
 
-[Main Verdict]
+I’ve included the report below.
 
-Overall rating:
+This report is meant to help you understand what fits, what may be overbuilt, what may burn tokens, what should require human approval, and what the best next move is.
 
-[Star Rating]
+A quick note: Stackfax is still early and manual. This report is practical stack-fit feedback, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
 
-Stack Score:
+Optional feedback would help improve the report format:
 
-[Score]/100
+- Was the verdict clear?
+- Was the next move useful?
+- Did the score feel fair?
+- Did the risk flags make sense?
+- What part was most helpful?
+- What felt confusing?
+- Would a 30-day recheck be useful?
+- What should Stackfax check next time?
 
-Risk flags:
+Thanks for trying Stackfax.
 
-- [Risk Flag 1]
-- [Risk Flag 2]
-- [Risk Flag 3]
-
-Best next move:
-
-[Best Next Move]
-
-Report:
-
-[Paste report text here or include approved private report link]
-
-Delivery note:
-
-This report is based on the stack details, workflow, tools, and concerns you submitted.
-
-Stackfax gives practical stack guidance, not legal, financial, trading, compliance, security, or guaranteed business advice.
-
-Optional feedback:
-
-1. Was the verdict clear?
-2. Was the best next move useful?
-3. What part helped most?
-4. What felt confusing?
-5. Would you want a deeper Pro Report?
-6. What should Stackfax check next time?
-
-Thanks for trying an early Stackfax Quick Report.
-
-Stackfax
-
-## Follow-Up Needed Before Delivery
+Pro Report Beta Preview Delivery Email
 
 Subject:
 
-A few Stackfax follow-up questions
+Your Stackfax Pro Report beta preview is ready
 
 Body:
 
-Hi [Name],
+Hi,
 
-Thanks for submitting your Stackfax intake.
+Your Stackfax Pro Report beta preview is ready.
 
-I can review this, but I need a little more context before finishing the report.
+Report type: Pro Report Beta Preview
 
-Questions:
+Current verdict: [Current Verdict]
 
-1. [Question 1]
-2. [Question 2]
-3. [Question 3]
+Potential improved score: [Potential Improved Score]/100
 
-Once I have those answers, I can finish the report.
+I’ve included the preview below.
 
-Thanks,
+This is a beta preview of a deeper Stackfax report format. It is not a finished Pro product yet.
 
-Stackfax
+The goal is to show what deeper stack optimization could look like after the Quick Report.
 
-## Intake Cleanup Needed
+A quick note: Stackfax is still early and manual. This preview is practical stack-fit feedback, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
 
-Subject:
+Optional feedback would help improve the Pro format:
 
-Stackfax intake cleanup needed
+- Was the deeper review useful?
+- Which section helped most?
+- Which section felt unnecessary?
+- Did the improvement path feel realistic?
+- What should a paid Pro Report include?
+
+Thanks for helping shape Stackfax.
+
+Safety Resubmission Email
+
+Please resubmit your Stackfax intake without sensitive information
 
 Body:
 
-Hi [Name],
+Hi,
 
-Thanks for submitting your Stackfax intake.
+Thanks for sending your Stackfax intake.
 
-Before I can continue, I need you to remove sensitive or unnecessary private information.
+Before I can review it, I need you to resubmit it with sensitive information removed.
 
-Please do not send:
+Please do not include:
 
-- Passwords
+- passwords
 - API keys
-- Recovery codes
-- Payment details
-- Wallet information
-- Private customer data
-- Private legal documents
-- Private financial account information
-- Sensitive personal information
+- recovery codes
+- payment details
+- wallet information
+- private customer data
+- private legal documents
+- private medical information
+- private financial account information
+- credentials
+- private screenshots
+- internal URLs
+- confidential business records
 
-Please resend a cleaned-up version with only:
+Stackfax can review stack fit, workflow risk, approval gates, token burn, hardware fit, and automation safety without collecting secrets.
 
-- Your stack description
-- Tools
-- Workflow
-- Goals
-- Cost concerns
-- Risk concerns
+Please resend a safer version of your intake with sensitive details removed or generalized.
 
-Once that is cleaned up, I can continue.
+Thanks.
 
-Thanks,
-
-Stackfax
-
-## Delay Notice
+Intake Too Vague Email
 
 Subject:
 
-Stackfax report update
+A little more detail needed for your Stackfax report
 
 Body:
 
-Hi [Name],
+Hi,
 
-Quick update:
+Thanks for sending your Stackfax intake.
 
-Your Stackfax report is still in progress.
+I need a little more detail before I can produce a useful report.
 
-I need a little more time to make sure the verdict and best next move are clear.
+Please reply with:
 
-Updated target:
+- what you are trying to build or decide
+- what tools, models, subscriptions, hardware, or agents you are using
+- what currently works
+- what is confusing or risky
+- what decision you want the report to help with
+- what should not be touched or automated
 
-[Updated delivery time/date]
+The goal is to make the report specific enough to be useful.
 
-Thanks for your patience.
+Thanks.
 
-Stackfax
-
-## Delivered Report Follow-Up
+Wrong Report Type Email
 
 Subject:
 
-Quick Stackfax feedback request
+A better Stackfax report type may fit your request
 
 Body:
 
-Hi [Name],
+Hi,
 
-Thanks again for trying an early Stackfax report.
+Thanks for sending your Stackfax intake.
 
-If you have a minute, I would appreciate quick feedback:
+Based on what you described, I think a different report type may fit better.
 
-1. Was the verdict clear?
-2. Was the best next move useful?
-3. What part helped most?
-4. What felt confusing?
-5. Would you want a deeper Pro Report?
-6. What should Stackfax check next time?
+Your selected report type:
 
-No pressure — this just helps improve the report format.
+[Selected Report Type]
 
-Thanks,
+Recommended report type:
 
-Stackfax
+[Recommended Report Type]
 
-## Refund / Unable To Deliver Email
+Why:
+
+[Short explanation]
+
+If that sounds right, I’ll use the recommended report type.
+
+If you prefer the original report type, reply and let me know.
+
+Thanks.
+
+Report Cannot Be Completed Email
 
 Subject:
 
-Stackfax refund update
+Unable to complete this Stackfax report as submitted
 
 Body:
 
-Hi [Name],
+Hi,
 
-I am sorry, but Stackfax cannot complete this report request as submitted.
+Thanks for sending your Stackfax intake.
+
+I’m not able to complete this report as submitted.
 
 Reason:
 
-[Brief reason]
+[Reason]
 
-Because Stackfax cannot deliver the report, you should receive a refund.
+Possible next step:
 
-Next step:
+[Safer or narrower next step]
 
-[Refund step / payment provider note]
+If payment was taken and the report cannot be delivered, a refund should be issued according to the current refund policy.
+
+Thanks.
+
+Optional Feedback Follow-Up
+
+Subject:
+
+Quick feedback on your Stackfax report?
+
+Body:
+
+Hi,
+
+Quick follow-up on your Stackfax report.
+
+If you have a minute, your feedback would help improve the format.
+
+A few useful questions:
+
+- Was the verdict clear?
+- Was the next move useful?
+- Did the score feel fair?
+- Did the risk flags make sense?
+- What part was most helpful?
+- What felt confusing?
+- What should Stackfax check next time?
+
+No pressure either way.
+
+Thanks again for trying Stackfax.
+
+30-Day Recheck Follow-Up
+
+Subject:
+
+Time for a Stackfax recheck?
+
+Hi,
+
+It has been about 30 days since your Stackfax report.
+
+A recheck may be useful if you changed anything in your stack, such as:
+
+- bought hardware
+- added an agent framework
+- changed model routing
+- added local models
+- connected business tools
+- added customer data
+- started using APIs
+- saw token cost changes
+- added scheduled or recurring workflows
+- moved from draft-only to action-taking workflows
+
+A recheck should compare:
+
+- what changed
+- what worked
+- what broke
+- what cost more than expected
+- what needed human cleanup
+- what should stay manual
+- what can safely move forward
+
+No pressure — this is just a useful checkpoint if your stack has changed.
+
+### Refund / Expectation Email
+
+Subject:
+
+Stackfax report refund update
+
+Body:
+
+Hi,
+
+I’m sending a refund for your Stackfax report.
+
+Reason:
+
+[Reason]
+
+Stackfax reports are early and manual. If a report cannot be completed safely or usefully from the intake provided, the right move is to stop rather than force a weak report.
+
+Thanks for understanding.
+
+### Short Delivery Note
+
+Use this when the report is attached or linked elsewhere.
+
+Your Stackfax report is ready.
+
+Main verdict: [Main Verdict]
+
+The report is attached / linked below.
+
+Stackfax is still early and manual. This is practical stack-fit feedback, not a guaranteed outcome or professional legal, financial, medical, security, trading, tax, or compliance opinion.
+
+## Signature Block
 
 Thanks,
 
 Stackfax
-
-## Safety Footer Option
-
-Use when appropriate:
-
-Important note:
-
-Please do not send passwords, API keys, recovery codes, payment details, wallet information, private customer data, private legal documents, private financial account information, or sensitive personal information.
-
-Stackfax only needs a description of your stack, workflow, tools, and concerns.
-
-## Disclaimer Footer Option
-
-Use when appropriate:
-
-Stackfax gives practical Ai stack guidance based on the information provided.
-
-Stackfax does not provide legal, financial, trading, compliance, security, or guaranteed business advice.
+The report card for Ai stacks.
 
 ## Final Rule
 
-Deliver clarity.
+Keep the email clear.
 
-Protect trust.
+Keep the verdict visible.
 
-Make the next step obvious.
+Keep the expectations honest.
+
+Ask for feedback without pressure.
