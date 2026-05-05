@@ -50,7 +50,7 @@ Optional feedback would help improve the report format:
 - What should Stackfax check next time?
 
 Thanks for trying Stackfax.
-
+```
 Free Mini Report Delivery Email
 
 Subject:
