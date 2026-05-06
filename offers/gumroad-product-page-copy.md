@@ -458,9 +458,3 @@ Keep the delivery manual.
 Protect the user.
 
 Learn from the order.
-
-Source verdict …
-
-Project source it.
-
-This is core first-dollar sales copy for Gumroad, Quick Report fulfillment, intake safety, and early customer expectation-setting.
