@@ -367,9 +367,3 @@ Final Rule
 The Stackfax Quick Report should make the next move clearer.
 
 If the user still does not know what to do next, the report failed.
-
-Source verdict …
-
-Project source it.
-
-This is core offer doctrine for the early paid report, free-to-paid path, intake logic, and future report templates.
