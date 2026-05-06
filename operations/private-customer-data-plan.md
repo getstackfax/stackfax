@@ -452,9 +452,3 @@ Protect the user before improving the product.
 Trust is the asset.
 
 Do not collect what you do not need.
-
-Source verdict …
-
-Project source it.
-
-This is core trust doctrine for paid reports, intake forms, private folders, and future customer handling.
