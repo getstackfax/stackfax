@@ -466,9 +466,3 @@ Track the lesson.
 Protect the user.
 
 Improve the next report.
-
-Source verdict …
-
-Project source it.
-
-This is core early-customer learning doctrine and should guide beta reports, first-dollar tests, template improvement, and private tracker boundaries.
