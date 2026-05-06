@@ -1,10 +1,12 @@
-# Stackfax Customer Email Templates
+Stackfax Customer Email Templates
 
 This file contains early customer email templates for Stackfax report requests.
 
-The goal is to keep communication clear, simple, honest, and trust-first.
+The goal is to keep communication clear, simple, honest, useful, and trust-first.
 
-## Core Rule
+⸻
+
+Core Rule
 
 Every customer email should make the next step obvious.
 
@@ -14,18 +16,41 @@ Do not use scary legal language unless needed later.
 
 Do not pretend Stackfax is automated before it is.
 
-## Tone
+Do not pressure users into upgrades.
+
+Do not collect private data Stackfax does not need.
+
+Core principle:
+
+Clear next step. Small promise. Trust-first delivery.
+
+⸻
+
+Tone
 
 Stackfax emails should feel:
 
-- Clear
-- Calm
-- Useful
-- Direct
-- Human
-- Trustworthy
+* clear
+* calm
+* useful
+* direct
+* human
+* trustworthy
+* practical
 
-## Intake Received Email
+Avoid:
+
+* hype
+* fake urgency
+* fake scarcity
+* aggressive selling
+* overexplaining
+* legalistic scare language
+* pretending the process is more automated than it is
+
+⸻
+
+Intake Received Email
 
 Subject:
 
@@ -47,13 +72,15 @@ If I need clarification, I will reply with a few follow-up questions before star
 
 Important safety note:
 
-Please do not send passwords, API keys, recovery codes, payment details, wallet information, private customer data, private legal documents, or sensitive personal information.
+Please do not send passwords, API keys, recovery codes, payment details, wallet information, private customer records, private legal documents, private medical documents, private financial documents, or sensitive personal information.
+
+Stackfax only needs your stack description, tools, workflow, goals, risks, and concerns.
 
 Thanks,
 
 Stackfax
 
-## Intake Needs Cleanup Email
+Intake Needs Cleanup Email
 
 Subject:
 
@@ -69,17 +96,22 @@ Before I can review it, I need you to remove sensitive or unnecessary private in
 
 Please do not include:
 
-- Passwords
+- passwords
 - API keys
-- Recovery codes
-- Payment details
-- Wallet information
-- Private customer data
-- Private legal documents
-- Private financial account information
-- Sensitive personal information
+- recovery codes
+- payment details
+- wallet information
+- private customer records
+- private legal documents
+- private medical documents
+- private financial documents
+- financial account information
+- sensitive personal information
+- private messages
+- credentials
+- source code secrets
 
-Please resend a cleaned-up version with only the stack description, tools, workflow, goals, and concerns.
+Please resend a cleaned-up version with only the stack description, tools, workflow, goals, risks, and concerns.
 
 Once that is cleaned up, I can continue.
 
@@ -87,7 +119,7 @@ Thanks,
 
 Stackfax
 
-## Follow-Up Questions Email
+Follow-Up Questions Email
 
 Subject:
 
@@ -109,11 +141,13 @@ Questions:
 
 Once I have those answers, I can confirm the best-fit report type and continue.
 
+Please avoid sending passwords, API keys, private customer records, payment details, wallet information, or sensitive documents.
+
 Thanks,
 
 Stackfax
 
-## Report Type Confirmation Email
+Report Type Confirmation Email
 
 Subject:
 
@@ -137,13 +171,45 @@ Expected delivery window:
 
 24 to 48 hours after intake acceptance.
 
-I will keep the report focused on practical stack guidance, risk flags, verdict, and the best next move.
+I will keep the report focused on practical stack guidance, risk flags, the main verdict, and the best next move.
+
+Stackfax is still early and reports are currently manual.
 
 Thanks,
 
 Stackfax
 
-## Report Delivered Email
+Payment Received Email
+
+Subject:
+
+Stackfax payment received
+
+Body:
+
+Hi [Name],
+
+Thanks — your Stackfax payment was received.
+
+Report type:
+
+[Report Type]
+
+Next step:
+
+I will review your intake and prepare the report.
+
+Expected delivery window:
+
+24 to 48 hours after intake acceptance.
+
+If I need clarification before starting, I will send a few follow-up questions.
+
+Thanks,
+
+Stackfax
+
+Report Delivered Email
 
 Subject:
 
@@ -165,13 +231,14 @@ Main verdict:
 
 I included:
 
-- Overall rating
+- overall rating
 - Stack Score
-- Risk flags
-- Main verdict
-- Best next move
-- Suggested upgrade path
-- Safety or approval-gate notes where relevant
+- risk flags
+- main verdict
+- workflow notes
+- best next move
+- suggested upgrade path
+- safety or approval-gate notes where relevant
 
 Report:
 
@@ -190,84 +257,7 @@ Thanks for helping shape Stackfax while it is still early.
 
 Stackfax
 
-## Report Delayed Email
-
-Subject:
-
-Stackfax report update
-
-Body:
-
-Hi [Name],
-
-Quick update:
-
-Your Stackfax report is still in progress.
-
-I need a little more time to make sure the verdict and next move are clear.
-
-Updated target:
-
-[Updated delivery time/date]
-
-Thanks for your patience.
-
-Stackfax
-
-## Refund Needed Email
-
-Subject:
-
-Stackfax refund update
-
-Body:
-
-Hi [Name],
-
-I am sorry, but Stackfax cannot complete this report request as submitted.
-
-Reason:
-
-[Brief reason]
-
-Because Stackfax cannot deliver the report, you should receive a refund.
-
-Next step:
-
-[Refund step / payment provider note]
-
-Thanks,
-
-Stackfax
-
-## Feedback Request Email
-
-Subject:
-
-Quick Stackfax feedback request
-
-Body:
-
-Hi [Name],
-
-Thanks again for trying an early Stackfax report.
-
-If you have a minute, I would appreciate quick feedback:
-
-1. Was the verdict clear?
-2. Was the best next move useful?
-3. What part helped most?
-4. What felt confusing?
-5. Would you want a deeper Pro Report?
-6. What should Stackfax check next time?
-
-No pressure — this just helps improve the report format.
-
-Thanks,
-
-Stackfax
-
-## Free Mini Report Delivered Email
+Free Mini Report Delivered Email
 
 Subject:
 
@@ -297,48 +287,350 @@ Best next move:
 
 [Best Next Move]
 
-If you want a deeper review, the paid Stackfax Quick Report can go further into hardware fit, token burn, model subscription fit, approval gates, and upgrade path.
+If you want a deeper review, the paid Stackfax Quick Report can go further into hardware fit, token burn, model subscription fit, workflow fit, approval gates, run receipts, and upgrade path.
+
+No pressure. The free mini report is meant to give you a useful first verdict either way.
 
 Thanks,
 
 Stackfax
 
-## Paid Upgrade Soft Mention
+Report Delayed Email
+
+Subject:
+
+Stackfax report update
+
+Body:
+
+Hi [Name],
+
+Quick update:
+
+Your Stackfax report is still in progress.
+
+I need a little more time to make sure the verdict and next move are clear.
+
+Updated target:
+
+[Updated delivery time/date]
+
+Thanks for your patience.
+
+Stackfax
+
+Report Cannot Be Completed Email
+
+Subject:
+
+Stackfax report update
+
+Body:
+
+Hi [Name],
+
+Thanks for submitting your Stackfax intake.
+
+I cannot complete this report as submitted.
+
+Reason:
+
+[Brief reason]
+
+Possible next step:
+
+[Send cleaned-up intake / narrow the request / remove sensitive data / refund step]
+
+Stackfax is designed to review stack setup, workflow fit, cost/risk concerns, approval gates, and practical next moves.
+
+It should not require passwords, credentials, private customer records, sensitive documents, wallet information, or unsafe access.
+
+Thanks,
+
+Stackfax
+
+Refund Needed Email
+
+Subject:
+
+Stackfax refund update
+
+Body:
+
+Hi [Name],
+
+I am sorry, but Stackfax cannot complete this report request as submitted.
+
+Reason:
+
+[Brief reason]
+
+Because Stackfax cannot deliver the report, you should receive a refund.
+
+Next step:
+
+[Refund step / payment provider note]
+
+Thanks,
+
+Stackfax
+
+Feedback Request Email
+
+Subject:
+
+Quick Stackfax feedback request
+
+Body:
+
+Hi [Name],
+
+Thanks again for trying an early Stackfax report.
+
+If you have a minute, I would appreciate quick feedback:
+
+1. Was the verdict clear?
+2. Was the best next move useful?
+3. What part helped most?
+4. What felt confusing?
+5. Would you want a deeper Pro Report?
+6. What should Stackfax check next time?
+
+No pressure — this just helps improve the report format.
+
+Thanks,
+
+Stackfax
+
+Hi [Name],
+
+Thanks again for trying an early Stackfax report.
+
+If you have a minute, I would appreciate quick feedback:
+
+1. Was the verdict clear?
+2. Was the best next move useful?
+3. What part helped most?
+4. What felt confusing?
+5. Would you want a deeper Pro Report?
+6. What should Stackfax check next time?
+
+No pressure — this just helps improve the report format.
+
+Thanks,
+
+Stackfax
+
+Pro Report Interest Reply
+
+Subject:
+
+Stackfax Pro Report interest
+
+Body:
+
+Hi [Name],
+
+Thanks for your interest in a deeper Stackfax Pro Report.
+
+The Pro format is still being shaped.
+
+A deeper report may include:
+
+- fuller stack map
+- deeper workflow fit review
+- token and cost review
+- approval gate review
+- run receipt review
+- model subscription fit
+- hardware or hosting review
+- risk flags
+- 30-day improvement plan
+
+Before offering this, I may ask a few follow-up questions to confirm whether a deeper review is actually useful for your setup.
+
+No pressure either way.
+
+Thanks,
+
+Stackfax
+
+Paid Upgrade Soft Mention
 
 Use only when relevant.
+
+Do not use this in every email.
 
 Body section:
 
 If you want a deeper review, the Stackfax Quick Report can expand this into:
 
-- Full rating
+- full rating
 - Stack Score
-- Detailed verdict
-- Hardware review
-- Token burn review
-- Model subscription fit
-- Approval gate warnings
-- Upgrade path
+- detailed verdict
+- hardware review
+- token burn review
+- model subscription fit
+- workflow fit
+- approval gate warnings
+- run receipt notes
+- upgrade path
 - 30-day recheck notes
 
 No pressure. The free mini report is meant to give you a useful first verdict either way.
 
-## Do Not Include
+Clarification Needed Before Paid Report
+
+Subject:
+
+Quick question before your Stackfax report
+
+Body:
+
+Hi [Name],
+
+Before I start the report, I want to clarify one point so the verdict is useful.
+
+Question:
+
+[Question]
+
+This will help confirm the report type and make sure the next move is practical.
+
+Thanks,
+
+Stackfax
+
+Unsafe Request Boundary Email
+
+Subject:
+
+Stackfax request boundary
+
+Body:
+
+Hi [Name],
+
+Thanks for reaching out.
+
+Stackfax can help review stack setup, workflow fit, model/tool choices, cost concerns, approval gates, run receipts, and practical next steps.
+
+I cannot review or handle:
+
+- passwords
+- API keys
+- wallet seed phrases
+- payment credentials
+- private customer records
+- private legal documents
+- private medical documents
+- private financial documents
+- unsafe automation instructions
+- requests to bypass rules or security controls
+
+If you can resend the request without sensitive data and focus on the stack shape, workflow, tools, risks, and goals, I can take another look.
+
+Thanks,
+
+Stackfax
+
+Permission To Use Anonymized Example
+
+Subject:
+
+Question about using your Stackfax report as an example
+
+Body:
+
+Hi [Name],
+
+Thanks again for trying Stackfax.
+
+Your report included a useful pattern that could help improve future Stackfax examples.
+
+Would you be open to Stackfax using a fictionalized or anonymized version of the report as a sample?
+
+If yes, I would remove identifying details and avoid including private information.
+
+No pressure. Your report stays private unless you clearly approve otherwise.
+
+Thanks,
+
+Stackfax
+
+Testimonial Permission Email
+
+Subject:
+
+Question about your Stackfax feedback
+
+Body:
+Hi [Name],
+
+Thanks for the feedback on your Stackfax report.
+
+Would you be comfortable with Stackfax using your feedback as a testimonial?
+
+If yes, please confirm:
+
+- what name or handle can be shown
+- whether your company name can be shown
+- whether the quote can be lightly edited for clarity
+- whether the report type can be referenced
+
+No pressure. Your feedback will not be used publicly unless you clearly approve it.
+
+Thanks,
+
+Stackfax
+
+Do Not Include
 
 Do not include:
 
-- Fake urgency
-- Fake scarcity
-- Fake testimonials
-- Guaranteed savings
-- Guaranteed outcomes
-- Legal, financial, trading, compliance, or security guarantees
-- Pressure to upgrade
+* fake urgency
+* fake scarcity
+* fake testimonials
+* guaranteed savings
+* guaranteed outcomes
+* legal advice guarantees
+* financial advice guarantees
+* trading advice guarantees
+* compliance guarantees
+* security guarantees
+* pressure to upgrade
+* claims that Stackfax is fully automated before it is
+* claims that a report removes all risk
 
-## Final Rule
+⸻
+
+Email Safety Checklist
+
+Before sending any customer email, check:
+
+* Is the next step obvious?
+* Is the tone calm and clear?
+* Did the email avoid overpromising?
+* Did the email avoid collecting unnecessary sensitive data?
+* Did the email avoid legal/financial/compliance guarantees?
+* Did the email explain the delivery status?
+* Did the email avoid pressure tactics?
+* Did the email preserve trust?
+
+⸻
+
+Final Rule
 
 Every email should protect trust.
 
 Make the next step clear.
 
-Keep the promise small and deliver it well.
+Keep the promise small.
+
+Deliver it well.
+
+Source verdict …
+
+Project source it.
+
+This is core customer communication doctrine for intake, delivery, cleanup, refunds, feedback, upgrades, and trust boundaries.
