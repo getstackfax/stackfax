@@ -657,9 +657,3 @@ Help first.
 Invite rarely.
 
 Pitch almost never.
-
-Source verdict …
-
-Project source it.
-
-This is core beta-user/outreach doctrine. Later compare it against the Beta Launch Soft Post and Reddit Comment Draft Guide so repeated sections can be consolidated.
