@@ -377,9 +377,3 @@ Launch softly.
 Protect trust.
 
 Do not make the beta bigger than the delivery system can support.
-
-Source verdict …
-
-Project source it.
-
-This is core soft-launch copy and beta-outreach doctrine. Keep it, but later we should compare it against the Reddit Comment Draft Guide and Beta User Outreach Plan so we do not duplicate too much.
