@@ -540,9 +540,3 @@ Keep the delivery manual.
 Protect the user.
 
 Learn from the first dollar.
-
-Source verdict …
-
-Project source it.
-
-This is core first-dollar doctrine for getting paid without overbuilding checkout, automation, or fulfillment before the offer is proven.
