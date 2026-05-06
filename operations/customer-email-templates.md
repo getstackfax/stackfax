@@ -628,9 +628,3 @@ Make the next step clear.
 Keep the promise small.
 
 Deliver it well.
-
-Source verdict …
-
-Project source it.
-
-This is core customer communication doctrine for intake, delivery, cleanup, refunds, feedback, upgrades, and trust boundaries.
