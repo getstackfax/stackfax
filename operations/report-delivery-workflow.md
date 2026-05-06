@@ -31,4 +31,4 @@ Expected delivery target:
 
 ```text
 24 to 48 hours after intake is received and accepted.
-``
+```
