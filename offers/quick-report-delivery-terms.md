@@ -367,10 +367,3 @@ Manual first.
 Repeatable second.
 
 Automated later.
-
-Source verdict …
-
-Project source it.
-
-This is core offer/fulfillment doctrine for the early paid Quick Report, including pricing, delivery expectations, refund expectations, safety boundaries, and customer trust.
-
