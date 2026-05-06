@@ -456,5 +456,3 @@ They are not proof.
 Use them to clarify the moment Stackfax is built for.
 
 Do not use them to fake trust.
-
-Commit message …
