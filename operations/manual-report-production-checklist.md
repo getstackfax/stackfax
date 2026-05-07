@@ -569,9 +569,3 @@ Protect the user.
 Clarify the stack.
 
 Leave a better standard behind.
-
-Source verdict …
-
-Project source it.
-
-This is core operating doctrine for early paid delivery, quality control, report safety, and the future Stackfax production workflow.
