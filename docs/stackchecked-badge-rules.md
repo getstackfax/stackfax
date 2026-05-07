@@ -1,10 +1,12 @@
-# Stackfax StackChecked Badge Rules
+Stackfax StackChecked Badge Rules
 
 This file defines early rules for the StackChecked badge.
 
 The goal is to make StackChecked useful, honest, and trust-first before it becomes a public badge, profile mark, or community signal.
 
-## Core Meaning
+⸻
+
+Core Meaning
 
 StackChecked means a stack has been reviewed by Stackfax against a specific use case, workflow, risk level, and point in time.
 
@@ -18,56 +20,75 @@ It means:
 
 The stack has been checked for fit.
 
-## Badge Name
+⸻
+
+Badge Name
 
 StackChecked
 
-## Core Phrase
+Core Phrase
 
 Get Stackfaxed.
 
 Stay StackChecked.
 
-## What StackChecked Can Signal
+⸻
+
+What StackChecked Can Signal
 
 StackChecked may signal that a stack has been reviewed for:
 
-- Use-case fit
-- Hardware fit
-- Local vs cloud fit
-- Model subscription fit
-- Token burn risk
-- Model routing
-- Approval gates
-- Permission boundaries
-- Communication channel risk
-- Credential isolation
-- Customer data risk
-- Private memory risk
-- Agentic trap risk
-- Version drift risk
-- Migration risk
-- Business automation safety
+* use-case fit
+* workflow fit
+* hardware fit
+* local vs cloud fit
+* model subscription fit
+* token burn risk
+* model routing
+* approval gates
+* permission boundaries
+* communication channel risk
+* credential isolation
+* customer data risk
+* private memory risk
+* context bloat risk
+* run receipts
+* cost visibility
+* agentic trap risk
+* version drift risk
+* migration risk
+* business automation safety
 
-## What StackChecked Does Not Mean
+⸻
+
+What StackChecked Does Not Mean
 
 StackChecked does not mean:
 
-- Security certified
-- Compliance certified
-- Legally approved
-- Financially approved
-- Trading approved
-- Guaranteed safe
-- Guaranteed profitable
-- Guaranteed cost-saving
-- Fully automated
-- Error-proof
-- Future-proof
-- Officially endorsed by tool vendors
-- Approved for every use case
+* security certified
+* compliance certified
+* legally approved
+* financially approved
+* medically approved
+* trading approved
+* guaranteed safe
+* guaranteed profitable
+* guaranteed cost-saving
+* fully automated
+* error-proof
+* future-proof
+* officially endorsed by tool vendors
+* approved for every use case
+* approved for every workflow
+* approved forever
 
-## Time-Based Rule
+StackChecked is a practical stack-fit signal.
+
+It is not a professional certification.
+
+⸻
+
+Time-Based Rule
 
 StackChecked should be tied to a check date.
 
@@ -93,24 +114,31 @@ Workflow needs change.
 
 A stack that fits today may need a recheck later.
 
-## Recheck Rule
+⸻
+
+Recheck Rule
 
 A StackChecked badge should be rechecked when:
 
-- A major model changes
-- Pricing changes
-- Usage limits change
-- The user adds agents
-- The user adds new tools
-- The user changes hardware
-- The user changes from cloud to local
-- The user changes from local to cloud
-- OpenClaw updates change the setup
-- The user adds Discord, Slack, Matrix, email, or other agent communication channels
-- The agent gets access to files, APIs, credentials, payments, customers, or production systems
-- The workflow moves from testing to real operations
+* a major model changes
+* pricing changes
+* usage limits change
+* API rate limits change
+* provider behavior changes
+* the user adds agents
+* the user adds new tools
+* the user changes hardware
+* the user changes from cloud to local
+* the user changes from local to cloud
+* OpenClaw updates change the setup
+* the user adds Discord, Slack, Matrix, email, or other agent communication channels
+* the agent gets access to files, APIs, credentials, payments, customers, or production systems
+* the workflow moves from testing to real operations
+* the original use case no longer matches the stack
 
-## Suggested Recheck Window
+⸻
+
+Suggested Recheck Window
 
 Early recommendation:
 
@@ -122,118 +150,151 @@ StackChecked within 30 days
 
 Alternative labels:
 
-- Fresh StackChecked
-- Recheck Needed
-- Version Drift Risk
-- Migration Recheck Needed
+* Fresh StackChecked
+* Recheck Needed
+* Version Drift Risk
+* Migration Recheck Needed
+* High-Risk Change Detected
+* StackChecked Stale
 
-## StackChecked Levels
+⸻
 
-Possible early levels:
+StackChecked Levels
 
-### StackChecked Basic
+StackChecked Basic
 
 A lightweight review based on a Free Mini Report or basic intake.
 
 May include:
 
-- Mini verdict
-- Mini score
-- 2–3 risk flags
-- One best next move
+* mini verdict
+* mini score
+* 2–3 risk flags
+* one best next move
 
-### StackChecked Quick
+⸻
+
+StackChecked Quick
 
 A review based on a Stackfax Quick Report.
 
 May include:
 
-- Overall rating
-- Stack Score
-- Main verdict
-- Risk flags
-- Hardware fit
-- Token burn review
-- Model subscription fit
-- Approval gate notes
-- Best next move
+* overall rating
+* Stack Score
+* main verdict
+* risk flags
+* hardware fit
+* token burn review
+* model subscription fit
+* workflow fit notes
+* approval gate notes
+* best next move
 
-### StackChecked Pro
+⸻
+
+StackChecked Pro
 
 A deeper review for advanced stacks, businesses, agencies, or serious builders.
 
 May include:
 
-- Full score breakdown
-- Routing map
-- Token burn map
-- Hardware review
-- Permission review
-- Communication channel review
-- Private memory review
-- Scaling path
-- 30-day recheck plan
+* full score breakdown
+* routing map
+* token burn map
+* hardware review
+* permission review
+* communication channel review
+* private memory review
+* run receipt review
+* scaling path
+* 30-day recheck plan
 
-## Badge Display Ideas
+This should not be sold as finished until the Pro format is actually ready.
 
-Possible public display:
+⸻
 
-```text
+Badge Display Ideas
+
+Possible public display formats:
+
 StackChecked
 Score: 82/100
 Verdict: Hybrid / Guardrails Required
 Checked: 2026-04-28
 Recheck: 30 days
+
 StackChecked · 82/100 · Hybrid · Checked Apr 2026
+
 StackChecked Stack of the Month
+
+⸻
+
 Public Profile Rule
 
 A public StackChecked profile should not reveal private customer data.
 
 Safe public fields may include:
 
-* Stack category
-* General use case
-* Score range
-* Verdict
-* Risk flags
-* General tools used
-* Local vs cloud direction
-* Approval gate status
-* Recheck date
+* stack category
+* general use case
+* score range
+* verdict
+* risk flags
+* general tools used
+* local vs cloud direction
+* approval gate status
+* recheck date
 
 Avoid public exposure of:
 
-* Customer names
-* Customer emails
-* Private business workflows
-* Private screenshots
-* Credentials
+* customer names
+* customer emails
+* private business workflows
+* private screenshots
+* credentials
 * API keys
-* Payment data
-* Wallet information
-* Private files
-* Internal automation details
-* Sensitive customer data
+* payment data
+* wallet information
+* private files
+* internal automation details
+* sensitive customer data
+* source code secrets
+* production credentials
+* private inbox content
+
+Default rule:
+
+Share the stack shape, not the secrets inside it.
+
+⸻
 
 Example Public Badge
+
 StackChecked
+
 Use Case: OpenClaw starter stack
 Verdict: Starter-Ready / Guardrails Required
 Score: 78/100
 Risk Flags: Token Burn Risk, Permission Boundary Needed, Communication Channel Risk
 Checked: 2026-04-28
+Recheck: 30 days
+
+⸻
+
 Badge Revocation Or Expiration
 
 StackChecked should expire or be marked stale if:
 
-* The stack changes significantly
-* The tool versions change significantly
-* The report is older than the suggested recheck window
-* The user adds high-risk automation
-* The user adds sensitive data access
-* The original use case no longer matches the stack
-* A safety issue is discovered
+* the stack changes significantly
+* the tool versions change significantly
+* the report is older than the suggested recheck window
+* the user adds high-risk automation
+* the user adds sensitive data access
+* the original use case no longer matches the stack
+* a safety issue is discovered
+* the stack moves from test to production
+* the user adds payment, wallet, credential, customer, or production access
 
 Possible labels:
 
@@ -242,27 +303,42 @@ Possible labels:
 * StackChecked Stale
 * Recheck Needed
 * High-Risk Change Detected
+* Version Drift Risk
+* Migration Recheck Needed
+
+⸻
 
 Badge Trust Rule
 
 Do not sell StackChecked as a fake certification.
 
-Do not imply legal, security, compliance, financial, trading, or business guarantees.
+Do not imply legal, security, compliance, financial, trading, medical, or business guarantees.
+
+Do not imply vendor endorsement unless a vendor explicitly approves that use.
+
+Do not imply permanent approval.
 
 StackChecked is a practical stack-fit signal, not a professional certification.
+
+⸻
 
 Community Use
 
 StackChecked may later support:
 
 * Stack of the Month
-* Public stack profiles
-* Builder stack showcases
+* public stack profiles
+* builder stack showcases
 * OpenClaw starter stacks
 * Mac Mini stack examples
 * Token-Smart stack examples
-* Business automation stack examples
-* Community comparison posts
+* business automation stack examples
+* community comparison posts
+* Stackfax recheck posts
+* public badge cards
+* future Stackfax directory
+
+⸻
 
 Stack Of The Month
 
@@ -270,14 +346,46 @@ Stack of the Month should be based on usefulness, not hype.
 
 Possible criteria:
 
-* Clear use case
-* Strong fit
-* Good cost discipline
-* Good safety boundaries
-* Clear approval gates
-* Useful lessons for others
-* Honest limitations
-* Recent check date
+* clear use case
+* strong fit
+* good cost discipline
+* good safety boundaries
+* clear approval gates
+* useful lessons for others
+* honest limitations
+* recent check date
+* repeatable workflow
+* clear “not for” warning
+
+A flashy stack with no clear use case should not win.
+
+A simple stack that fits the job may be more useful.
+
+⸻
+
+Badge Data Fields
+
+A StackChecked badge record may include:
+
+* badge level
+* report type
+* checked date
+* recheck date
+* use case
+* score
+* verdict
+* risk flags
+* local/cloud/hybrid direction
+* approval gate status
+* major assumptions
+* version notes
+* public/private status
+
+Private badge records may include more detail.
+
+Public badge displays should stay safe and anonymized unless the user clearly approves more detail.
+
+⸻
 
 Final Rule
 
