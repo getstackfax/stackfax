@@ -1,4 +1,4 @@
-Stackfax Local Agent Stack Anatomy
+# Stackfax Local Agent Stack Anatomy
 
 The Local Agent Stack Anatomy explains the major layers of a local or hybrid Ai agent setup.
 
