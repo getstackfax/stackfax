@@ -1,4 +1,4 @@
-Stackfax Pro Report Outline
+# Stackfax Pro Report Outline
 
 The Stackfax Pro Report is a deeper report format for serious builders, experts, solo operators, agencies, and users trying to scale from one workflow into repeatable systems.
 
