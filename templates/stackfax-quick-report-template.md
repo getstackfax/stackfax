@@ -10,6 +10,10 @@ Stack Score: [0–100]
 
 Verdict: [Main verdict]
 
+Checked: [Date]
+
+Recheck Trigger: [What should make this user recheck the stack?]
+
 ---
 
 ## Summary
@@ -22,9 +26,9 @@ Verdict: [Main verdict]
 
 The user wants to:
 
-- [Goal 1]
-- [Goal 2]
-- [Goal 3]
+* [Goal 1]
+* [Goal 2]
+* [Goal 3]
 
 ---
 
@@ -32,11 +36,11 @@ The user wants to:
 
 The current or proposed stack includes:
 
-- Tool/model/subscription/hardware:
-- Tool/model/subscription/hardware:
-- Tool/model/subscription/hardware:
-- Agent/workflow layer:
-- Human approval or review process:
+* Tool/model/subscription/hardware:
+* Tool/model/subscription/hardware:
+* Tool/model/subscription/hardware:
+* Agent/workflow layer:
+* Human approval or review process:
 
 ---
 
@@ -46,40 +50,40 @@ The current or proposed stack includes:
 
 Possible verdict examples:
 
-- Do Not Buy Yet
-- Cloud-First
-- Local-Ready
-- Hardware Justified
-- Overkill Warning
-- Model Routing Needed
-- Token Burn Risk
-- Simplify Subscriptions
-- Human Approval Required
-- Business Automation Ready
-- Production Not Ready
-- Safe To Test
-- Recheck Needed
+* Do Not Buy Yet
+* Cloud-First
+* Local-Ready
+* Hardware Justified
+* Overkill Warning
+* Model Routing Needed
+* Token Burn Risk
+* Simplify Subscriptions
+* Human Approval Required
+* Business Automation Ready
+* Production Not Ready
+* Safe To Test
+* Recheck Needed
 
 ---
 
 ## Badges
 
-- StackChecked
-- [Badge 2]
-- [Badge 3]
-- [Badge 4]
+* StackChecked
+* [Badge 2]
+* [Badge 3]
+* [Badge 4]
 
 Possible badges:
 
-- Token-Smart
-- Cloud-First
-- Local-Ready
-- Hardware Justified
-- Human Approval Required
-- Run Receipts Needed
-- Workflow Fit Unclear
-- Business Automation Ready
-- Production Not Ready
+* Token-Smart
+* Cloud-First
+* Local-Ready
+* Hardware Justified
+* Human Approval Required
+* Run Receipts Needed
+* Workflow Fit Unclear
+* Business Automation Ready
+* Production Not Ready
 
 ---
 
@@ -87,9 +91,9 @@ Possible badges:
 
 This stack fits well for:
 
-- [Fit 1]
-- [Fit 2]
-- [Fit 3]
+* [Fit 1]
+* [Fit 2]
+* [Fit 3]
 
 ---
 
@@ -97,24 +101,24 @@ This stack fits well for:
 
 This stack may be overbuilt if:
 
-- [Overkill signal 1]
-- [Overkill signal 2]
-- [Overkill signal 3]
+* [Overkill signal 1]
+* [Overkill signal 2]
+* [Overkill signal 3]
 
 Common overkill signals:
 
-- buying hardware before defining the workflow
-- using premium models for routine tasks
-- adding agents before approval gates exist
-- paying for overlapping subscriptions
-- copying a creator/vendor stack without matching the use case
-- building around tools instead of the job
+* buying hardware before defining the workflow
+* using premium models for routine tasks
+* adding agents before approval gates exist
+* paying for overlapping subscriptions
+* copying a creator/vendor stack without matching the use case
+* building around tools instead of the job
 
 ---
 
 ## Risk Review
 
-### Token Burn Risk
+Token Burn Risk
 
 Risk level: [Low / Medium / High]
 
@@ -124,17 +128,37 @@ Notes:
 
 Recommended checks:
 
-- Is the strongest model doing every step?
-- Is too much context loaded by default?
-- Are long histories included in every call?
-- Are knowledge files loaded into simple tasks?
-- Are there repeated tool/browser/search loops?
-- Is there a session budget cap?
-- Can code/tools do extraction before Ai does judgment?
+* Is the strongest model doing every step?
+* Is too much context loaded by default?
+* Are long histories included in every call?
+* Are knowledge files loaded into simple tasks?
+* Are there repeated tool/browser/search loops?
+* Is there a session budget cap?
+* Can code/tools do extraction before Ai does judgment?
 
 ---
 
-### Hardware Fit
+## Cost Visibility
+
+Status: [Missing / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether the user can see which models, tools, subscriptions, API calls, retries, fallback events, or human review time created cost.]
+
+Recommended checks:
+
+* Which model handled each step?
+* Why was that route selected?
+* Did fallback escalation happen?
+* How many tool calls or retries happened?
+* Was a premium model used?
+* Was the output useful enough to justify the cost?
+* Could this route be cheaper next time?
+
+---
+
+## Hardware Fit
 
 Verdict: [Do Not Buy Yet / Cloud-First / Local-Ready / Hardware Justified / Overkill Warning]
 
@@ -144,18 +168,18 @@ Notes:
 
 Hardware is more justified when the user needs:
 
-- local model testing
-- privacy isolation
-- always-on local workflows
-- high-volume repeatable tasks
-- a dedicated Ai workspace
-- separation from a personal machine
+* local model testing
+* privacy isolation
+* always-on local workflows
+* high-volume repeatable tasks
+* a dedicated Ai workspace
+* separation from a personal machine
 
 Hardware is less justified when the workflow is still undefined.
 
 ---
 
-### Model Subscription Fit
+## Model Subscription Fit
 
 Verdict: [Keep Current Setup / Simplify Subscriptions / Subscription Overlap Risk / Model Routing Needed]
 
@@ -165,15 +189,15 @@ Notes:
 
 Questions to check:
 
-- Does each paid tool have a clear job?
-- Are subscriptions overlapping?
-- Is the user paying for tools they do not use?
-- Should some tasks use API credits instead of subscriptions?
-- Should local models handle routine tasks?
+* Does each paid tool have a clear job?
+* Are subscriptions overlapping?
+* Is the user paying for tools they do not use?
+* Should some tasks use API credits instead of subscriptions?
+* Should local models handle routine tasks?
 
 ---
 
-### Workflow Fit
+## Workflow Fit
 
 Verdict: [Clear / Unclear / Needs Narrowing / Ready To Test]
 
@@ -183,39 +207,39 @@ Notes:
 
 A good workflow has:
 
-- clear input
-- clear output
-- clear owner
-- clear done-state
-- clear review point
-- clear failure mode
-- clear next step
+* clear input
+* clear output
+* clear owner
+* clear done-state
+* clear review point
+* clear failure mode
+* clear next step
 
 ---
 
-### Approval Gates
+## Approval Gates
 
 Risk level: [Low / Medium / High]
 
 Human approval should be required before Ai can:
 
-- send messages
-- post publicly
-- contact customers
-- move or delete files
-- change settings
-- access credentials
-- touch wallets or financial accounts
-- edit customer records
-- change inventory, payments, or production systems
+* send messages
+* post publicly
+* contact customers
+* move or delete files
+* change settings
+* access credentials
+* touch wallets or financial accounts
+* edit customer records
+* change inventory, payments, or production systems
 
 Notes:
 
 [Explain which actions should stay draft-only, read-only, or human-approved.]
 
----
+--- 
 
-### Privacy And Credential Isolation
+## Privacy And Credential Isolation
 
 Risk level: [Low / Medium / High]
 
@@ -225,39 +249,58 @@ Notes:
 
 Recommended checks:
 
-- Are personal and business accounts separated?
-- Are credentials isolated?
-- Are private files protected?
-- Are customer records restricted?
-- Are browser sessions safe?
-- Are agents limited to the tools they actually need?
+* Are personal and business accounts separated?
+* Are credentials isolated?
+* Are private files protected?
+* Are customer records restricted?
+* Are browser sessions safe?
+* Are agents limited to the tools they actually need?
 
 ---
 
-### Run Receipts
+## Run Receipts
 
 Status: [Missing / Basic / Good / Strong]
 
 A useful run receipt should show:
 
-- requested task
-- model used
-- tools used
-- files/context used
-- actions taken
-- what changed
-- what failed
-- approximate cost
-- what needs human review
-- what to change next run
+* requested task
+* model used
+* tools used
+* files/context used
+* actions taken
+* what changed
+* what failed
+* approximate cost
+* what needs human review
+* what to change next run
 
 Notes:
 
 [Explain whether the user can tell what happened after the workflow runs.]
 
----
+--- 
 
-### Uptime Or Production Readiness
+## Context And Decision Receipts
+
+Status: [Missing / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether the report can show what context was used and why the main verdict was chosen.]
+
+A useful context or decision receipt should show:
+
+* what context was used
+* what context was excluded
+* what assumptions were made
+* what evidence supports the verdict
+* what risks changed the recommendation
+* what would change the verdict later
+
+--- 
+
+## Uptime Or Production Readiness
 
 Risk level: [Low / Medium / High]
 
@@ -267,18 +310,18 @@ Notes:
 
 Production readiness requires:
 
-- repeatable workflow
-- approval gates
-- run receipts
-- failure handling
-- credential isolation
-- cost visibility
-- rollback path
-- human owner
+* repeatable workflow
+* approval gates
+* run receipts
+* failure handling
+* credential isolation
+* cost visibility
+* rollback path
+* human owner
 
 ---
 
-### Agent ROI
+## Agent ROI
 
 Status: [Unclear / Early Signal / Good / Strong]
 
@@ -288,13 +331,13 @@ Notes:
 
 Agent ROI should consider:
 
-- completed useful work
-- supervision required
-- cost created
-- cleanup required
-- risk introduced
-- repeatability
-- compounding value
+* completed useful work
+* supervision required
+* cost created
+* cleanup required
+* risk introduced
+* repeatability
+* compounding value
 
 ---
 
@@ -314,23 +357,26 @@ Build one safe starter workflow that observes, summarizes, and reports before gi
 
 To improve the score, add:
 
-- [Upgrade 1]
-- [Upgrade 2]
-- [Upgrade 3]
-- [Upgrade 4]
+* [Upgrade 1]
+* [Upgrade 2]
+* [Upgrade 3]
+* [Upgrade 4]
 
 Possible upgrades:
 
-- clearer workflow definition
-- model routing
-- token budget cap
-- approval gate checklist
-- run receipt template
-- credential isolation
-- smaller task-specific context
-- cheaper draft layer
-- strong model only for review or judgment
-- 30-day recheck
+* clearer workflow definition
+* model routing
+* token budget cap
+* approval gate checklist
+* run receipt template
+* credential isolation
+* smaller task-specific context
+* cheaper draft layer
+* strong model only for review or judgment
+* cost visibility
+* context receipts
+* decision receipts
+* 30-day recheck
 
 ---
 
@@ -340,20 +386,34 @@ Recheck this stack after 30 days of real use.
 
 Track:
 
-- which tools were actually used
-- which models handled which tasks
-- how much was spent
-- where tokens drained
-- what required human approval
-- which workflows were repeated
-- whether hardware became justified
-- whether the stack produced useful work
-- what still needed cleanup
+* which tools were actually used
+* which models handled which tasks
+* how much was spent
+* where tokens drained
+* what required human approval
+* which workflows were repeated
+* whether hardware became justified
+* whether the stack produced useful work
+* what still needed cleanup
 
 ---
+
+## Decision Receipt
+
+This verdict is based on:
+
+* [Evidence 1]
+* [Evidence 2]
+* [Evidence 3]
+
+The verdict would change if:
+
+* [Change trigger 1]
+* [Change trigger 2]
+* [Change trigger 3]
+
+--- 
 
 ## Final Stackfax Verdict
 
 [Final short verdict.]
-
-Final recommendation: [Direct recommendation.]
