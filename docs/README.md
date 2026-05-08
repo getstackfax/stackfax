@@ -31,11 +31,17 @@ The right stack is the one that fits the job.
 ### Read these first:
 
 what-is-stackfax.md
+
 ai-stack-field-guide.md
+
 beginner-to-builder-stack-path.md
+
 scoring-rubric.md
+
 rating-system.md
+
 badge-definitions.md
+
 report-ladder.md
 
 These explain the basic Stackfax category, user path, scoring logic, report ladder, and badge system.
