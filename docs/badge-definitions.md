@@ -1,4 +1,4 @@
-Stackfax Badge Definitions
+# Stackfax Badge Definitions 
 
 Stackfax badges give quick context about what a stack is good for, where it is risky, and what kind of user or workflow it fits.
 
