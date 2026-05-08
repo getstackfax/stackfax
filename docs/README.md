@@ -102,7 +102,7 @@ These docs define how Stackfax thinks about trust, control, evidence, and review
 
 - permission-vs-authority.md
 
-production-readiness.md
+- production-readiness.md
 
 - recheck-system.md
 
