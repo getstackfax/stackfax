@@ -12,7 +12,7 @@ The best stack does not use the best model for everything.
 
 The best stack sends each job to the right layer.
 
-## Core rule:
+### Core rule:
 
 Route by job, not hype.
 
@@ -51,13 +51,13 @@ One model may be asked to:
 
 That creates risk because not every step needs the same intelligence, cost, latency, context window, privacy level, or review standard.
 
-Stackfax verdict:
+### Stackfax verdict:
 
 Spend intelligence where it matters.
 
 ⸻
 
-Model Routing Definition
+## Model Routing Definition
 
 Model routing means deciding which layer handles which job.
 
