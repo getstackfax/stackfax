@@ -10,21 +10,25 @@ Mini Score: [0–100]
 
 Verdict: [Main mini verdict]
 
+Checked: [Date]
+
+Recheck Trigger: [What should make this user recheck the stack?]
+
 ---
 
-## Summary
+Summary
 
 [Short plain-English summary of what the user is trying to build and whether the stack fits.]
 
 ---
 
-## User Goal
+User Goal
 
 The user wants to:
 
-- [Goal 1]
-- [Goal 2]
-- [Goal 3]
+* [Goal 1]
+* [Goal 2]
+* [Goal 3]
 
 ---
 
@@ -32,11 +36,11 @@ The user wants to:
 
 The current or proposed stack includes:
 
-- Tool/model/subscription/hardware:
-- Tool/model/subscription/hardware:
-- Tool/model/subscription/hardware:
-- Agent/workflow layer:
-- Human approval or review process:
+* Tool/model/subscription/hardware:
+* Tool/model/subscription/hardware:
+* Tool/model/subscription/hardware:
+* Agent/workflow layer:
+* Human approval or review process:
 
 ---
 
@@ -46,38 +50,39 @@ The current or proposed stack includes:
 
 Possible verdict examples:
 
-- Do Not Buy Yet
-- Cloud-First
-- Local-Ready
-- Hardware May Be Justified Later
-- Hardware Justified
-- Overkill Warning
-- Token Burn Risk
-- Simplify Subscriptions
-- Human Approval Required
-- Workflow Fit Unclear
-- Safe To Test
-- Recheck Needed
+* Do Not Buy Yet
+* Cloud-First
+* Local-Ready
+* Hardware May Be Justified Later
+* Hardware Justified
+* Overkill Warning
+* Token Burn Risk
+* Simplify Subscriptions
+* Human Approval Required
+* Workflow Fit Unclear
+* Safe To Test
+* Recheck Needed
 
 ---
 
 ## Risk Flags
 
-- [Risk flag 1]
-- [Risk flag 2]
-- [Risk flag 3]
+* [Risk flag 1]
+* [Risk flag 2]
+* [Risk flag 3]
 
 Possible risk flags:
 
-- Hardware Overbuild Risk
-- Token Burn Risk
-- Model Subscription Overlap Risk
-- Human Approval Required
-- Context Bloat Risk
-- Credential Isolation Risk
-- Workflow Fit Unclear
-- Run Receipts Missing
-- Production Not Ready
+* Hardware Overbuild Risk
+* Token Burn Risk
+* Subscription Overlap Risk
+* Human Approval Required
+* Context Bloat Risk
+* Credential Isolation Risk
+* Workflow Fit Unclear
+* Run Receipts Missing
+* Cost Visibility Missing
+* Production Not Ready
 
 ---
 
@@ -85,9 +90,9 @@ Possible risk flags:
 
 This stack fits well for:
 
-- [Fit 1]
-- [Fit 2]
-- [Fit 3]
+* [Fit 1]
+* [Fit 2]
+* [Fit 3]
 
 ---
 
@@ -95,17 +100,17 @@ This stack fits well for:
 
 This stack may be overbuilt if:
 
-- [Overkill signal 1]
-- [Overkill signal 2]
-- [Overkill signal 3]
+* [Overkill signal 1]
+* [Overkill signal 2]
+* [Overkill signal 3]
 
 Common overkill signals:
 
-- buying hardware before defining the workflow
-- using premium models for routine tasks
-- adding agents before approval gates exist
-- paying for overlapping subscriptions
-- copying a creator/vendor stack without matching the use case
+* buying hardware before defining the workflow
+* using premium models for routine tasks
+* adding agents before approval gates exist
+* paying for overlapping subscriptions
+* copying a creator/vendor stack without matching the use case
 
 ---
 
@@ -139,7 +144,7 @@ Notes:
 
 ---
 
-## Workflow Fit Note
+Workflow Fit Note
 
 Workflow fit: [Unclear / Basic / Good / Strong]
 
@@ -149,10 +154,10 @@ Notes:
 
 A good first workflow should have:
 
-- clear input
-- clear output
-- clear review point
-- clear done-state
+* clear input
+* clear output
+* clear review point
+* clear done-state
 
 ---
 
@@ -160,30 +165,45 @@ A good first workflow should have:
 
 Human approval should be required before Ai can:
 
-- send messages
-- contact customers
-- post publicly
-- move or delete files
-- access credentials
-- touch wallets or financial accounts
-- edit customer records
-- change inventory, payments, or production systems
+* send messages
+* contact customers
+* post publicly
+* move or delete files
+* access credentials
+* touch wallets or financial accounts
+* edit customer records
+* change inventory, payments, or production systems
 
 ---
 
-## Run Receipt Note
+### Run Receipt Note
 
 Run receipt status: [Missing / Basic / Good]
 
 The user should be able to tell:
 
-- what was requested
-- what model/tool was used
-- what changed
-- what failed
-- what needs human review
+* what was requested
+* what model/tool was used
+* what changed
+* what failed
+* what needs human review
 
 ---
+
+## Recheck Note
+
+The user should recheck this stack if:
+
+* they add agents
+* they connect credentials
+* they add customer data
+* they buy hardware
+* they change model subscriptions
+* they move from draft-only to action-taking automation
+* costs spike
+* a major model, tool, or OpenClaw update changes the setup
+
+--- 
 
 ## Best Next Move
 
@@ -195,40 +215,42 @@ Example:
 
 Build one safe starter workflow that observes, summarizes, and reports before giving agents access to private accounts, customer data, credentials, or production systems.
 
----
+--- 
 
 ## Upgrade Path
 
 To improve the score, the user should consider:
 
-- [Upgrade 1]
-- [Upgrade 2]
-- [Upgrade 3]
+* [Upgrade 1]
+* [Upgrade 2]
+* [Upgrade 3]
 
 Possible upgrades:
 
-- clearer workflow definition
-- model routing
-- token budget cap
-- approval gate checklist
-- run receipt template
-- credential isolation
-- 30-day recheck
+* clearer workflow definition
+* model routing
+* token budget cap
+* approval gate checklist
+* run receipt template
+* credential isolation
+* cost visibility
+* 30-day recheck
 
 ---
 
 ## Quick Report Upsell Note
 
-A full Stackfax Quick Report can go deeper on:
+### A full Stackfax Quick Report can go deeper on:
 
-- hardware verdict
-- token burn review
-- model subscription fit
-- workflow fit
-- approval gates
-- run receipts
-- Agent ROI
-- 30-day recheck plan
+* hardware verdict
+* token burn review
+* model subscription fit
+* workflow fit
+* approval gates
+* run receipts
+* Agent ROI
+* cost visibility
+* 30-day recheck plan
 
 ---
 
