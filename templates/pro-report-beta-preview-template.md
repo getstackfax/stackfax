@@ -2,7 +2,7 @@
 
 Report Type: Pro Report Beta Preview
 
-Use Case: [Describe the user's stack, workflow, or main question]
+Use Case: [Describe the user’s stack, workflow, or main question]
 
 Current Rating: [⭐ to ⭐⭐⭐⭐⭐]
 
@@ -11,6 +11,10 @@ Current Stack Score: [0–100]
 Potential Improved Score: [0–100]
 
 Verdict: [Main Pro Preview verdict]
+
+Checked: [Date]
+
+Recheck Trigger: [What should make this user recheck the stack?]
 
 ---
 
@@ -30,40 +34,40 @@ This preview should not promise guaranteed savings, safety, revenue, legal compl
 
 The current stack includes:
 
-- Model/provider/subscription/tool/hardware:
-- Model/provider/subscription/tool/hardware:
-- Model/provider/subscription/tool/hardware:
-- Agent/workflow layer:
-- Human approval or review process:
+* Model/provider/subscription/tool/hardware:
+* Model/provider/subscription/tool/hardware:
+* Model/provider/subscription/tool/hardware:
+* Agent/workflow layer:
+* Human approval or review process:
 
 The user is trying to:
 
-- [Goal 1]
-- [Goal 2]
-- [Goal 3]
+* [Goal 1]
+* [Goal 2]
+* [Goal 3]
 
----
+--- 
 
 ## What Already Works
 
 This stack already has strengths:
 
-- [Strength 1]
-- [Strength 2]
-- [Strength 3]
+* [Strength 1]
+* [Strength 2]
+* [Strength 3]
 
 Possible strengths:
 
-- clear use case
-- useful model access
-- simple workflow
-- existing human review
-- low-risk first task
-- cloud-first simplicity
-- local privacy benefit
-- repeatable process
-- clear business value
-- strong builder discipline
+* clear use case
+* useful model access
+* simple workflow
+* existing human review
+* low-risk first task
+* cloud-first simplicity
+* local privacy benefit
+* repeatable process
+* clear business value
+* strong builder discipline
 
 ---
 
@@ -71,26 +75,28 @@ Possible strengths:
 
 The stack may be limited by:
 
-- [Issue 1]
-- [Issue 2]
-- [Issue 3]
+* [Issue 1]
+* [Issue 2]
+* [Issue 3]
 
 Possible categories:
 
-- token burn
-- model routing
-- subscription overlap
-- hardware overbuild
-- missing approval gates
-- credential isolation
-- context bloat
-- uptime risk
-- workflow design
-- unclear done-state
-- missing run receipts
-- weak evaluation layer
-- Agent ROI unclear
-- scaling path
+* token burn
+* model routing
+* subscription overlap
+* hardware overbuild
+* missing approval gates
+* credential isolation
+* context bloat
+* cost visibility
+* uptime risk
+* workflow design
+* unclear done-state
+* missing run receipts
+* weak evaluation layer
+* Agent ROI unclear
+* production readiness
+* scaling path
 
 ---
 
@@ -98,24 +104,27 @@ Possible categories:
 
 The stack could improve by adding:
 
-- [Improvement 1]
-- [Improvement 2]
-- [Improvement 3]
-- [Improvement 4]
+* [Improvement 1]
+* [Improvement 2]
+* [Improvement 3]
+* [Improvement 4]
 
 Possible improvements:
 
-- clearer workflow definition
-- model routing
-- token budget cap
-- approval gate checklist
-- run receipt template
-- credential isolation
-- smaller task-specific context
-- cheaper draft layer
-- strong model only for review or judgment
-- evaluation layer
-- 30-day recheck
+* clearer workflow definition
+* model routing
+* token budget cap
+* cost visibility
+* approval gate checklist
+* run receipt template
+* context receipt template
+* decision receipt template
+* credential isolation
+* smaller task-specific context
+* cheaper draft layer
+* strong model only for review or judgment
+* evaluation layer
+* 30-day recheck
 
 ---
 
@@ -129,28 +138,52 @@ Notes:
 
 Possible fixes:
 
-- smaller context
-- cheaper draft model
-- strong model only for judgment
-- session budget cap
-- tool-call cap
-- fallback visibility
-- cost logging
-- 30-day cost recheck
+* smaller context
+* cheaper draft model
+* strong model only for judgment
+* session budget cap
+* tool-call cap
+* fallback visibility
+* cost logging
+* 30-day cost recheck
 
 ---
 
-## Model Routing Preview
+## Cost Visibility Preview
+
+Current status: [Missing / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether the user can see which models, subscriptions, APIs, tools, retries, fallback events, hosting, or human review time created cost.]
+
+A stronger cost visibility layer should show:
+
+* model used
+* route selected
+* why that route was selected
+* context size estimate
+* tool calls
+* retries
+* fallback events
+* approximate cost
+* output produced
+* useful outcome
+* cheaper route next time
+
+⸻
+
+Model Routing Preview
 
 Current routing: [Unclear / Basic / Good / Strong]
 
 Suggested routing:
 
-- Code/tools gather and filter.
-- Cheap model drafts.
-- Mid-tier model summarizes.
-- Strong model reviews or reasons.
-- Human approves important actions.
+* Code/tools gather and filter.
+* Cheap model drafts.
+* Mid-tier model summarizes.
+* Strong model reviews or reasons.
+* Human approves important actions.
 
 Notes:
 
@@ -168,11 +201,11 @@ Notes:
 
 Questions to check:
 
-- Does each paid tool have a job?
-- Is the user paying for duplicate capability?
-- Are subscriptions being used enough to justify the cost?
-- Would API credits fit better than another subscription?
-- Should local models handle routine work?
+* Does each paid tool have a job?
+* Is the user paying for duplicate capability?
+* Are subscriptions being used enough to justify the cost?
+* Would API credits fit better than another subscription?
+* Should local models handle routine work?
 
 ---
 
@@ -186,12 +219,12 @@ Notes:
 
 Hardware is more justified when it unlocks:
 
-- local model testing
-- privacy isolation
-- always-on local workflows
-- high-volume repeatable tasks
-- dedicated Ai workspace
-- separation from a personal machine
+* local model testing
+* privacy isolation
+* always-on local workflows
+* high-volume repeatable tasks
+* dedicated Ai workspace
+* separation from a personal machine
 
 Hardware is less justified when the workflow is still undefined.
 
@@ -207,13 +240,13 @@ Notes:
 
 A stronger workflow has:
 
-- clear input
-- clear output
-- clear owner
-- clear done-state
-- clear approval point
-- clear failure mode
-- clear recheck trigger
+* clear input
+* clear output
+* clear owner
+* clear done-state
+* clear approval point
+* clear failure mode
+* clear recheck trigger
 
 ---
 
@@ -221,15 +254,15 @@ A stronger workflow has:
 
 Human approval should be required before Ai can:
 
-- send messages
-- post publicly
-- contact customers
-- move or delete files
-- change settings
-- connect credentials
-- access wallets or financial accounts
-- edit customer records
-- change inventory, payments, or production systems
+* send messages
+* post publicly
+* contact customers
+* move or delete files
+* change settings
+* connect credentials
+* access wallets or financial accounts
+* edit customer records
+* change inventory, payments, or production systems
 
 Notes:
 
@@ -247,12 +280,32 @@ Notes:
 
 Recommended checks:
 
-- separate personal and business accounts
-- isolate credentials
-- avoid sharing API keys publicly
-- restrict customer data access
-- keep production systems separate from testing
-- start read-only before write access
+* separate personal and business accounts
+* isolate credentials
+* avoid sharing API keys publicly
+* restrict customer data access
+* keep production systems separate from testing
+* start read-only before write access
+
+---
+
+## Context And Decision Receipts Preview
+
+Current status: [Missing / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether the stack can show what context was used and why the main verdict was chosen.]
+
+A useful context and decision receipt should show:
+
+* what files, memory, sources, or tool outputs were used
+* what context was excluded
+* what assumptions were made
+* what evidence supports the verdict
+* what risks shaped the recommendation
+* what would change the verdict
+* what should be rechecked later
 
 ---
 
@@ -262,16 +315,16 @@ Current status: [Missing / Basic / Good / Strong]
 
 A useful run receipt should show:
 
-- requested task
-- model used
-- tools used
-- files/context used
-- actions taken
-- what changed
-- what failed
-- approximate cost
-- what needs human review
-- what to change next run
+* requested task
+* model used
+* tools used
+* files/context used
+* actions taken
+* what changed
+* what failed
+* approximate cost
+* what needs human review
+* what to change next run
 
 Notes:
 
@@ -279,7 +332,31 @@ Notes:
 
 ---
 
-## Agent ROI Preview
+## Production Readiness Preview
+
+Current status: [Demo Only / Safe To Test / Controlled Pilot / Production Candidate / Production Ready With Controls]
+
+Notes:
+
+[Explain whether the stack is ready for real workflows or should remain experimental.]
+
+Production readiness requires:
+
+* workflow owner
+* defined input and output
+* approval gates
+* scoped permissions
+* credential isolation
+* cost controls
+* run receipts
+* failure handling
+* rollback path
+* monitoring
+* recheck rhythm
+
+---
+
+Agent ROI Preview
 
 Current status: [Unclear / Early Signal / Good / Strong]
 
@@ -287,15 +364,15 @@ Notes:
 
 [Explain whether the stack produces verified useful work, or just activity.]
 
-Agent ROI should consider:
+## Agent ROI should consider:
 
-- completed useful work
-- supervision required
-- cost created
-- cleanup required
-- risk introduced
-- repeatability
-- compounding value
+* completed useful work
+* supervision required
+* cost created
+* cleanup required
+* risk introduced
+* repeatability
+* compounding value
 
 ---
 
@@ -303,22 +380,22 @@ Agent ROI should consider:
 
 Do not automate these yet:
 
-- [Action 1]
-- [Action 2]
-- [Action 3]
+* [Action 1]
+* [Action 2]
+* [Action 3]
 
 Examples:
 
-- customer-facing messages
-- payments
-- refunds
-- wallet actions
-- production changes
-- public posts
-- credential changes
-- deleting files
-- changing customer records
-- sending legal, medical, financial, or compliance-sensitive claims
+* customer-facing messages
+* payments
+* refunds
+* wallet actions
+* production changes
+* public posts
+* credential changes
+* deleting files
+* changing customer records
+* sending legal, medical, financial, or compliance-sensitive claims
 
 ---
 
@@ -339,7 +416,8 @@ Example priority order:
 3. Add model routing.
 4. Add budget/cost visibility.
 5. Add run receipts.
-6. Recheck after real use.
+6. Add context and decision receipts.
+7. Recheck after real use.
 
 ---
 
@@ -347,17 +425,41 @@ Example priority order:
 
 Track this for 30 days:
 
-- which tools were actually used
-- which models handled which jobs
-- how much was spent
-- where tokens drained
-- what required human approval
-- which workflows repeated
-- what broke or caused confusion
-- whether hardware became justified
-- whether subscriptions still fit
-- whether the stack produced useful work
-- what still needed cleanup
+* which tools were actually used
+* which models handled which jobs
+* how much was spent
+* where tokens drained
+* what required human approval
+* which workflows repeated
+* what broke or caused confusion
+* whether hardware became justified
+* whether subscriptions still fit
+* whether the stack produced useful work
+* what still needed cleanup
+
+---
+
+## Decision Receipt
+
+This Pro Preview verdict is based on:
+
+* [Evidence 1]
+* [Evidence 2]
+* [Evidence 3]
+
+The verdict would change if:
+
+* [Change trigger 1]
+* [Change trigger 2]
+* [Change trigger 3]
+
+---
+
+## Beta Trust Note
+
+This preview is meant to show the direction of deeper Stackfax review.
+
+It should help the user understand what to improve next, not imply that the stack is certified, guaranteed safe, legally compliant, financially approved, or production-ready by default.
 
 ---
 
