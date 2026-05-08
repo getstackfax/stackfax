@@ -595,7 +595,7 @@ This stack should be rechecked in 30 days or sooner if the user adds customer da
 
 The current verdict applies to the stack as described today.
 
-### Short version:
+Short version:
 
 Ai stacks expire. Stackfax keeps them checked.
 
