@@ -10,6 +10,10 @@ Stack Score: [0–100]
 
 Verdict: [Main subscription fit verdict]
 
+Checked: [Date]
+
+Recheck Trigger: [What should make this user recheck their subscriptions, API use, routing, or local model setup?]
+
 ---
 
 ## Summary
@@ -22,9 +26,9 @@ Verdict: [Main subscription fit verdict]
 
 The user wants to:
 
-- [Goal 1]
-- [Goal 2]
-- [Goal 3]
+* [Goal 1]
+* [Goal 2]
+* [Goal 3]
 
 ---
 
@@ -32,11 +36,11 @@ The user wants to:
 
 The current or proposed paid access includes:
 
-- Subscription/API/provider/router/local model:
-- Subscription/API/provider/router/local model:
-- Subscription/API/provider/router/local model:
-- Agent/workflow layer:
-- Human approval or review process:
+* Subscription/API/provider/router/local model:
+* Subscription/API/provider/router/local model:
+* Subscription/API/provider/router/local model:
+* Agent/workflow layer:
+* Human approval or review process:
 
 ---
 
@@ -46,40 +50,40 @@ The current or proposed paid access includes:
 
 Possible verdict examples:
 
-- Keep Current Setup
-- Simplify Subscriptions
-- Cancel Or Pause Overlap
-- API Budget Needed
-- Router Needed
-- Local Model Not Required Yet
-- Local Model May Be Useful Later
-- Business Plan May Be Justified
-- Subscription Overlap Risk
-- Model Routing Needed
-- Cost Visibility Missing
-- Workflow Fit Unclear
-- Recheck Needed
+* Keep Current Setup
+* Simplify Subscriptions
+* Cancel Or Pause Overlap
+* API Budget Needed
+* Router Needed
+* Local Model Not Required Yet
+* Local Model May Be Useful Later
+* Business Plan May Be Justified
+* Subscription Overlap Risk
+* Model Routing Needed
+* Cost Visibility Missing
+* Workflow Fit Unclear
+* Recheck Needed
 
 ---
 
 ## Risk Flags
 
-- [Risk flag 1]
-- [Risk flag 2]
-- [Risk flag 3]
+* [Risk flag 1]
+* [Risk flag 2]
+* [Risk flag 3]
 
 Possible risk flags:
 
-- Subscription Overlap Risk
-- Model Routing Needed
-- API Budget Needed
-- Local Model Not Required Yet
-- Tool Stack Creep
-- Human Approval Required
-- Cost Visibility Missing
-- Run Receipts Missing
-- Workflow Fit Unclear
-- Business Plan Not Needed Yet
+* Subscription Overlap Risk
+* Model Routing Needed
+* API Budget Needed
+* Local Model Not Required Yet
+* Tool Stack Creep
+* Human Approval Required
+* Cost Visibility Missing
+* Run Receipts Missing
+* Workflow Fit Unclear
+* Business Plan Not Needed Yet
 
 ---
 
@@ -87,21 +91,21 @@ Possible risk flags:
 
 This setup fits well for:
 
-- [Fit 1]
-- [Fit 2]
-- [Fit 3]
+* [Fit 1]
+* [Fit 2]
+* [Fit 3]
 
 Example fits:
 
-- daily general use
-- coding help
-- research support
-- writing and drafting
-- summarization
-- agent experiments
-- business workflow support
-- privacy-sensitive local testing
-- high-volume routine tasks
+* daily general use
+* coding help
+* research support
+* writing and drafting
+* summarization
+* agent experiments
+* business workflow support
+* privacy-sensitive local testing
+* high-volume routine tasks
 
 ---
 
@@ -109,20 +113,20 @@ Example fits:
 
 The user may be paying for overlap if:
 
-- [Overlap signal 1]
-- [Overlap signal 2]
-- [Overlap signal 3]
+* [Overlap signal 1]
+* [Overlap signal 2]
+* [Overlap signal 3]
 
 Possible overlap signals:
 
-- multiple premium chat tools with no assigned jobs
-- API credits used without budget caps
-- router usage not tracked
-- local models added before workflow is proven
-- agent platforms paid for before approval gates exist
-- tools kept active because they might be useful later
-- business plan paid for before team/admin controls are needed
-- subscriptions kept without 30-day usage evidence
+* multiple premium chat tools with no assigned jobs
+* API credits used without budget caps
+* router usage not tracked
+* local models added before workflow is proven
+* agent platforms paid for before approval gates exist
+* tools kept active because they might be useful later
+* business plan paid for before team/admin controls are needed
+* subscriptions kept without 30-day usage evidence
 
 ---
 
@@ -132,24 +136,20 @@ Each paid model or provider should have a clear job.
 
 Suggested jobs:
 
-- primary daily driver
-- drafting model
-- summary model
-- research helper
-- strong reasoning model
-- final review model
-- cheap automation model
-- local/privacy model
-- coding helper
-- business workflow model
+* primary daily driver
+* drafting model
+* summary model
+* research helper
+* strong reasoning model
+* final review model
+* cheap automation model
+* local/privacy model
+* coding helper
+* business workflow model
 
 Assigned jobs:
 
-- [Tool/model 1]: [Job]
-- [Tool/model 2]: [Job]
-- [Tool/model 3]: [Job]
-
----
+--- 
 
 ## Subscription Overlap Review
 
@@ -161,12 +161,12 @@ Notes:
 
 Questions to check:
 
-- Does each subscription have a clear job?
-- Is one subscription mostly unused?
-- Is the same work being done in multiple tools?
-- Are API credits duplicating chat subscription use?
-- Is a router adding clarity or hiding cost?
-- Is the user paying for “maybe later” tools?
+* Does each subscription have a clear job?
+* Is one subscription mostly unused?
+* Is the same work being done in multiple tools?
+* Are API credits duplicating chat subscription use?
+* Is a router adding clarity or hiding cost?
+* Is the user paying for “maybe later” tools?
 
 ---
 
@@ -180,13 +180,13 @@ Notes:
 
 Recommended controls:
 
-- daily budget cap
-- session budget cap
-- model cap
-- tool-call cap
-- cost logging
-- fallback approval
-- monthly recheck
+* daily budget cap
+* session budget cap
+* model cap
+* tool-call cap
+* cost logging
+* fallback approval
+* monthly recheck
 
 ---
 
@@ -196,17 +196,35 @@ Cost visibility: [Missing / Basic / Good / Strong]
 
 The user should be able to see:
 
-- which subscription was used
-- which API/provider was used
-- which model handled the task
-- whether fallback happened
-- approximate cost
-- which workflow created the most cost
-- which tool should be paused or kept
+* which subscription was used
+* which API/provider was used
+* which model handled the task
+* whether fallback happened
+* approximate cost
+* which workflow created the most cost
+* which tool should be paused or kept
 
 Notes:
 
 [Explain whether the user can tell what each paid tool is actually doing.]
+
+---
+
+## Model Routing Review
+
+Current routing: [Unclear / Basic / Good / Strong]
+
+Notes:
+
+[Explain whether each model, provider, API, router, or local model has a job.]
+
+Recommended pattern:
+
+* one primary daily model
+* one strong reasoning or review model
+* one cheaper route for routine tasks
+* local model only when the workflow justifies it
+* human approval for important actions
 
 ---
 
@@ -220,20 +238,20 @@ Notes:
 
 Local models may be useful for:
 
-- privacy isolation
-- offline testing
-- repeated low-cost workflows
-- dedicated Ai lab work
-- separating personal and business workflows
-- reducing routine API calls
-- learning the full stack
+* privacy isolation
+* offline testing
+* repeated low-cost workflows
+* dedicated Ai lab work
+* separating personal and business workflows
+* reducing routine API calls
+* learning the full stack
 
 Local models may be overkill when:
 
-- the workflow is undefined
-- the user mostly needs chat, writing, or summaries
-- cloud tools already solve the job cheaply
-- the local setup creates more maintenance than value
+* the workflow is undefined
+* the user mostly needs chat, writing, or summaries
+* cloud tools already solve the job cheaply
+* the local setup creates more maintenance than value
 
 ---
 
@@ -247,15 +265,15 @@ Notes:
 
 A stronger workflow has:
 
-- clear input
-- clear output
-- clear owner
-- clear done-state
-- clear review point
-- clear repeat schedule
-- clear cost boundary
+* clear input
+* clear output
+* clear owner
+* clear done-state
+* clear review point
+* clear repeat schedule
+* clear cost boundary
 
----
+--- 
 
 ## Business Plan Review
 
@@ -267,14 +285,14 @@ Notes:
 
 Business plans may be justified when the user needs:
 
-- team access
-- admin controls
-- shared billing
-- stronger data controls
-- workspace separation
-- auditability
-- support
-- compliance-oriented controls
+* team access
+* admin controls
+* shared billing
+* stronger data controls
+* workspace separation
+* auditability
+* support
+* compliance-oriented controls
 
 Business plans are less justified when one person is still testing the workflow.
 
@@ -286,14 +304,14 @@ Risk level: [Low / Medium / High]
 
 Human approval should be required before Ai can:
 
-- send customer messages
-- post publicly
-- change business records
-- access credentials
-- issue refunds
-- touch payment tools
-- change inventory
-- modify production systems
+* send customer messages
+* post publicly
+* change business records
+* access credentials
+* issue refunds
+* touch payment tools
+* change inventory
+* modify production systems
 
 Notes:
 
@@ -307,19 +325,38 @@ Run receipt status: [Missing / Basic / Good / Strong]
 
 A useful subscription-fit run receipt should show:
 
-- task requested
-- tool/subscription used
-- model/provider used
-- API/router used, if any
-- fallback event, if any
-- approximate cost
-- output produced
-- human review needed
-- whether the tool earned its cost
+* task requested
+* tool/subscription used
+* model/provider used
+* API/router used, if any
+* fallback event, if any
+* approximate cost
+* output produced
+* human review needed
+* whether the tool earned its cost
 
 Notes:
 
 [Explain whether the user can review which paid access actually helped.]
+
+---
+
+## Context And Decision Receipt Review
+
+Receipt status: [Missing / Basic / Good / Strong]
+
+A useful subscription decision receipt should show:
+
+* what workflow the paid tool supports
+* why the tool is kept, paused, or canceled
+* what evidence supports the decision
+* what assumptions were made
+* what would change the verdict
+* what should be rechecked later
+
+Notes:
+
+[Explain whether the subscription verdict is evidence-backed or mostly guesswork.]
 
 ---
 
@@ -339,15 +376,15 @@ Pick one primary daily model, one strong review model, and one cheaper API route
 
 For the next 30 days, track:
 
-- which tools were actually used
-- which models handled which jobs
-- how much was spent
-- which tools overlapped
-- which tools saved time
-- which tools created confusion
-- which tools should be paused
-- which workflows repeated
-- which paid access earned its seat
+* which tools were actually used
+* which models handled which jobs
+* how much was spent
+* which tools overlapped
+* which tools saved time
+* which tools created confusion
+* which tools should be paused
+* which workflows repeated
+* which paid access earned its seat
 
 ---
 
@@ -355,23 +392,57 @@ For the next 30 days, track:
 
 To improve the score, add:
 
-- [Improvement 1]
-- [Improvement 2]
-- [Improvement 3]
-- [Improvement 4]
+* [Improvement 1]
+* [Improvement 2]
+* [Improvement 3]
+* [Improvement 4]
 
 Possible improvements:
 
-- clear model jobs
-- primary model assignment
-- fallback rules
-- API budget cap
-- subscription usage log
-- monthly subscription review
-- local vs cloud decision log
-- approval gates for business use
-- run receipts
-- 30-day recheck
+* clear model jobs
+* primary model assignment
+* fallback rules
+* API budget cap
+* subscription usage log
+* monthly subscription review
+* local vs cloud decision log
+* approval gates for business use
+* cost visibility
+* run receipts
+* decision receipts
+* 30-day recheck
+
+---
+
+## Subscription Fit Recheck
+
+Recheck this setup if:
+
+* a subscription tier changes
+* API pricing changes
+* usage limits change
+* a cheaper model becomes good enough
+* a local model becomes useful
+* the workflow volume increases
+* the user adds agents or automation tools
+* the user adds customer data or credentials
+* the user moves from testing to real business use
+
+---
+
+## Decision Receipt
+
+This subscription verdict is based on:
+
+* [Evidence 1]
+* [Evidence 2]
+* [Evidence 3]
+
+The verdict would change if:
+
+* [Change trigger 1]
+* [Change trigger 2]
+* [Change trigger 3]
 
 ---
 
@@ -382,6 +453,8 @@ Do not pay for every model because every model looks useful.
 Pay for the access that fits the workflow.
 
 Every paid tool should earn its seat.
+
+Cost should leave a receipt.
 
 ---
 
