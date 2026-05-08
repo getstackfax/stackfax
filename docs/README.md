@@ -28,7 +28,7 @@ The right stack is the one that fits the job.
 
 ## Start Here
 
-### Read these first:
+Read these first:
 
 what-is-stackfax.md
 
