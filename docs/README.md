@@ -375,7 +375,7 @@ reports/
 
 ## Risk Flags And Badges
 
--Important risk concepts include:
+### Important risk concepts include:
 
 -Token Burn Risk
 
