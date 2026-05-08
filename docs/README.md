@@ -44,7 +44,7 @@ badge-definitions.md
 
 report-ladder.md
 
-These explain the basic Stackfax category, user path, scoring logic, report ladder, and badge system.
+### These explain the basic Stackfax category, user path, scoring logic, report ladder, and badge system.
 
 ---
 
@@ -53,19 +53,30 @@ These explain the basic Stackfax category, user path, scoring logic, report ladd
 These docs define Stackfax report lanes:
 
 hardware-verdict.md
+
 hardware-verdicts.md
+
 mac-mini-decision-tree.md
+
 openclaw-stack-check.md
+
 token-burn-audit.md
+
 model-subscription-fit.md
+
 business-ai-audit.md
+
 business-automation-safety-audit.md
+
 vendor-stack-verdict.md
+
 stack-migration-fit.md
+
 executive-audit.md
+
 pro-report-outline.md
 
-Use these when deciding which report type fits a user.
+### Use these when deciding which report type fits a user.
 
 ---
 
@@ -74,15 +85,25 @@ Use these when deciding which report type fits a user.
 These docs define how Stackfax thinks about trust, control, evidence, and review:
 
 run-receipts.md
+
 context-receipts.md
+
 decision-receipts.md
+
 evidence-assembly.md
+
 evaluation-layer.md
+
 prompt-governance.md
+
 memory-context-governance.md
+
 state-before-history.md
+
 permission-vs-authority.md
+
 production-readiness.md
+
 recheck-system.md
 
 ### These docs answer:
