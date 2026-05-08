@@ -4,7 +4,7 @@ Model Routing Doctrine is the Stackfax doctrine for deciding which model, provid
 
 The goal is to stop users from sending every task to the strongest, most expensive, or most hyped model by default.
 
-⸻
+---
 
 ## Core Idea
 
@@ -12,11 +12,11 @@ The best stack does not use the best model for everything.
 
 The best stack sends each job to the right layer.
 
-Core rule:
+## Core rule:
 
 Route by job, not hype.
 
-⸻
+---
 
 ## Core Question
 
@@ -24,7 +24,7 @@ Is this stack using the right model, tool, code path, or human review layer for 
 
 If not, the stack may be wasting tokens, increasing risk, or making the workflow harder to trust.
 
-⸻
+---
 
 ## Why This Matters
 
