@@ -30,19 +30,19 @@ The right stack is the one that fits the job.
 
 Read these first:
 
-what-is-stackfax.md
+- what-is-stackfax.md
 
-ai-stack-field-guide.md
+- ai-stack-field-guide.md
 
-beginner-to-builder-stack-path.md
+- beginner-to-builder-stack-path.md
 
-scoring-rubric.md
+- scoring-rubric.md
 
-rating-system.md
+- rating-system.md
 
-badge-definitions.md
+- badge-definitions.md
 
-report-ladder.md
+- report-ladder.md
 
 ### These explain the basic Stackfax category, user path, scoring logic, report ladder, and badge system.
 
@@ -52,29 +52,29 @@ report-ladder.md
 
 These docs define Stackfax report lanes:
 
-hardware-verdict.md
+- hardware-verdict.md
 
-hardware-verdicts.md
+- hardware-verdicts.md
 
-mac-mini-decision-tree.md
+- mac-mini-decision-tree.md
 
-openclaw-stack-check.md
+- openclaw-stack-check.md
 
-token-burn-audit.md
+- token-burn-audit.md
 
-model-subscription-fit.md
+- model-subscription-fit.md
 
-business-ai-audit.md
+- business-ai-audit.md
 
-business-automation-safety-audit.md
+- business-automation-safety-audit.md
 
-vendor-stack-verdict.md
+- vendor-stack-verdict.md
 
-stack-migration-fit.md
+- stack-migration-fit.md
 
-executive-audit.md
+- executive-audit.md
 
-pro-report-outline.md
+- pro-report-outline.md
 
 ### Use these when deciding which report type fits a user.
 
@@ -84,27 +84,27 @@ pro-report-outline.md
 
 These docs define how Stackfax thinks about trust, control, evidence, and review:
 
-run-receipts.md
+- run-receipts.md
 
-context-receipts.md
+- context-receipts.md
 
-decision-receipts.md
+- decision-receipts.md
 
-evidence-assembly.md
+- evidence-assembly.md
 
-evaluation-layer.md
+- evaluation-layer.md
 
-prompt-governance.md
+- prompt-governance.md
 
-memory-context-governance.md
+- memory-context-governance.md
 
-state-before-history.md
+- state-before-history.md
 
-permission-vs-authority.md
+- permission-vs-authority.md
 
 production-readiness.md
 
-recheck-system.md
+- recheck-system.md
 
 ### These docs answer:
 
@@ -122,11 +122,15 @@ recheck-system.md
 
 These docs define Stackfax cost-control and routing logic:
 
-token-burn-risk.md
-token-burn-audit.md
-model-routing-doctrine.md
-cost-visibility.md
-model-subscription-fit.md
+- token-burn-risk.md
+
+- token-burn-audit.md
+
+- model-routing-doctrine.md
+
+- cost-visibility.md
+
+- model-subscription-fit.md
 
 ### Use these when reviewing:
 
@@ -145,13 +149,17 @@ model-subscription-fit.md
 
 These docs define hardware, local model, and local-agent review logic:
 
-hardware-verdict.md
-hardware-verdicts.md
-mac-mini-decision-tree.md
-local-agent-stack-anatomy.md
-openclaw-stack-check.md
+- hardware-verdict.md
 
-Use these when reviewing:
+- hardware-verdicts.md
+
+- mac-mini-decision-tree.md
+
+- local-agent-stack-anatomy.md
+
+- openclaw-stack-check.md
+
+### Use these when reviewing:
 
 * Mac mini decisions
 * local Ai boxes
@@ -167,13 +175,20 @@ Use these when reviewing:
 
 These docs define the business automation lane:
 
-business-ai-audit.md
-business-automation-safety-audit.md
-workflow-before-agent.md
-process-before-automation.md
-production-readiness.md
-executive-audit.md
-agent-roi.md
+- business-ai-audit.md
+  
+- business-automation-safety-audit.md
+  
+- workflow-before-agent.md
+  
+- process-before-automation.md
+  
+- production-readiness.md
+  
+- executive-audit.md
+  
+- agent-roi.md
+  
 
 ### Use these when reviewing:
 
@@ -193,13 +208,19 @@ agent-roi.md
 
 These docs define how Stackfax evaluates agents as operating systems, not just chatbots:
 
-agent-roi.md
-run-receipts.md
-workflow-before-agent.md
-process-before-automation.md
-permission-vs-authority.md
-production-readiness.md
-recheck-system.md
+- agent-roi.md
+
+- run-receipts.md
+
+- workflow-before-agent.md
+
+- process-before-automation.md
+
+- permission-vs-authority.md
+
+- production-readiness.md
+
+- recheck-system.md
 
 ### Use these when reviewing:
 
@@ -218,11 +239,15 @@ recheck-system.md
 
 These docs define context discipline:
 
-memory-context-governance.md
-state-before-history.md
-context-receipts.md
-prompt-governance.md
-evaluation-layer.md
+- memory-context-governance.md
+
+- state-before-history.md
+
+- context-receipts.md
+
+- prompt-governance.md
+
+- evaluation-layer.md
 
 ### Use these when reviewing:
 
@@ -241,11 +266,15 @@ evaluation-layer.md
 
 These docs define public research and community behavior:
 
-rabble-scout-operating-doctrine.md
-gold-reports-workflow.md
-aistackclinic-operating-doctrine.md
-community-standards-plan.md
-field-research-log.md
+- rabble-scout-operating-doctrine.md
+
+- gold-reports-workflow.md
+
+- aistackclinic-operating-doctrine.md
+
+- community-standards-plan.md
+
+- field-research-log.md
 
 ### Use these when deciding:
 
@@ -262,12 +291,15 @@ field-research-log.md
 
 These docs define what belongs in public versus private systems:
 
-public-private-roadmap.md
-license-strategy.md
-community-standards-plan.md
-rabble-scout-operating-doctrine.md
+- public-private-roadmap.md
 
-### Core rule:
+- license-strategy.md
+
+- community-standards-plan.md
+
+- rabble-scout-operating-doctrine.md
+
+## Core rule:
 
 Trust is public.
 
@@ -287,12 +319,15 @@ forms/
 
 Important intake files include:
 
-report-intake-google-form-layout.md
-google-form-build-checklist.md
-free-mini-report-intake-form.md
-quick-report-intake-form.md
+- report-intake-google-form-layout.md
 
-Use these to collect structured stack details without asking users for secrets.
+- google-form-build-checklist.md
+
+- free-mini-report-intake-form.md
+
+- quick-report-intake-form.md
+
+### Use these to collect structured stack details without asking users for secrets.
 
 ## Templates And Samples
 
@@ -306,58 +341,93 @@ reports/
 
 ### High-priority templates:
 
-free-mini-report-template.md
-quick-report-template.md
-hardware-verdict-template.md
-token-burn-audit-template.md
-model-subscription-fit-template.md
-business-automation-safety-audit-template.md
-executive-audit-template.md
+- free-mini-report-template.md
+
+- quick-report-template.md
+
+- hardware-verdict-template.md
+
+- token-burn-audit-template.md
+
+- model-subscription-fit-template.md
+
+- business-automation-safety-audit-template.md
+
+- executive-audit-template.md
 
 ### High-priority sample reports:
 
-sample-beginner-openclaw-starter-stack.md
-sample-business-automation-stack.md
-sample-token-burn-audit.md
-sample-local-hardware-stack-report.md
-sample-model-subscription-fit-report.md
-sample-beginner-to-builder-stack-path.md
-stackfax-self-test-report.md
+- sample-beginner-openclaw-starter-stack.md
+
+- sample-business-automation-stack.md
+
+- sample-token-burn-audit.md
+
+- sample-local-hardware-stack-report.md
+
+- sample-model-subscription-fit-report.md
+
+- sample-beginner-to-builder-stack-path.md
+
+- stackfax-self-test-report.md
 
 ---
 
 ## Risk Flags And Badges
 
-Important risk concepts include:
+-Important risk concepts include:
 
-Token Burn Risk
-Context Bloat Risk
-Subscription Overlap Risk
-Hardware Overbuild Risk
-Approval Gates Missing
-Credential Isolation Risk
-Customer Data Risk
-Communication Channel Risk
-Fragile UI Automation Risk
-Run Receipts Missing
-Evaluation Layer Missing
-Agent ROI Unclear
-Version Drift Risk
-Migration Risk
-Production Not Ready
+-Token Burn Risk
+
+-Context Bloat Risk
+
+-Subscription Overlap Risk
+
+-Hardware Overbuild Risk
+
+-Approval Gates Missing
+
+-Credential Isolation Risk
+
+-Customer Data Risk
+
+-Communication Channel Risk
+
+-Fragile UI Automation Risk
+
+-Run Receipts Missing
+
+-Evaluation Layer Missing
+
+-Agent ROI Unclear
+
+-Version Drift Risk
+
+-Migration Risk
+
+-Production Not Ready
 
 ### Important badges include:
 
-StackChecked
-Token-Smart
-Cloud-First
-Local-Ready
-Hardware Justified
-Human Approval Required
-Customer Data Risk
-Business Automation Ready
-Production Not Ready
-Run Receipts Needed
+-StackChecked
+
+-Token-Smart
+
+-Cloud-First
+
+-Local-Ready
+
+-Hardware Justified
+
+-Human Approval Required
+
+-Customer Data Risk
+
+-Business Automation Ready
+
+-Production Not Ready
+
+-Run Receipts Needed
 
 ---
 
@@ -399,4 +469,3 @@ The docs are not the product by themselves.
 The docs become valuable when they turn into reports, intake questions, user verdicts, and safer Ai stack decisions.
 
 Doctrine becomes useful when it helps someone decide what to build, buy, automate, pause, or recheck.
-
