@@ -20,7 +20,7 @@ Run a $19 Stackfax Quick Report.
 
 Free Mini Report intake link:
 
-[Add Google Form link here when ready]
+https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform?usp=preview
 
 Quick Report payment/intake link:
 
