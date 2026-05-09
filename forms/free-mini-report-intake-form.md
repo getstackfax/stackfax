@@ -261,7 +261,7 @@ Choose one:
 
 Optional Public Links Or Screenshots
 
-You may include public links or non-sensitive screenshots if they help explain the setup.
+You may include public links if they help explain the setup. Only include screenshots if they are non-sensitive and contain no private data, credentials, customer information, inbox content, payment details, or private documents.
 
 Do not include private documents, credentials, customer data, payment details, private inbox content, API keys, or sensitive personal information.
 
