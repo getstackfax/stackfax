@@ -193,7 +193,7 @@ Options:
 * Cloud server or VPS
 * Other
 
---- 
+---
 
 ## Explain your hardware situation briefly.
 
@@ -338,7 +338,7 @@ Options:
 * I am not sure yet
 * Other
 
---- 
+---
 
 ## Section 12: Local vs Cloud
 
@@ -401,7 +401,7 @@ Options:
 
 ---
 
-##    Section 14: Links Or Public References
+## Section 14: Links Or Public References
 
 Optional public links
 
