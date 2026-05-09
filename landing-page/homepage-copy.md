@@ -16,6 +16,18 @@ Get your free Stackfax mini report.
 
 Run a $19 Stackfax Quick Report.
 
+## CTA Link Placeholder
+
+Free Mini Report intake link:
+
+[Add Google Form link here when ready]
+
+Quick Report payment/intake link:
+
+[Add Gumroad or payment link here when ready]
+
+Until the public links are ready, do not publish fake links or dead promises.
+
 ---
 
 ## What Stackfax Checks
