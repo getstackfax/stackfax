@@ -288,7 +288,7 @@ It is not a full Stackfax Quick Report.
 
 ### Final Confirmation
 
-# Please confirm:
+## Please confirm:
 
 * I understand that Stackfax is early.
 * I did not include passwords, API keys, payment details, private credentials, or sensitive private data.
