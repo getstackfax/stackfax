@@ -1,12 +1,12 @@
-Stackfax Free Mini Report Intake Form
+# Stackfax Free Mini Report Intake Form 
 
 This form is for users requesting a free mini Stackfax report.
 
 The goal is to give users a quick first verdict before they buy hardware, burn premium-model tokens, pay for overlapping subscriptions, automate the wrong workflow, or copy the wrong Ai stack.
 
-⸻
+---
 
-Important Safety Rule
+## Important Safety Rule
 
 Do not submit:
 
@@ -35,17 +35,17 @@ Core principle:
 
 Stackfax reviews the stack problem, not your private life.
 
-⸻
+--- 
 
-Contact Info
+## Contact Info
 
 Email:
 
 Name or handle:
 
-⸻
+---
 
-Main Goal
+## Main Goal
 
 What are you trying to build, improve, or decide with Ai?
 
@@ -55,9 +55,9 @@ I want to know whether I need a Mac mini, which Ai subscription to use, and how 
 
 Your answer:
 
-⸻
+--- 
 
-Current Stack
+## Current Stack
 
 What tools, models, subscriptions, hardware, automations, or agents are you already using or considering?
 
@@ -85,9 +85,9 @@ Examples:
 
 Your answer:
 
-⸻
+---
 
-Workflow
+## Workflow
 
 What job do you want this stack to do?
 
@@ -107,9 +107,9 @@ Examples:
 
 Your answer:
 
-⸻
+---
 
-Hardware Question
+## Hardware Question
 
 Are you considering buying or using dedicated hardware?
 
@@ -126,9 +126,9 @@ Choose one:
 
 Explain briefly:
 
-⸻
+---
 
-Model And Subscription Question
+## Model And Subscription Question
 
 Which Ai subscriptions, APIs, model routers, or local models are you using or considering?
 
@@ -147,9 +147,9 @@ Examples:
 
 Your answer:
 
-⸻
+---
 
-Main Cost Concern
+## Main Cost Concern
 
 What are you most worried about spending money on?
 
@@ -165,9 +165,9 @@ Choose any:
 * paying for overlapping tools
 * I am not sure yet
 
-⸻
+---
 
-Main Risk Concern
+## Main Risk Concern
 
 What are you most worried about breaking, exposing, or over-automating?
 
@@ -186,9 +186,9 @@ Choose any:
 * private documents
 * I am not sure yet
 
-⸻
+---
 
-Automation Comfort Level
+## Automation Comfort Level
 
 What should the Ai stack be allowed to do right now?
 
@@ -201,9 +201,9 @@ Choose one:
 * Take some narrow actions automatically
 * I am not sure yet
 
-⸻
+---
 
-Human Approval
+## Human Approval
 
 What should require human approval before the Ai stack acts?
 
@@ -221,9 +221,9 @@ Choose any:
 * anything external-facing
 * I am not sure yet
 
-⸻
+---
 
-Current Friction
+## Current Friction
 
 What feels most confusing right now?
 
@@ -240,9 +240,9 @@ Choose any:
 * I do not know what should require approval
 * Other
 
-⸻
+---
 
-Desired Mini Verdict
+## Desired Mini Verdict
 
 What do you most want the free mini report to answer?
 
@@ -257,9 +257,9 @@ Choose one:
 * What is my best next move?
 * I am not sure yet
 
-⸻
+---
 
-Optional Public Links Or Screenshots
+## Optional Public Links Or Screenshots
 
 You may include public links if they help explain the setup. Only include screenshots if they are non-sensitive and contain no private data, credentials, customer information, inbox content, payment details, or private documents.
 
@@ -267,9 +267,9 @@ Do not include private documents, credentials, customer data, payment details, p
 
 Public links or safe screenshots:
 
-⸻
+---
 
-Free Mini Report Output
+## Free Mini Report Output
 
 The free mini report may include:
 
@@ -284,20 +284,20 @@ The free mini report is a basic first verdict.
 
 It is not a full Stackfax Quick Report.
 
-⸻
+---
 
-Final Confirmation
+### Final Confirmation
 
-Please confirm:
+# Please confirm:
 
 * I understand that Stackfax is early.
 * I did not include passwords, API keys, payment details, private credentials, or sensitive private data.
 * I understand that a free mini report is a basic first verdict, not a full Stackfax Quick Report.
 * I understand that Stackfax gives practical stack guidance, not legal, financial, trading, medical, security, or compliance advice.
 
-⸻
+---
 
-Internal Review Notes
+## Internal Review Notes
 
 Stackfax should review the intake for:
 
@@ -314,9 +314,9 @@ Stackfax should review the intake for:
 
 Do not store sensitive private information in the public repo.
 
-⸻
+---
 
-Final Rule
+## Final Rule
 
 The free mini report should make one next move clearer.
 
