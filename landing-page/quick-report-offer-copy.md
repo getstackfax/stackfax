@@ -229,10 +229,24 @@ Real testimonials should only be used with permission.
 
 ---
 
+## Start Here
+
+Free Mini Report intake:
+
+https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform?usp=preview
+
+Use this form if you want a first Stackfax verdict or want to request a Quick Report.
+
+Quick Report payment link:
+
+[Add Gumroad or payment link here when ready]
+
+Until payment is fully ready, do not submit payment details through the form.
+
+---
+
 ## Closing CTA
 
-Do not copy the biggest stack.
+Start with a free mini report.
 
-Find the right stack.
-
-Run a Stackfax Quick Report.
+Quick Report payment link coming soon.
