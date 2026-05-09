@@ -2,7 +2,7 @@
 
 ## Hero
 
-# Stackfax Quick Report
+## Stackfax Quick Report
 
 Get clarity before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, or copy the wrong Ai agent setup.
 
