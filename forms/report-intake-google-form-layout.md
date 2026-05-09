@@ -1,12 +1,12 @@
-Stackfax Report Intake Google Form Layout
+# Stackfax Report Intake Google Form Layout
 
 This file defines a simple Google Form layout for early Stackfax report intake.
 
 The goal is to turn the existing intake questions into a clean form that users can complete without sending sensitive information.
 
-⸻
+---
 
-Core Goal
+## Core Goal
 
 Create one simple intake form that can support:
 
@@ -22,15 +22,15 @@ Create one simple intake form that can support:
 
 The intake form should collect clarity, not secrets.
 
-⸻
+---
 
-Form Title
+## Form Title
 
 Stackfax Report Intake
 
-⸻
+---
 
-Form Description
+## Form Description
 
 Submit your Ai stack, workflow, tools, and concerns so Stackfax can prepare a report.
 
@@ -38,9 +38,9 @@ Do not submit passwords, API keys, payment details, wallet information, private 
 
 Stackfax only needs a description of your stack, workflow, tools, goals, risks, and concerns.
 
-⸻
+---
 
-Section 1: Contact Info
+## Section 1: Contact Info
 
 Email
 
@@ -52,9 +52,9 @@ Required:
 
 Yes
 
-⸻
+---
 
-Name Or Handle
+## Name Or Handle
 
 Question type:
 
@@ -64,9 +64,9 @@ Required:
 
 No
 
-⸻
+---
 
-Preferred Contact Method
+## Preferred Contact Method
 
 Question type:
 
@@ -81,9 +81,9 @@ Options:
 * Email
 * Other
 
-⸻
+---
 
-Section 2: Report Type
+## Section 2: Report Type
 
 Which report are you requesting?
 
@@ -112,9 +112,9 @@ Note:
 
 Use Hardware Verdict instead of only Mac Mini Hardware Verdict so the form can cover Mac mini, GPU rig, local Ai box, existing desktop, cloud server, or other hardware decisions.
 
-⸻
+---
 
-Section 3: Main Goal
+## Section 3: Main Goal
 
 What are you trying to build, improve, or decide with Ai?
 
@@ -130,9 +130,9 @@ Helper text:
 
 Example: I want to set up OpenClaw for business automation, research summaries, and customer inquiry drafts, but I am not sure if I need a Mac mini or multiple Ai subscriptions.
 
-⸻
+---
 
-Section 4: Current Stack
+## Section 4: Current Stack
 
 What tools, models, subscriptions, hardware, agents, automations, or platforms are you using or considering?
 
@@ -148,9 +148,9 @@ Helper text:
 
 Examples: ChatGPT, Claude, Gemini, OpenRouter, OpenClaw, Ollama, LM Studio, local models, Mac mini, GPU rig, cloud server, Gmail, Google Sheets, Notion, Zapier, Make, CRM tools, agent platforms, or other tools.
 
-⸻
+---
 
-Section 5: Workflow
+## Section 5: Workflow
 
 Describe the workflow you want the stack to support.
 
@@ -168,9 +168,9 @@ What should happen from start to finish?
 
 Example: Research a topic, summarize findings, draft a report, flag risks, and ask for approval before saving or sending anything.
 
-⸻
+---
 
-Section 6: Hardware
+## Section 6: Hardware
 
 Are you considering buying or using dedicated hardware?
 
@@ -193,9 +193,9 @@ Options:
 * Cloud server or VPS
 * Other
 
-⸻
+--- 
 
-Explain your hardware situation briefly.
+## Explain your hardware situation briefly.
 
 Question type:
 
@@ -209,9 +209,9 @@ Helper text:
 
 Example: what you already own, what you are considering buying, and what workload you expect it to handle.
 
-⸻
+---
 
-Section 7: Models And Subscriptions
+## Section 7: Models And Subscriptions
 
 Which Ai subscriptions, APIs, model routers, or local models are you using or considering?
 
@@ -227,9 +227,9 @@ Helper text:
 
 Examples: ChatGPT Plus, Claude Pro, Gemini, OpenRouter, API credits, Ollama, LM Studio, local models, business Ai tools, or no paid subscription yet.
 
-⸻
+---
 
-Section 8: Cost Concern
+## Section 8: Cost Concern
 
 What are you most worried about spending money on?
 
@@ -254,9 +254,9 @@ Options:
 * I am not sure yet
 * Other
 
-⸻
+---
 
-Section 9: Risk Concern
+## Section 9: Risk Concern
 
 What are you most worried about breaking, exposing, or over-automating?
 
@@ -284,9 +284,9 @@ Options:
 * I am not sure yet
 * Other
 
-⸻
+---
 
-Section 10: Automation Level
+## Section 10: Automation Level
 
 What should the Ai stack be allowed to do right now?
 
@@ -307,9 +307,9 @@ Options:
 * Take some narrow actions automatically
 * I am not sure yet
 
-⸻
+---
 
-Section 11: Approval Gates
+## Section 11: Approval Gates
 
 What actions should require human approval?
 
@@ -338,9 +338,9 @@ Options:
 * I am not sure yet
 * Other
 
-⸻
+--- 
 
-Section 12: Local vs Cloud
+## Section 12: Local vs Cloud
 
 Which setup do you prefer right now?
 
@@ -360,9 +360,9 @@ Options:
 * Unsure
 * I only care what fits the task
 
-⸻
+---
 
-Explain your local vs cloud preference briefly.
+## Explain your local vs cloud preference briefly.
 
 Question type:
 
@@ -372,9 +372,9 @@ Required:
 
 No
 
-⸻
+---
 
-Section 13: Current Friction
+## Section 13: Current Friction
 
 What feels most confusing right now?
 
@@ -399,9 +399,9 @@ Options:
 * I do not know what should require approval
 * Other
 
-⸻
+---
 
-Section 14: Links Or Public References
+##    Section 14: Links Or Public References
 
 Optional public links
 
@@ -419,9 +419,9 @@ Paste any public links, videos, docs, GitHub repos, product pages, creator stack
 
 Do not include private links, private files, private screenshots, or restricted documents unless specifically approved later.
 
-⸻
+---
 
-Section 15: Desired Output
+## Section 15: Desired Output
 
 What do you want from the report?
 
@@ -447,9 +447,9 @@ Options:
 * I am not sure yet
 * Other
 
-⸻
+---
 
-Section 16: Safety Confirmation
+## Section 16: Safety Confirmation
 
 Safety confirmation
 
@@ -465,9 +465,9 @@ Required option:
 
 * I understand that I should not submit passwords, API keys, payment details, private credentials, wallet information, private customer data, private documents, or sensitive private information.
 
-⸻
+---
 
-Section 17: Final Confirmation
+## Section 17: Final Confirmation
 
 Final confirmation
 
@@ -483,9 +483,9 @@ Required option:
 
 * I understand that Stackfax is early, reports may be manual, and Stackfax gives stack guidance, not guaranteed business, financial, legal, trading, medical, security, compliance, or technical outcomes.
 
-⸻
+---
 
-Suggested Confirmation Message
+## Suggested Confirmation Message
 
 Thanks for submitting your Stackfax intake.
 
@@ -497,9 +497,9 @@ Expected delivery target for accepted Quick Reports:
 
 24 to 48 hours.
 
-⸻
+---
 
-Recommended Form Settings
+## Recommended Form Settings
 
 In Google Forms settings:
 
@@ -517,9 +517,9 @@ Do not enable file uploads yet.
 
 File uploads create private-data risk too early.
 
-⸻
+---
 
-Build Notes
+## Build Notes
 
 Start with one Google Form.
 
@@ -533,9 +533,9 @@ Keep the linked response sheet private.
 
 Do not copy real customer details into the public GitHub repo.
 
-⸻
+---
 
-Test Before Sharing
+## Test Before Sharing
 
 Submit one test response.
 
@@ -551,9 +551,9 @@ Check:
 * the form does not ask for secrets
 * the confirmation message is clear
 
-⸻
+---
 
-Final Rule
+## Final Rule
 
 The intake form should collect clarity, not secrets.
 
