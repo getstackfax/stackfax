@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stackfax — The Report Card for Ai Stacks</title>
+  <meta
+    name="description"
+    content="Stackfax checks whether your Ai tools, models, subscriptions, agents, workflows, and hardware actually fit the job before you spend money, burn tokens, expose data, or overbuild."
+  />
+
+  <style>
+    :root {
+      --bg: #09090f;
+      --panel: #12121c;
+      --panel-soft: #191927;
+      --text: #f5f3ff;
+      --muted: #c7c3d8;
+      --soft: #8f88a8;
+      --purple: #8b5cf6;
+      --purple-strong: #a78bfa;
+      --border: #2b2840;
+      --warning: #facc15;
+      --max-width: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(139, 92, 246, 0.22), transparent 34rem),
+        radial-gradient(circle at top right, rgba(167, 139, 250, 0.14), transparent 32rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .wrap {
+      width: min(100% - 2rem, var(--max-width));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      font-size: 1.35rem;
+    }
+
+    .nav-note {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 5.5rem 0 4rem;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(18, 18, 28, 0.72);
+      color: var(--purple-strong);
+      font-weight: 700;
+      font-size: 0.88rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.6rem, 7vw, 5.5rem);
+      line-height: 0.95;
+      letter-spacing: -0.07em;
+    }
+
+    .hero p {
+      max-width: 780px;
+      margin: 1.5rem auto 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.85rem;
+      margin-top: 2.25rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.8rem 1.15rem;
+      border-radius: 999px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1px solid transparent;
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--purple), var(--purple-strong));
+      color: white;
+      box-shadow: 0 18px 44px rgba(139, 92, 246, 0.24);
+    }
+
+    .button-secondary {
+      background: rgba(18, 18, 28, 0.78);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    section {
+      padding: 3.5rem 0;
+    }
+
+    .section-title {
+      max-width: 740px;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title h2 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    .section-title p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      background: rgba(18, 18, 28, 0.78);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      padding: 1.25rem;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+    }
+
+    .card h3 {
+      margin: 0 0 0.55rem;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0.75rem 0 0;
+      padding-left: 1.25rem;
+      color: var(--muted);
+    }
+
+    li {
+      margin: 0.35rem 0;
+    }
+
+    .verdict-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      background: rgba(25, 25, 39, 0.8);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 0.45rem 0.7rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 1rem;
+      align-items: stretch;
+    }
+
+    .feature-panel {
+      background: linear-gradient(145deg, rgba(139, 92, 246, 0.22), rgba(18, 18, 28, 0.85));
+      border: 1px solid rgba(167, 139, 250, 0.3);
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+    }
+
+    .feature-panel h2 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      line-height: 1;
+      letter-spacing: -0.05em;
+    }
+
+    .feature-panel p {
+      margin: 0 0 1rem;
+      color: var(--muted);
+    }
+
+    .small-note {
+      color: var(--soft);
+      font-size: 0.92rem;
+      margin-top: 0.8rem;
+    }
+
+    .rule {
+      text-align: center;
+      background: rgba(18, 18, 28, 0.75);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2.25rem 1rem;
+    }
+
+    .rule p {
+      margin: 0.35rem 0;
+      font-weight: 800;
+      font-size: clamp(1.1rem, 2vw, 1.45rem);
+      letter-spacing: -0.03em;
+    }
+
+    .trust {
+      border-left: 4px solid var(--warning);
+    }
+
+    footer {
+      padding: 3rem 0;
+      color: var(--soft);
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    @media (max-width: 820px) {
+      .grid,
+      .grid-2,
+      .split {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 4rem 0 2.75rem;
+        text-align: left;
+      }
+
+      .hero p {
+        margin-left: 0;
+      }
+
+      .cta-row {
+        justify-content: flex-start;
+      }
+
+      .nav-note {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="logo">Stackfax</div>
+        <div class="nav-note">The report card for Ai stacks.</div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Clarity before you build, buy, automate, or deploy.</div>
+        <h1>The report card for Ai stacks.</h1>
+        <p>
+          Stackfax checks whether your tools, models, subscriptions, agents, workflows,
+          and hardware actually fit the job before you spend money, burn tokens, expose
+          data, or overbuild.
+        </p>
+
+        <div class="cta-row">
+          <a
+            class="button button-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform"
+          >
+            Get your free Stackfax mini report
+          </a>
+          <a class="button button-secondary" href="#quick-report">
+            View Quick Report
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>What Stackfax checks</h2>
+          <p>
+            Stackfax reviews the practical parts of your Ai stack, not just the model name.
+          </p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Tools and models</h3>
+            <p>Models, providers, subscriptions, APIs, local models, routers, and agent tools.</p>
+          </div>
+          <div class="card">
+            <h3>Cost and token risk</h3>
+            <p>Token/API costs, context bloat, fallback behavior, subscription overlap, and waste.</p>
+          </div>
+          <div class="card">
+            <h3>Workflow readiness</h3>
+            <p>Use-case fit, memory/context, approval gates, permissions, run receipts, and scaling risk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="split">
+          <div class="feature-panel">
+            <h2>Do you need local hardware, cloud tools, or better stack design?</h2>
+            <p>
+              Before buying a Mac mini, local Ai box, cloud server, premium model setup,
+              or agent framework, Stackfax checks whether the workload actually needs it.
+            </p>
+            <div class="verdict-list">
+              <span class="pill">Do Not Buy Yet</span>
+              <span class="pill">Cloud-First</span>
+              <span class="pill">Local-Ready</span>
+              <span class="pill">Hardware Justified</span>
+              <span class="pill">Overkill Warning</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>The goal is not to push hardware.</h3>
+            <p>
+              The goal is to match the stack to the job. A bigger stack is not always
+              a better stack. The right stack depends on the workflow, risk, cost, and
+              approval boundaries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Free Mini Report</h3>
+            <p>The free mini report gives you a first Stackfax verdict.</p>
+            <ul>
+              <li>basic verdict</li>
+              <li>1–5 star rating</li>
+              <li>2–3 risk flags</li>
+              <li>one best next move</li>
+            </ul>
+            <div class="cta-row">
+              <a
+                class="button button-primary"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform"
+              >
+                Start free
+              </a>
+            </div>
+          </div>
+
+          <div class="card" id="quick-report">
+            <h3>Quick Report</h3>
+            <p>
+              The Stackfax Quick Report is an early manual report for people who want
+              clearer guidance before buying, automating, or copying the wrong setup.
+            </p>
+            <ul>
+              <li>Hardware Verdict</li>
+              <li>Token Burn Audit</li>
+              <li>OpenClaw Starter Stack Check</li>
+              <li>Model Subscription Fit Check</li>
+              <li>Business Automation Safety Audit</li>
+            </ul>
+            <p class="small-note">Quick Report payment link coming soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Built for messy real stacks</h2>
+          <p>Beginners, builders, experts, and businesses all need the same thing: fit before spend.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Beginners</h3>
+            <p>You heard about OpenClaw, agents, local Ai, APIs, subscriptions, and automation, but you do not know where to start.</p>
+          </div>
+          <div class="card">
+            <h3>Builders</h3>
+            <p>You want to build fast without creating token waste, unsafe permissions, or workflow gaps.</p>
+          </div>
+          <div class="card">
+            <h3>Businesses</h3>
+            <p>You want Ai automation, but need process clarity, data boundaries, approval gates, and accountability first.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule">
+      <p>Cheap model drafts.</p>
+      <p>Strong model decides.</p>
+      <p>Human approves anything touching customers, money, inventory, credentials, or production systems.</p>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <div class="card trust">
+          <h3>Early manual status</h3>
+          <p>
+            Stackfax reports are early and may be prepared manually. Stackfax gives stack guidance,
+            not guaranteed business, financial, legal, trading, medical, security, compliance,
+            or technical outcomes.
+          </p>
+          <p class="small-note">
+            Do not submit passwords, API keys, payment details, wallet information, private customer data,
+            private legal documents, private financial documents, or sensitive personal information.
+            Stackfax only needs a description of your stack, workflow, tools, and concerns.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="wrap">
+        <h1>Do not copy the biggest stack. Find the right stack.</h1>
+        <div class="cta-row">
+          <a
+            class="button button-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform"
+          >
+            Get your free Stackfax mini report
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Stackfax — The report card for Ai stacks.
+    </div>
+  </footer>
+</body>
+</html>
+
