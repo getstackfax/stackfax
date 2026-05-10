@@ -16,11 +16,13 @@ Get your free Stackfax mini report.
 
 Run a $19 Stackfax Quick Report.
 
-## CTA Link Placeholder
+---
+
+## CTA Links
 
 Free Mini Report intake link:
 
-https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform?usp=preview
+[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
 Quick Report payment/intake link:
 
