@@ -10,25 +10,13 @@ Stackfax checks whether your tools, models, subscriptions, agents, workflows, an
 
 ## Primary CTA
 
-Get your free Stackfax mini report.
+[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
 ## Secondary CTA
 
 Run a $19 Stackfax Quick Report.
 
----
-
-## CTA Links
-
-Free Mini Report intake link:
-
-[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
-
-Quick Report payment/intake link:
-
-[Add Gumroad or payment link here when ready]
-
-Until the public links are ready, do not publish fake links or dead promises.
+[Quick Report payment link coming soon]
 
 ---
 
@@ -72,63 +60,26 @@ The goal is to match the stack to the job.
 
 ---
 
-## Built For
+## Free Mini Report
 
-### Beginners
+The free mini report gives you a first Stackfax verdict.
 
-You heard about OpenClaw, agents, model subscriptions, local Ai, APIs, and automation, but you do not know where to start.
+It may include:
 
-Stackfax gives you a plain-English verdict.
+- basic verdict
+- 1–5 star rating
+- 2–3 risk flags
+- one best next move
 
-### Builders
+Start here if you are unsure what your stack needs.
 
-You want to build fast without painting yourself into a corner.
-
-Stackfax helps you spot bottlenecks, missing approval gates, token waste, and workflow gaps before they become expensive.
-
-### Experts
-
-You want to compare, review, stress-test, or publish your stack.
-
-Stackfax gives you a shared scoring language for stack fit, risk, cost, workflow readiness, and Agent ROI.
-
-### Businesses
-
-You want Ai automation, but you need clear process, data boundaries, approval gates, and accountability before agents touch customers, credentials, money, inventory, or production systems.
-
-Stackfax helps define the risk boundaries before automation scales the mess.
+[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
 ---
 
-## Example User Reactions
+## Quick Report
 
-These are example reactions, not real customer testimonials.
-
-> “Stackfax showed me where I would waste tokens and overbuy hardware before I even plugged in the machine.”
-
-> “I kept hearing about OpenClaw and Ai agents, but Stackfax helped me cut through the noise and choose a realistic starter stack.”
-
-> “Before I copy another creator’s setup, I want to Stackfax it first.”
-
----
-
-## How People Explain Stackfax
-
-Stackfax is like a report card for Ai stacks.
-
-Before buying, building, automating, or copying an Ai setup, Stackfax gives the verdict.
-
-Creators show what is possible.
-
-Vendors sell what is available.
-
-Stackfax shows what fits.
-
----
-
-## Quick Report Offer
-
-The Stackfax Quick Report is an early manual report for people who want clarity before they buy hardware, burn premium-model tokens, copy an Ai agent setup, or automate the wrong workflow.
+The Stackfax Quick Report is an early manual report for people who want clearer guidance before they buy hardware, burn premium-model tokens, copy an Ai agent setup, or automate the wrong workflow.
 
 Common Quick Report types:
 
@@ -140,43 +91,47 @@ Common Quick Report types:
 - Agent Readiness Check
 - Workflow Fit Review
 
----
-
-## Free Mini Report
-
-The free mini report gives:
-
-- basic verdict
-- 1–5 star rating
-- 2–3 risk flags
-- one best next move
+Quick Report payment link coming soon.
 
 ---
 
-## Paid Quick Report
+## Built For
 
-The paid quick report gives:
+### Beginners
 
-- manual Stackfax review
-- stack score
-- main verdict
-- risk flags
-- relevant badges
-- hardware verdict
-- token burn risk
-- model/subscription fit
-- approval gate warnings
-- workflow fit notes
-- best next move
-- suggested upgrade path
+You heard about OpenClaw, agents, local Ai, APIs, model subscriptions, and automation, but you do not know where to start.
+
+Stackfax gives you a plain-English verdict.
+
+### Builders
+
+You want to build fast without painting yourself into a corner.
+
+Stackfax helps spot bottlenecks, missing approval gates, token waste, and workflow gaps before they become expensive.
+
+### Experts
+
+You want to compare, review, stress-test, or publish your stack.
+
+Stackfax gives you a shared scoring language for stack fit, risk, cost, workflow readiness, and Agent ROI.
+
+### Businesses
+
+You want Ai automation, but you need process clarity, data boundaries, approval gates, and accountability before agents touch customers, credentials, money, inventory, or production systems.
+
+Stackfax helps define the risk boundaries before automation scales the mess.
 
 ---
 
-## Early Buyer Bonus
+## Early Manual Status
 
-Early paid reports may include a beta preview of the upcoming Stackfax Pro Report format.
+Stackfax reports are early and may be prepared manually.
 
-This is a beta preview, not a finished Pro product.
+Stackfax gives stack guidance, not guaranteed business, financial, legal, trading, medical, security, compliance, or technical outcomes.
+
+Do not submit passwords, API keys, payment details, wallet information, private customer data, private legal documents, private financial documents, or sensitive personal information.
+
+Stackfax only needs a description of your stack, workflow, tools, and concerns.
 
 ---
 
@@ -196,4 +151,5 @@ Do not copy the biggest stack.
 
 Find the right stack.
 
-Get your free Stackfax mini report.
+[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
+
