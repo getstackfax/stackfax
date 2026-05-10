@@ -233,7 +233,7 @@ Real testimonials should only be used with permission.
 
 Free Mini Report intake:
 
-https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform?usp=preview
+[Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
 Use this form if you want a first Stackfax verdict or want to request a Quick Report.
 
