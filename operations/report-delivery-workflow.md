@@ -26,9 +26,8 @@ Automation comes later.
 ## Delivery Window
 
 Expected delivery target:
-```text
 
-24 to 48 hours after intake is received and accepted.
+**24 to 48 hours after intake is received and accepted.**
 
 This window starts after Stackfax has enough information to review the stack.
 
