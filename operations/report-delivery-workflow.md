@@ -4,8 +4,6 @@ This file defines the early manual workflow for delivering Stackfax reports.
 
 The goal is to make report delivery simple, honest, repeatable, and safe before building a full app or automation system.
 
----
-
 ## Core Goal
 
 Turn a paid or free Stackfax intake into a useful report delivered within a clear delivery window.
@@ -31,4 +29,3 @@ Expected delivery target:
 
 ```text
 24 to 48 hours after intake is received and accepted.
-```
