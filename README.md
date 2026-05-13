@@ -134,9 +134,9 @@ Examples may include:
 
 These reports are examples of the Stackfax verdict style.
 
-⸻
+---
 
-Docs
+## Docs
 
 Current doctrine and product notes live in:
 
@@ -153,9 +153,9 @@ Useful areas include:
 * workflow fit
 * agent permissions
 
-⸻
+---
 
-Stackfax Principles
+## Stackfax Principles
 
 The model is not the stack
 
@@ -187,9 +187,9 @@ Local-first is not automatically safe
 
 Local hardware can help with privacy and isolation, but it does not replace permissions, logs, backups, or approval gates.
 
-⸻
+---
 
-Common Verdicts
+## Common Verdicts
 
 Stackfax verdicts may include:
 
@@ -207,9 +207,9 @@ Stackfax verdicts may include:
 * Safe To Test
 * Recheck Needed
 
-⸻
+---
 
-Common Badges
+## Common Badges
 
 Stackfax badges may include:
 
@@ -224,9 +224,9 @@ Stackfax badges may include:
 * Production Not Ready
 * Business Automation Ready
 
-⸻
+---
 
-Who Stackfax Is For
+## Who Stackfax Is For
 
 Beginners
 
@@ -244,9 +244,9 @@ Businesses
 
 You want Ai automation, but need process clarity, data boundaries, approval gates, and accountability before agents touch real systems.
 
-⸻
+---
 
-Current Status
+## Current Status
 
 Stackfax is in early manual mode.
 
@@ -262,9 +262,9 @@ Current focus:
 * first real user feedback
 * AiStackClinic community scouting
 
-⸻
+--- 
 
-Public Language
+## Public Language
 
 Stackfax uses:
 
@@ -281,9 +281,9 @@ Stackfax avoids public wording that makes people feel embarrassed for asking beg
 
 The goal is to make stack questions easier to ask.
 
-⸻
+---
 
-Community
+## Community
 
 Stackfax is connected to the broader Ai stack discussion through practical field research.
 
@@ -303,9 +303,9 @@ r/AiStackClinic
 
 A practical place to discuss Ai builds, stacks, tools, workflows, hardware plans, and automation safety.
 
-⸻
+---
 
-Trust Rule
+## Trust Rule
 
 Stackfax is a trust product.
 
@@ -317,17 +317,17 @@ Do not submit passwords, API keys, payment details, wallet information, private 
 
 Stackfax only needs a description of your stack, workflow, tools, and concerns.
 
-⸻
+---
 
-Core CTA
+## Core CTA
 
 Go to Stackfax.com and get your free stack report:
 
 https://www.getstackfax.com￼
 
-⸻
+---
 
-Project Note
+## Project Note
 
 Stackfax is being built as a verdict layer for Ai stacks.
 
