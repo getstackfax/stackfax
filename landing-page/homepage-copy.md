@@ -16,7 +16,9 @@ Stackfax checks whether your tools, models, subscriptions, agents, workflows, an
 
 Run a $19 Stackfax Quick Report.
 
-[Quick Report payment link coming soon]
+## Secondary CTA
+
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
 ---
 
