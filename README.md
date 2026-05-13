@@ -8,13 +8,16 @@ Stackfax helps people check whether their Ai tools, models, subscriptions, agent
 
 ## Start Here
 
-If this is your first time looking at Stackfax, start with these sections:
+Start with the public Stackfax site:
 
-1. **What Stackfax is**
-2. **What Stackfax checks**
-3. **Sample report types**
-4. **Core Stackfax rules**
-5. **Current project status**
+[Go to Stackfax.com](https://www.getstackfax.com)
+
+You can:
+
+- get a free Stackfax mini report
+- run a $19 Stackfax Quick Report
+- review what Stackfax checks
+- learn whether your stack may be overbuilt, risky, or ready to test
 
 Stackfax is early, manual, and still being built in public.
 
@@ -96,210 +99,238 @@ Early Stackfax report types include:
 
 ---
 
+## Get A Report
+
+### Free Mini Report
+
+Use this if you want a first Stackfax verdict.
+
+[Get your free Stackfax mini report](https://www.getstackfax.com)
+
+### Stackfax Quick Report
+
+Use this if you want deeper manual guidance before buying hardware, burning premium-model tokens, copying an Ai agent setup, paying for overlapping subscriptions, or automating the wrong workflow.
+
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
+
+---
+
 ## Sample Reports
 
 Current sample reports live in:
 
 ```text
 reports/
-```
 
 Examples may include:
 
-- beginner OpenClaw starter stack
-- local hardware stack
-- model subscription fit
-- token burn audit
-- business automation stack
-- Mac mini / local hardware buyer verdict
+* beginner OpenClaw starter stack
+* local hardware stack
+* model subscription fit
+* token burn audit
+* business automation stack
+* Mac mini / local hardware buyer verdict
 
 These reports are examples of the Stackfax verdict style.
 
----
+⸻
 
-## Docs
+Docs
 
 Current doctrine and product notes live in:
 
-```text
 docs/
-```
 
 Useful areas include:
 
-- hardware verdicts
-- token burn risk
-- business Ai audit
-- agent ROI
-- run receipts
-- approval gates
-- workflow fit
-- agent permissions
+* hardware verdicts
+* token burn risk
+* business Ai audit
+* agent ROI
+* run receipts
+* approval gates
+* workflow fit
+* agent permissions
 
----
+⸻
 
-## Stackfax Principles
+Stackfax Principles
 
-### The model is not the stack
+The model is not the stack
 
 The stack is the system around the model.
 
-### Bigger is not always better
+Bigger is not always better
 
 A bigger stack can create more cost, more risk, and more confusion.
 
-### Workflow fit comes first
+Workflow fit comes first
 
 Before choosing tools, define the job.
 
-### Approval gates matter
+Approval gates matter
 
 Agents should not send, spend, delete, modify, publish, or touch sensitive systems without approval.
 
-### Run receipts matter
+Run receipts matter
 
 If an agent says it did something, the user should be able to see proof.
 
-### Token burn is a routing problem
+Token burn is a routing problem
 
 Using strong models is not bad.
 
 Using strong models for routine work without a reason is the leak.
 
-### Local-first is not automatically safe
+Local-first is not automatically safe
 
 Local hardware can help with privacy and isolation, but it does not replace permissions, logs, backups, or approval gates.
 
----
+⸻
 
-## Common Verdicts
+Common Verdicts
 
 Stackfax verdicts may include:
 
-- Do Not Buy Yet
-- Cloud-First
-- Local-Ready
-- Hardware Justified
-- Overkill Warning
-- Model Routing Needed
-- Token Burn Risk
-- Subscription Overlap Risk
-- Human Approval Required
-- Workflow Fit Unclear
-- Production Not Ready
-- Safe To Test
-- Recheck Needed
+* Do Not Buy Yet
+* Cloud-First
+* Local-Ready
+* Hardware Justified
+* Overkill Warning
+* Model Routing Needed
+* Token Burn Risk
+* Subscription Overlap Risk
+* Human Approval Required
+* Workflow Fit Unclear
+* Production Not Ready
+* Safe To Test
+* Recheck Needed
 
----
+⸻
 
-## Common Badges
+Common Badges
 
 Stackfax badges may include:
 
-- StackChecked
-- Token-Smart
-- Cloud-First
-- Local-Ready
-- Hardware Justified
-- Human Approval Required
-- Run Receipts Needed
-- Workflow Fit Unclear
-- Production Not Ready
-- Business Automation Ready
+* StackChecked
+* Token-Smart
+* Cloud-First
+* Local-Ready
+* Hardware Justified
+* Human Approval Required
+* Run Receipts Needed
+* Workflow Fit Unclear
+* Production Not Ready
+* Business Automation Ready
 
----
+⸻
 
-## Who Stackfax Is For
+Who Stackfax Is For
 
-### Beginners
+Beginners
 
 You are trying to understand Ai tools, agents, subscriptions, local models, hardware, or OpenClaw without overbuying or overbuilding.
 
-### Builders
+Builders
 
 You are building workflows and want to avoid token burn, context bloat, unsafe permissions, and fragile automation.
 
-### Experts
+Experts
 
 You want a shared language for reviewing stack fit, risk, workflow readiness, and Agent ROI.
 
-### Businesses
+Businesses
 
 You want Ai automation, but need process clarity, data boundaries, approval gates, and accountability before agents touch real systems.
 
----
+⸻
 
-## Current Status
+Current Status
 
-Stackfax is in early build mode.
+Stackfax is in early manual mode.
 
 Current focus:
 
-- public GitHub foundation
-- sample reports
-- report templates
-- Stackfax doctrine
-- Manual Intake Form v0
-- Quick Report structure
-- first beta user path
-- first-dollar manual report path
-- AiStackClinic community scouting
+* public website
+* free Mini Report path
+* $19 Quick Report path
+* report templates
+* sample reports
+* Stackfax doctrine
+* delivery workflow
+* first real user feedback
+* AiStackClinic community scouting
 
----
+⸻
 
-## Public Language
+Public Language
 
 Stackfax uses:
 
-- beginner
-- early builder
-- first-time builder
-- builder
-- expert
-- operator
-- team
-- small business owner
+* beginner
+* early builder
+* first-time builder
+* builder
+* expert
+* operator
+* team
+* small business owner
 
 Stackfax avoids public wording that makes people feel embarrassed for asking beginner questions.
 
 The goal is to make stack questions easier to ask.
 
----
+⸻
 
-## Community
+Community
 
 Stackfax is connected to the broader Ai stack discussion through practical field research.
 
 Community direction:
 
-- help first
-- no spam
-- no hard pitching
-- no fake urgency
-- no unsafe automation advice
-- useful replies over loud promotion
-- public examples become product lessons only after review
+* help first
+* no spam
+* no hard pitching
+* no fake urgency
+* no unsafe automation advice
+* useful replies over loud promotion
+* public examples become product lessons only after review
 
-Related community idea:
+Related community:
 
-```text
 r/AiStackClinic
-```
 
 A practical place to discuss Ai builds, stacks, tools, workflows, hardware plans, and automation safety.
 
----
+⸻
 
-## Core CTA
+Trust Rule
 
-Go to Stackfax.com and get your free stack report.
+Stackfax is a trust product.
 
----
+Reports are early and may be prepared manually.
 
-## Project Note
+Stackfax gives stack guidance, not guaranteed business, financial, legal, trading, medical, security, compliance, or technical outcomes.
+
+Do not submit passwords, API keys, payment details, wallet information, private customer data, private legal documents, private financial documents, or sensitive personal information.
+
+Stackfax only needs a description of your stack, workflow, tools, and concerns.
+
+⸻
+
+Core CTA
+
+Go to Stackfax.com and get your free stack report:
+
+https://www.getstackfax.com￼
+
+⸻
+
+Project Note
 
 Stackfax is being built as a verdict layer for Ai stacks.
 
 The goal is not to chase every tool.
 
 The goal is to help people understand what fits, what is overkill, what is risky, and what should happen next.
+
