@@ -89,7 +89,7 @@ Common Quick Report types:
 - Agent Readiness Check
 - Workflow Fit Review
 
-Quick Report payment link coming soon.
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
 ---
 
@@ -149,8 +149,6 @@ Do not copy the biggest stack.
 
 Find the right stack.
 
-
 [Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
 [Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
-
