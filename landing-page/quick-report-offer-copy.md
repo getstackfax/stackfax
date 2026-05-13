@@ -4,13 +4,13 @@
 
 # Stackfax Quick Report
 
-Get clearer guidance before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, or copy the wrong Ai agent setup.
+Get clearer guidance before you buy hardware, burn premium-model tokens, pay for overlapping subscriptions, automate the wrong workflow, or copy the wrong Ai agent setup.
 
-The Stackfax Quick Report is an early manual report that checks whether your tools, models, subscriptions, agents, workflows, and hardware actually fit the job.
+The Stackfax Quick Report is an early manual report that checks whether your tools, models, subscriptions, agents, workflows, hardware, and risk boundaries actually fit the job.
 
 ## Primary CTA
 
-Quick Report payment link coming soon.
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
 ## Start Free
 
@@ -89,6 +89,26 @@ For users asking:
 - What would prove ROI?
 - What should not be automated yet?
 
+### Agent Readiness Check
+
+For users asking:
+
+- Is this agent setup safe to test?
+- What should stay read-only?
+- What should require human approval?
+- Are run receipts missing?
+- Is this ready for real workflows?
+
+### Workflow Fit Review
+
+For users asking:
+
+- Is this workflow clear enough to automate?
+- What is the input?
+- What is the output?
+- Where does human review happen?
+- What is the done-state?
+
 ---
 
 ## Who It Is For
@@ -127,25 +147,29 @@ Stackfax only needs a description of your stack, workflow, tools, and concerns.
 
 ## Start Here
 
-Free Mini Report intake:
+Free Mini Report:
 
 [Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
-Use this form if you want a first Stackfax verdict or want to request a Quick Report.
+Quick Report:
 
-Quick Report payment link:
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
-[Add Gumroad or payment link here when ready]
+After purchase, complete the Stackfax intake through the Stackfax website:
 
-Until payment is fully ready, do not submit payment details through the form.
+[Go to Stackfax.com](https://www.getstackfax.com)
+
+Use the “Get your free Stackfax mini report” button and mention that you purchased the Quick Report.
+
+Do not submit payment details through the intake form.
 
 ---
 
 ## Closing CTA
 
-Start with a free mini report.
+Start with a free mini report, or run a paid Quick Report if you want deeper manual guidance.
 
 [Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
 
-Quick Report payment link coming soon.
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
