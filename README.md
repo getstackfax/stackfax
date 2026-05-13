@@ -138,6 +138,8 @@ These reports are examples of the Stackfax verdict style.
 
 ## Docs
 
+---
+
 Current doctrine and product notes live in:
 
 docs/
@@ -157,33 +159,33 @@ Useful areas include:
 
 ## Stackfax Principles
 
-The model is not the stack
+### The model is not the stack
 
 The stack is the system around the model.
 
-Bigger is not always better
+### Bigger is not always better
 
 A bigger stack can create more cost, more risk, and more confusion.
 
-Workflow fit comes first
+### Workflow fit comes first
 
 Before choosing tools, define the job.
 
-Approval gates matter
+### Approval gates matter
 
 Agents should not send, spend, delete, modify, publish, or touch sensitive systems without approval.
 
-Run receipts matter
+### Run receipts matter
 
 If an agent says it did something, the user should be able to see proof.
 
-Token burn is a routing problem
+### Token burn is a routing problem
 
 Using strong models is not bad.
 
 Using strong models for routine work without a reason is the leak.
 
-Local-first is not automatically safe
+### Local-first is not automatically safe
 
 Local hardware can help with privacy and isolation, but it does not replace permissions, logs, backups, or approval gates.
 
@@ -228,19 +230,19 @@ Stackfax badges may include:
 
 ## Who Stackfax Is For
 
-Beginners
+### Beginners
 
 You are trying to understand Ai tools, agents, subscriptions, local models, hardware, or OpenClaw without overbuying or overbuilding.
 
-Builders
+### Builders
 
 You are building workflows and want to avoid token burn, context bloat, unsafe permissions, and fragile automation.
 
-Experts
+### Experts
 
 You want a shared language for reviewing stack fit, risk, workflow readiness, and Agent ROI.
 
-Businesses
+### Businesses
 
 You want Ai automation, but need process clarity, data boundaries, approval gates, and accountability before agents touch real systems.
 
@@ -323,7 +325,7 @@ Stackfax only needs a description of your stack, workflow, tools, and concerns.
 
 Go to Stackfax.com and get your free stack report:
 
-https://www.getstackfax.com￼
+https://www.getstackfax.com
 
 ---
 
