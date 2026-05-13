@@ -121,6 +121,7 @@ Current sample reports live in:
 
 ```text
 reports/
+```
 
 Examples may include:
 
@@ -333,4 +334,3 @@ Stackfax is being built as a verdict layer for Ai stacks.
 The goal is not to chase every tool.
 
 The goal is to help people understand what fits, what is overkill, what is risky, and what should happen next.
-
