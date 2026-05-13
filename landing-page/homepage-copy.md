@@ -14,10 +14,6 @@ Stackfax checks whether your tools, models, subscriptions, agents, workflows, an
 
 ## Secondary CTA
 
-Run a $19 Stackfax Quick Report.
-
-## Secondary CTA
-
 [Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
 ---
@@ -153,5 +149,8 @@ Do not copy the biggest stack.
 
 Find the right stack.
 
+
 [Get your free Stackfax mini report](https://docs.google.com/forms/d/e/1FAIpQLSf4vAvJD1XK1gsDT2-e8Arz0SagTkbO7dl2e2UN7avEPDJfKA/viewform)
+
+[Run a $19 Stackfax Quick Report](https://getstackfax.gumroad.com/l/affsq)
 
