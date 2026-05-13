@@ -138,11 +138,11 @@ These reports are examples of the Stackfax verdict style.
 
 ## Docs
 
----
-
 Current doctrine and product notes live in:
 
+```text
 docs/
+```
 
 Useful areas include:
 
@@ -325,7 +325,7 @@ Stackfax only needs a description of your stack, workflow, tools, and concerns.
 
 Go to Stackfax.com and get your free stack report:
 
-https://www.getstackfax.com
+[https://www.getstackfax.com](https://www.getstackfax.com)
 
 ---
 
